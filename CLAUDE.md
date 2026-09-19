@@ -2,7 +2,7 @@
 
 ## Start here
 
-Read docs/project-brief.md, docs/progress.md and the active epic before changing anything. The project is currently in workspace setup. Do not choose a tech stack or build application features until that work is requested.
+Read docs/project-brief.md, docs/progress.md and the active epic before changing anything. Use docs/progress.md for the current stage. Do not choose a tech stack or build application features until that work is requested.
 
 ## Work with me
 
