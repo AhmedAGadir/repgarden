@@ -15,7 +15,7 @@ Follow [Part 1](https://gadirlabs.io/learn/build-my-first-app/your-workspace-and
 - `docs/progress.md`: current activity, evidence and blockers.
 - `docs/epics/`: actionable checklists for Parts 1–3.
 - `docs/roadmap.md`: the outline of later work, not yet detailed lessons.
-- `docs/archive/`: completed work records.
+- `docs/archive/`: superseded supporting notes; completed epics stay in place.
 
 Ask your agent to read the requested epic and work through it with you. Check outcomes yourself before marking tasks complete. Stop at the epic’s boundary.
 

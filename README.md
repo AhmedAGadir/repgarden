@@ -18,4 +18,4 @@ Preview drift: `python3 scripts/export-starter.py --target ../repgarden-starter 
 
 Export reviewed changes: `python3 scripts/export-starter.py --target ../repgarden-starter --write`
 
-The explicit manifest selects public learner files only. Export does not commit, push, tag, delete extra files or overwrite unknown existing files. Review the resulting diff, commit both repos, tag a new starter version and update the course download link. Existing tags and learner copies stay unchanged.
+The explicit manifest selects public learner files only. Writing requires the expected starter Git origin, its repository root and a clean working tree. Export does not commit, push, tag, delete extra files or overwrite unknown existing files. Review the resulting diff, commit both repos, tag a new starter version and update the course download link. Existing tags and learner copies stay unchanged.

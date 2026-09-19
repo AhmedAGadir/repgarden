@@ -2,6 +2,7 @@
 import argparse
 import hashlib
 import json
+import subprocess
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -36,6 +37,17 @@ def main():
     target = args.target.resolve()
     if target == ROOT or target.is_relative_to(ROOT):
         parser.error('Target must be outside the reference repository')
+    if args.write:
+        try:
+            remote = subprocess.check_output(['git', '-C', str(target), 'remote', 'get-url', 'origin'], text=True).strip()
+            top = Path(subprocess.check_output(['git', '-C', str(target), 'rev-parse', '--show-toplevel'], text=True).strip()).resolve()
+            dirty = subprocess.check_output(['git', '-C', str(target), 'status', '--porcelain', '--untracked-files=all'], text=True).strip()
+        except subprocess.CalledProcessError:
+            parser.error('Write target must be the existing starter Git checkout')
+        if top != target or remote not in ('https://github.com/AhmedAGadir/repgarden-starter.git', 'git@github.com:AhmedAGadir/repgarden-starter.git'):
+            parser.error('Write target must be the repgarden-starter origin and repository root')
+        if dirty:
+            parser.error('Starter checkout has uncommitted files; review and commit or preserve them before export')
     output = prepare()
     changed = []
     for name, data in output.items():
