@@ -1,16 +1,19 @@
-# Progress
+# Reference project progress
 
-Stage: Part 1 — workspace and tools.
-Active epic: docs/epics/01-workspace.md
+Stage: course preparation; application not implemented.
 
-## Evidence
+## Verified work
 
-Starter documents supplied. Local agent setup and Figma connection are not yet verified on this learner's computer.
+- Public reference and starter repositories created and pushed.
+- Starter v0.2.0 published with workspace, Git and Figma epics.
+- Website lessons drafted; production build and simulated learner review completed.
+
+These are production records, not evidence that every learner activity has been rehearsed. The reference Git repository is public; the lesson asks learners to create their own private repository. Do not falsely mark that private-repository exercise complete here.
 
 ## Next step
 
-Open this folder in the chosen coding agent and read the instructions and brief, then follow Part 1 to request and check a short project summary.
+Rehearse the Figma workflow in docs/epics/03-figma.md when requested, then record real evidence. No Figma verification or app deployment is claimed. Completed numbered epics stay in place.
 
-## Blockers
+## Starter boundary
 
-Record any account, installation or connection issue here. Do not include credentials.
+Learner templates live in course/starter and are exported with scripts/export-starter.py. This progress file and other reference execution records are not exported.

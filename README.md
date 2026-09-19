@@ -9,3 +9,13 @@ RepGarden is a trainer web app and an iOS/Android client app with workouts, book
 Learners should begin with [repgarden-starter](https://github.com/AhmedAGadir/repgarden-starter). This repository will hold our implementation, chosen brand assets and tagged checkpoints as they become available.
 
 Read `CLAUDE.md`, `docs/project-brief.md` and `docs/progress.md` before working. Do only the requested epic. Never commit credentials, private design links or real client records.
+
+## Maintaining the learner starter
+
+`course/starter/` holds the teaching templates; `docs/` holds our reference-project execution records. They intentionally have different progress. Edit the templates here, not the generated starter repository. Keep numbered epic paths stable.
+
+Preview drift: `python3 scripts/export-starter.py --target ../repgarden-starter --check`
+
+Export reviewed changes: `python3 scripts/export-starter.py --target ../repgarden-starter --write`
+
+The explicit manifest selects public learner files only. Export does not commit, push, tag, delete extra files or overwrite unknown existing files. Review the resulting diff, commit both repos, tag a new starter version and update the course download link. Existing tags and learner copies stay unchanged.
