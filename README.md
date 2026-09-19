@@ -1,21 +1,13 @@
 # RepGarden
 
-Reference implementation for [Build My First App](https://gadirlabs.io/learn/build-my-first-app).
+A web and mobile app for personal trainers and their clients, built for Ahmed's friend Benji and documented as it develops.
 
-RepGarden is a trainer web app and an iOS/Android client app with workouts, bookings, payments, an AI content pipeline and vegetable mascots.
+Follow [Building RepGarden](https://gadirlabs.io/learn/building-repgarden) for the designs, decisions, AI-assisted implementation, testing and release work. Website changes may appear in the local preview before publication.
 
-**Status: project preparation.** This repository currently contains the brief, agent instructions and the first three epics. There is no running application or deployment yet. Technology and branding decisions will be recorded as the course develops.
+**Status: preparation and design.** The application is not implemented or deployed yet. The brief describes intended scope, not completed features.
 
-Learners should begin with [repgarden-starter](https://github.com/AhmedAGadir/repgarden-starter). This repository will hold our implementation, chosen brand assets and tagged checkpoints as they become available.
+## Working on the project
 
-Read `CLAUDE.md`, `docs/project-brief.md` and `docs/progress.md` before working. Do only the requested epic. Never commit credentials, private design links or real client records.
+Read `CLAUDE.md`, `docs/project-brief.md`, `docs/progress.md` and the requested epic before changing anything. Keep evidence of actual results, failures and remaining work. Numbered epics stay at stable paths. Use fictional client data; never commit credentials, private design links or real client records.
 
-## Maintaining the learner starter
-
-`course/starter/` holds the teaching templates; `docs/` holds our reference-project execution records. They intentionally have different progress. Edit the templates here, not the generated starter repository. Keep numbered epic paths stable.
-
-Preview drift: `python3 scripts/export-starter.py --target ../repgarden-starter --check`
-
-Export reviewed changes: `python3 scripts/export-starter.py --target ../repgarden-starter --write`
-
-The explicit manifest selects public learner files only. Writing requires the expected starter Git origin, its repository root and a clean working tree. Export does not commit, push, tag, delete extra files or overwrite unknown existing files. Review the resulting diff, commit both repos, tag a new starter version and update the course download link. Existing tags and learner copies stay unchanged.
+This is the single active project. It is not a prescribed course or a supported learner starter. The former starter repository and its tags are retained as an archived record; template exports and synchronisation have been retired. Future checkpoints will describe actual working versions.

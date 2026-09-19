@@ -6,7 +6,7 @@ Read docs/project-brief.md, docs/progress.md and the active epic before changing
 
 ## Work with me
 
-I am learning to direct AI development without reading or writing application code. Explain the purpose of a change, unfamiliar terms and important tradeoffs in plain English. You still need to inspect your implementation and tests; report the evidence in a form I can assess.
+We are building RepGarden for Benji and documenting the actual work for readers who may be new to AI-assisted development. Explain decisions and important tradeoffs in plain English. Inspect implementation and tests, report real evidence and distinguish plans from completed work. There is no required learner journey, starter release or fixed day count.
 
 For substantial work, first outline the approach, intended behaviour and how we will check it. Carry out only the requested epic or step, then stop. The backlog is not permission to implement future work. Ask when a missing decision materially affects scope, cost, data access or the user experience; use reasonable judgment for routine details. Keep changes small enough to understand and recover from.
 
@@ -14,7 +14,7 @@ Use docs/project-brief.md as the scope. Distinguish confirmed decisions from pro
 
 ## Record the work
 
-Use docs/epics/ for active pieces of work. An epic describes an outcome, phases, tasks and acceptance checks. Update checkboxes only when the corresponding work and checks are complete. Record failures and checks that did not run. Keep docs/progress.md short: current stage, evidence, blockers and next step. Keep numbered epics at their original paths, including after completion. Mark them complete in place and point progress to the next epic. Archive only superseded supporting notes, never an epic referenced by a lesson. A lesson can cover one phase of an epic; read its requested phase and stop boundary rather than assuming one lesson means the whole epic.
+Use docs/epics/ for active pieces of work. An epic describes an outcome, phases, tasks and acceptance checks. Update checkboxes only when the corresponding work and checks are complete. Record failures and checks that did not run. Keep docs/progress.md short: current stage, evidence, blockers and next step. Keep numbered epics at their original paths, including after completion. Mark them complete in place and point progress to the next epic. Archive only superseded supporting notes, never an epic referenced by a lesson. A build-series entry can discuss one phase or several related tasks; article boundaries do not dictate epic boundaries.
 
 ## Verify before claiming completion
 

@@ -1,19 +1,21 @@
-# Reference project progress
+# Project progress
 
-Stage: course preparation; application not implemented.
+Stage: preparation and design. No app implementation or deployment yet.
 
-## Verified work
+## Verified
 
-- Public reference and starter repositories created and pushed.
-- Starter v0.2.0 published with workspace, Git and Figma epics.
-- Website lessons drafted; production build and simulated learner review completed.
+- Public repository created and pushed.
+- Website moving to Building RepGarden, a documented build series, plus standalone guides.
+- Formal course and starter release workflow retired; published starter tags remain historical.
 
-These are production records, not evidence that every learner activity has been rehearsed. The reference Git repository is public; the lesson asks learners to create their own private repository. Do not falsely mark that private-repository exercise complete here.
+## Next work
 
-## Next step
+Work with Ahmed on visual identity, main user flows and prototypes for Benji. Read docs/epics/03-figma.md when that work is requested. Do not claim designs, feedback or approval that have not occurred.
 
-Rehearse the Figma workflow in docs/epics/03-figma.md when requested, then record real evidence. No Figma verification or app deployment is claimed. Completed numbered epics stay in place.
+## Active records
 
-## Starter boundary
+- docs/epics/01-workspace.md — project preparation.
+- docs/epics/02-git.md — repository history and maintenance.
+- docs/epics/03-figma.md — planned design workspace.
 
-Learner templates live in course/starter and are exported with scripts/export-starter.py. This progress file and other reference execution records are not exported.
+Only checked evidence belongs here. No learner progress or export templates are maintained.

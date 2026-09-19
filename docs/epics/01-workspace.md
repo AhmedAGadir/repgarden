@@ -1,11 +1,12 @@
-# Epic 01 — Workspace and tools
+# Epic 01 — Project preparation
 
-Outcome: the learner has opened the correct project in their agent and checked its understanding of the brief.
+Outcome: a documented workspace for building RepGarden for Benji.
 
-- [ ] Open the project folder in the chosen coding agent.
-- [ ] Agent reads the supplied instructions and documents, confirms the working folder and summarises the project.
-- [ ] Learner checks the folder and summary against the brief.
+- [x] Create the project folder, brief and shared agent instructions.
+- [x] Create a public reference repository.
+- [x] Record the change from formal course to documented build series.
+- [ ] Review outstanding product decisions with Ahmed before implementation.
 
-## Completion evidence
+## Evidence
 
-Not yet checked. When the learner confirms the summary is correct, record that confirmation here and update docs/progress.md to Part 2: save your work with Git, using docs/epics/02-git.md. Leave later tasks unchecked. Do not claim installation or integration checks that have not been performed.
+Repository and preparation documents exist. No application, finished branding or accepted prototype is claimed. Continue only with the requested design or product work.

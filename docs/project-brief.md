@@ -27,4 +27,4 @@ Brand direction, tech stack, detailed booking/cancellation rules, payment/provid
 
 ## Current task
 
-Prepare the workspace and verify local file access, project context and the Figma connection. Branding and user flows come next. Do not scaffold the application yet.
+Develop the visual identity and main user flows with Ahmed, then prototype them for discussion with Benji. Document actual decisions and results. Do not scaffold the application until requested.
