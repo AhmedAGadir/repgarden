@@ -1,4 +1,4 @@
-# Epic 02 — Connect Figma and create the project overview
+# Epic 03 — Connect Figma and create the project overview
 
 Outcome: a private, editable RepGarden design file that the learner has inspected.
 

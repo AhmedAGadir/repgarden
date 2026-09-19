@@ -4,7 +4,7 @@ Reference implementation for [Build My First App](https://gadirlabs.io/learn/bui
 
 RepGarden is a trainer web app and an iOS/Android client app with workouts, bookings, payments, an AI content pipeline and vegetable mascots.
 
-**Status: project preparation.** This repository currently contains the brief, agent instructions and the first two epics. There is no running application or deployment yet. Technology and branding decisions will be recorded as the course develops.
+**Status: project preparation.** This repository currently contains the brief, agent instructions and the first three epics. There is no running application or deployment yet. Technology and branding decisions will be recorded as the course develops.
 
 Learners should begin with [repgarden-starter](https://github.com/AhmedAGadir/repgarden-starter). This repository will hold our implementation, chosen brand assets and tagged checkpoints as they become available.
 
