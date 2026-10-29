@@ -1,0 +1,414 @@
+{{NeedsUpdate}} 
+
+The purpose of the Finch self-care app is to help you set [[Goals]], keep track of them, and encourage you to accomplish them. When you complete a goal, you get in-game rewards: [[Energy]] is used for your pet [[birb]] to go on [[Adventuring|Adventures]], and [[Rainbow Stones]] are used to buy things for your birb in the [[Shops]]. 
+
+== Creating Goals ==
+You can write your own custom goals in various places; one is "+ Add a goal" at the bottom of the home tab. You can set goals for ordinary tasks that you need to complete throughout your day, and/or include self-care goals. 
+
+The game also offers goal suggestions you can choose from, in a variety of categories focusing on self-care, such as sleep, exercise, tidy up, connect with others, and more. For your custom goals the game assigns an icon, sometimes based on keywords you use such as "wash" or "trash." If you adopt one of the various goal suggestions, it has an emoji with it. ([[Finch Plus]] players who support the developers can choose any emoji.) 
+
+'''The free game has everything needed to use the app.''' [[Finch Plus]] members who support the developers get extra flexibility, additional exercises, and other perks. 
+
+There are two ways to find Goal Ideas. The small settings icon at the top left of the main screen contains paths to [[Activities]] and to "My [[Self-care Areas]]." The latter is highly recommended; it has everything unlocked for free players.
+
+(Below those, you can click "My Goals" where you will see a list of the goals that you have already created, and at the top right, a plus (+) button to add more.)
+
+== Activities Goal Ideas == 
+In the [[Activities]] menu, the "Goal Ideas" function has some goal suggestions. However, this is not the best place for free players to get goals. The same ideas are available in [[Self-care Areas]]!
+*Goals of the day - set of categorized tabs/columns with ideas: Suggested, Easy Wins, Sleep, Exercise, Loved Ones, Presence and Tidy Up.
+*New day, new you - same as above
+*Sleep goals (same as Sleep) (unlocked with [[Finch Plus]])
+*Get active, be happy (same as Exercise) (unlocked with [[Finch Plus]])
+*Connect with a loved one (same as Loved Ones) (unlocked with [[Finch Plus]])
+
+The first two options overlap, as they lead to the same set of categorized tabs/columns. The last several are only unlocked for [[Finch Plus]], but '''all''' members can find the same suggestions through '''[[Self-care Areas]]''' instead.
+
+(The odd thing about the "Suggested" tab is that it's a short list - and it *changes.* It's a random serving of the ideas they've got, in every category. Below is a list of some collected at different tries, but by no means complete. Idk if it's better for members, but for free to play, beginning from [[Self-care Areas]] and scrolling down to "Start a new area" offerings is more helpful.) 
+
+====Many examples==== 
+This wiki table contains a lengthy accumulation of suggested goals offered in-game at random upon different views of the "Suggested" list at different times. They span multiple categories. These goals are collected below into appropriate categories.    
+{| class="mw-collapsible mw-collapsed fandom-table"
+|+Suggested&nbsp;(a&nbsp;lengthy&nbsp;uncategorized&nbsp;list)
+!Goals
+|- 
+|Wash dishes 
+|-
+|Start a personal journal or blog
+|-
+|Donate unused clothes
+|-
+|5 burpees
+|-
+|Bake cookies for someone
+|-
+|Use blue light blocking glasses before sleeping
+|-
+|Write goals for tomorrow before sleeping
+|-
+|Yoga
+|-
+|Laundry
+|-
+|Start a piggy bank for a cause
+|-
+|Share a fond memory with a friend
+|-
+|Vacuum my room
+|-
+|Reconnect with someone I haven't talked to in a while
+|-
+|Plant a tree or start a small garden
+|-
+|Wash bathroom towels
+|-
+|Volunteer at an animal shelter
+|- 
+|Cook a meal for family
+|- 
+|Go offline for a full day for digital detox
+|-
+|Enjoy lunch fully without multi-tasking
+|-
+|5 sit-ups
+|-
+|Get emails in inbox to zero
+|-
+|Leave bed after 20mins if I can't fall asleep
+|-
+|5 squats
+|-
+|Leave quarters at the laundromat
+|-
+|Let someone behind me in line go in front
+|-
+|Clean kitchen countertops
+|-
+|Wash face
+|-
+|Organize a family or friends get-together
+|-
+|Dim lights before bed
+|-
+|Shower and wash hair
+|-
+|Write a positive comment on the internet
+|-
+|Offer seat to someone else on public transport
+|-
+|Vacuum living room
+|-
+|Reduce screen time by one hour
+|-
+|Turn on airplane mode on phone 30 mins before bed
+|-
+|Avoid mindlessly using YouTube
+|-
+|Buy a warm meal for someone in need
+|-
+|Take 3 deep breaths
+|-
+|Walk around the neighborhood
+|-
+|Design a personalized workout plan for yourself
+|-
+|Stretch
+|-
+|Respond to 3 personal messages
+|-
+|Complete a DIY project for your home
+|-
+|Take a professional profile photo for networking
+|-
+|Dedicate a day to declutter your living space
+|-
+|Read a book that inspires growth and positivity
+|-
+|Give my umbrella to a stranger
+|-
+|Volunteer for a day at a local organization
+|-
+|Create your own vision board for the year
+|-
+|Open a new savings account for a specific goal
+uncategorized 
+|-
+|Clear out unused browser tabs
+|-
+|
+|-
+|
+|-
+|} <br /> 
+==== Easy Wins ==== 
+Easy Wins (formerly titled "Just survive the day") is a specific category containing minimal suggestions for getting through a bad day. 
+{| class="mw-collapsible mw-collapsed fandom-table"
+|+Tough&nbsp;Days
+!Goals
+|-
+|Change clothes
+|-
+|Literally survive the day
+|-
+|Brush teeth
+|-
+|Drink hot water
+|-
+|Look in the mirror and say "I can do it"
+|-
+|Drink water
+|-
+|Stand up for 10 seconds
+|-
+|Step outside once
+|-
+|Take 3 deep breaths
+|-
+|Get out of bed
+|-
+|Take a shower
+|-
+|Wash face
+|-
+|Name one person who cares for me
+|-
+|Just be
+|-
+|
+|} 
+
+
+{| class="mw-collapsible mw-collapsed fandom-table"
+|+Sleep
+!Goals
+|-
+|Setup computer screen to use warm colors at night
+|-
+|Avoid caffeine after 3PM
+|-
+|Complete breathing exercise before bed
+|-
+|Leave bed after 20 mins if I can't fall asleep
+|-
+|Hot shower one hour before sleep
+|-
+|Write goals for tomorrow before sleeping
+|-
+|Dim lights before bed
+|-
+|Turn on airplane mode on phone 30 mins before bed 
+|- 
+|Don't take a nap
+|-
+|Avoid snacking after 7PM
+|-
+|Research how CBTI can help insomnia
+|-
+|Read something relaxing before bed
+|-
+|Make a gratitude list before sleeping
+|-
+|Avoid YouTube after 9PM
+|-
+|Listen to a free SleepCove podcast episode to sleep (''likely members only?'')
+|-
+|Stop using phone 1 hour before bed
+|-
+|Use blackout curtains to reduce light during sleep
+|-
+|
+|-
+|
+|}
+
+
+{| class="mw-collapsible mw-collapsed fandom-table"
+|+Exercise (aka "Movement")
+!Goals
+|-
+|3 push-ups
+|-
+|Go on a 10 minute stroll outside with a podcast
+|-
+|10 second plank
+|-
+|Walk around the neighborhood
+|-
+|5 sit-ups
+|-
+|10 crunches
+|-
+|5 squats
+|-
+|5 burpees
+|-
+|10 jumping jacks
+|-
+|10 crunches
+|-
+|Morning Yoga
+|-
+|5 lunges
+|-
+|Yoga
+|-
+|
+|-
+|
+|} 
+
+
+{| class="mw-collapsible mw-collapsed fandom-table"
+|+Loved&nbsp;Ones
+!Goals
+|-
+|Express gratitude to mom
+|-
+|Express gratitude to dad
+|-
+|Offer a helping hand to someone
+|-
+|Tell mom I love her
+|-
+|Tell dad I love him
+|-
+|Wrote one positive thing about today
+|-
+|Spend time with the family
+|-
+|Share a fond memory with family
+|-
+|Cook a meal for family 
+|-
+|Surprise a friend with a small gesture
+|-
+|Tell an old friend that I miss them
+|-
+|Share a fond memory with a friend
+|-
+|Cook a meal for a friend
+|-
+|Reconnect with a friend I haven't talked to in a while
+|-
+|Thank someone who helped make life easier
+|-
+|Reach out to a friend
+|-
+|Plan a game night with friends
+|}
+
+
+Under Activities/Goal Ideas, there is a column/tab titled "Presence." These goals will also be suggested under Self-care Areas, not sure which one.
+{| class="mw-collapsible mw-collapsed fandom-table"
+|+Presence
+!Goals
+|-
+|Avoid using social media during work
+|-
+|Uninstall apps from my phone that don't spark joy
+|-
+|Enjoy lunch without multi-tasking
+|-
+|Avoid mindlessly using Twitter
+|-
+|Avoid mindlessly using YouTube
+|-
+|
+|-
+|
+|-
+|
+|-
+|
+|}
+
+{| class="mw-collapsible mw-collapsed fandom-table"
+|+Tidy&nbsp;Up
+!Goals
+|-
+|Wash bed sheets
+|-
+|Laundry
+|-
+|Organize my closet
+|-
+|Make my bed
+|-
+|Pick clothes off the floor
+|-
+|Take out the trash
+|-
+|Clean kitchen countertops
+|-
+|Put away one item that is not in its place
+|-
+|Take out the trash
+|-
+|
+|-
+|
+|-
+|
+|-
+|
+|-
+|
+|-
+|
+|}
+
+== Selfcare Areas==
+:''Main article: [[Self-care Areas]]'' 
+[[Self-care Areas]] are a feature which can be used to group your goals by category. From the home tab, click the three lines icon in the top left corner. Then click on "My Self-care Areas". The app then will show your all your current Self-care Areas. Or scroll down to "Start a New Area." These are the best places to get new goal ideas!
+
+You can see how often you finished a goal in each area. By finishing a goal multiple times a week, you can get weekly milestones, which will get you some extra rainbow stones. It's possible to see your all time progress in each area. 
+
+
+
+== Completing Goals ==
+''(This section has not been written. Please help the wiki by adding to it.)''
+
+=== Celebration ===
+Under Settings -> Account -> Preferences You can choose between either Quick Cheers or between Prompt to reflect.
+
+==== Ouick Cheers ====
+A quick cheers is a quick celebration banner which doesn't get in the way and still appreciates the effort.
+
+==== Prompt to reflect ====
+Prompt to reflect is a pop-up with reflective questions to savor and learn from each effort. 
+
+=== Skipping Goals === 
+It's possible to skip goals by clicking on the goal and then on the blue kite on the left. It also has skip written under it. Of course you're able to undo again. When you skip a goal, the app will suggest to reflect on why you decided to skip the goal that day. 
+
+=== Snoozing Goals ===
+Snoozing goals is possible by clicking on the goal and then on the calendar on the right. You snooze the goal for that day and are also able to snooze the goal for as long as you like.
+
+=== Undoing Completed Goals ===
+It's possible to undo a goal that you already marked as completed. When you mark a goal as finished, there will show up a small beam with three points. You're able to undo the goal, reflect on the goal or edit the goal. 
+
+== Goal of the Day ==
+A goal which is set as the goal of the day will give you more rainbow stones than normal goals. You can set a goal of the day by tapping on the goal and in the star above it. Once it's set as the goal of the day it will be shown above all your other goals.
+
+== Linking Goals to Micropet Egg ==
+At [[Professor Oat's Lab]], you're able to link any goal of your choice to a [[Micropets|micropet]] egg. When you finish the goal seven times, the egg will hatch a random micropet.
+
+== Editing Goals ==
+Editing goals is possible by tapping on the single goal and then on the pencil in the upper right corner. You can change the emoji of the goal. It's also possible to share your goal to get a boost of accountability and encouragement from a friend. The goal can also be moved out or into a different self-care area. You can choose when the goal should appear and also if you want to get notified. It's also possible to decide how often and how many times per day you want to repeat the goal. Linking an exercise to the goal is also possible. Pausing, Archiving and Deleting the goal are also options.
+
+=== Linking an Exercise ===
+When linking an exercise to a goal, the exercise will begin once you tap on the goal to finish it. Those exercises can give you more energy than normal goals can. There multiple options like [[reflections]], [[quizzes]], [[breathe]] exercises, send good vibes to friends, exercises, [[soundscapes]] and more. 
+
+=== Pausing Goals === 
+New goals wont be scheduled for now. You can resume it anytime in Menu -> My Goals.
+
+=== Archiving Goals ===
+Stop future scheduling while keeping your progress. You can restore it later in Menu -> My Goals -> archived goals. 
+
+=== Deleting Goals === 
+All your progress associated with this goal will be deleted. This cannot be undone. 
+
+
+[[Category:Exercises]]
+[[Category:Finch: Self Care Pet App]]
+[[Category:Needs Update]]
+[[Category:Activities]]
+[[Category:Stubs]]

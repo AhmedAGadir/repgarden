@@ -1,0 +1,159 @@
+ 
+Good Vibes lets you send encouragement to your Tree Town friends. It is accessed in the Friends tab, aka [[Tree Towns|Tree Town]]. 
+
+In your TreeTown, click your friend's Finch to see them in their [[Birbhouse]]. Click [[Good Vibes|Send Good Vibes]] to open the Good Vibes menu. Choose a sentiment and hit send!  
+
+Each day, the first time you send Good Vibes to a friend, you will get 3 [[Energy]] and 2 [[Rainbow Stones]]. You can continue to send Good Vibes to encourage your friend whenever you want. This will also build an in-game [[Friendship]] level with them. 
+
+When you get a Good Vibe, there will be a notification in your Tree Town. They are signaled by a heart next the person who sent them, but you can see a summary by clicking the heart in the top right corner. It shows how many Good Vibes your friends sent you, what time each was sent, and the name of the person and their Finch. When you read a Vibe, it has a checkbox for you to invite your friend's bird over or not, and you can respond with a Vibe or just close. You can also clear one or all of the Good Vibes from the summary without reading or responding to them.  
+
+There are 14 different type of Good Vibes that you can send. [[Finch Plus]] users who support the developers have 4 additional vibes (marked with an asterisk *) that they can use. The Vibes are displayed in random order each time you open the menu. 
+
+Your friend will see an animation of your birb and a message conveying your sentiment. 
+{| class="sortable fandom-table"
+!Good Vibe
+!Color
+!Symbol
+|-
+|Birdhouse Love
+|Yellow
+|(custom)
+|-
+|Calm
+|Blue
+| 🍃
+|-
+|Comfort*
+|Blue
+| 😌
+|-
+|Dance*
+|Orange
+| 🕺
+|-
+|Encouragement
+|Green
+| 🌟
+|-
+|Flowers*
+|Light Blue
+| 🌻
+|-
+|Good Morning
+|Light Blue
+| ☀️
+|-
+|Gratitude
+|Pink
+| 🥰
+|-
+|Hello
+|Green
+| 🫲
+|-
+|High Five
+|Orange
+| ✋
+|-
+|Hugs
+|Orange
+| ❤️
+|-
+|Kudos*
+|Purple
+| 🙌
+|-
+|Outfit Love
+|Light green
+| 🤩
+|-
+|Strength
+|Yellow
+| 💪
+|-
+|Stretch Break
+|Purple
+| 🤸
+|-
+|Sweet Dreams
+|Blue
+| 🌙
+|-
+|Thoughts
+|Purple
+| 💭
+|-
+|Water
+|Light Blue
+|🥤
+|} 
+* - [[Finch Plus|Members-only]] Good vibes
+<br />
+{| class="fandom-table"
+|+Good Vibes Menu scroll
+| 
+|
+|}
+==All access==
+
+Birdhouse Love (This Good Vibe only works if friend shares their Birdhouse.)  (Sends a Good Vibe to show how much the person loves the Friend’s Finch's Birdhouse.) 
+
+Calm (Sends a Good Vibe to represent calmness.)
+
+Encouragement (Sends a Good Vibe to encourage the person, and cheering and rooting for them.)
+
+Good Morning (Sends a Good Vibe to tell the player Good Morning.)
+
+Gratitude (Sends a Good Vibe to show how grateful the person is for them.) 
+
+Hello (Sends a Good Vibe to show the player saying Hello to them.)
+
+High Five (Sends a Good Vibe to virtually high five the player.)
+
+Hugs (Sends a Good Vibe to virtually hug the player.)
+
+Outfit Love (Sends a Good Vibe to show how much the person loves the Friend’s Finches outfit.)
+
+Strength (Sends a Good Vibe to represent being strong.)
+
+Stretch Break (Sends a Good Vibe to encourage or remind them to take a stretch break.)
+
+Sweet Dreams (Sends a Good Vibe to tell the player Sweet Dreams/Goodnight.)
+
+Thoughts (Sends a Good Vibe to tell let the player know that they are thinking about them.)
+
+Water (Sends a Good Vibe to encourage or remind them to drink water.)
+
+==Finch Plus Good Vibes==
+
+Comfort (Sends a Good Vibe to comfort the player and help them feel calm.)
+
+Dance (Sends a Good Vibe to encourage or recommend them to dance.)
+
+Flowers (FinchPlus only) (Sends a Good Vibe to virtually gift the player flowers.)
+
+Kudos (Sends a Good Vibe to tell the player they have done a great job while the Finch claps to cheer them on.)
+
+==Seasonal Good Vibes==
+
+Finch has been adding seasonal good vibes which are only available to send for a limited time. Those vibes are only available for plus users. They appear above all permanent good vibe options. You can also recognise them on the tiny sparkles which are around the vibes. Clicking on the vibe will show you how long the good vibe will continue to be available under the Send Good Vibe Button.
+
+==Special Good vibes==
+Sharing your answers of the [[Goal Challenges]] with your friends gives you the possibility to send six special good vibes, three if you and your friend choose the same answer or the different ones if you choose different answers. The nice good vibe is available for both sides. 
+{| class="fandom-table"
+|+ Goal Challenge Good vibes
+|
+
+|
+
+|}
+
+*Aha! 💡
+*Curious 🤔
+*Nice 🎉
+
+*Twinsies 💕
+*Lucky 🍀
+*Nice 🎉
+
+[[Category:Tree Town]]

@@ -14,7 +14,7 @@ Use docs/project-brief.md as the scope. Distinguish confirmed decisions from pro
 
 ## Record the work
 
-Use docs/epics/ for active pieces of work. An epic describes an outcome, phases, tasks and acceptance checks. Update checkboxes only when the corresponding work and checks are complete. Record failures and checks that did not run. Keep docs/progress.md short: current stage, evidence, blockers and next step. Keep numbered epics at their original paths, including after completion. Mark them complete in place and point progress to the next epic. Archive only superseded supporting notes, never an epic referenced by a lesson. A build-series entry can discuss one phase or several related tasks; article boundaries do not dictate epic boundaries.
+docs/handbooks/documentation.md says which level of the repository owns which documents and how files are named; read it before adding one. Use docs/epics/ for active pieces of work. An epic's filename is the date it was opened, then its number and name: `YYYY-MM-DD-NN-name.md`. An epic describes an outcome, phases, tasks and acceptance checks. Update checkboxes only when the corresponding work and checks are complete. Record failures and checks that did not run. Keep docs/progress.md short: current stage, evidence, blockers and next step. Keep numbered epics at their original paths, including after completion. Mark them complete in place and point progress to the next epic. Archive only superseded supporting notes, never an epic referenced by a lesson. A build-series entry can discuss one phase or several related tasks; article boundaries do not dictate epic boundaries.
 
 ## Verify before claiming completion
 

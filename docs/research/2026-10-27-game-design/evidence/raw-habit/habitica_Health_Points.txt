@@ -1,0 +1,67 @@
+
+'''Health Points''' (usually abbreviated to HP) represent the health of a player and indicate how well players, and to a lesser extent their parties, are completing their [[Dailies]] and how often players are breaking bad [[Habits]]. Each player can have a maximum of 50 HP, and this maximum cannot be altered.
+
+==Health Bar==
+
+The health bar is the red, top-most bar in the [[header]] at the top of each page on Habitica. It appears to the right of the player's [[avatar]]. The health bar can easily be identified with the heart icon to the left of the bar. The health bar includes a numerical display of current HP out of maximum HP (e.g., 48/50). Hovering over the red bar will give a more precise decimal value for the player's HP. Unlike [[Mana Points|mana]] and [[Experience Points|XP]], HP can never exceed a maximum of 50, regardless of the player's level or attribute allocation.
+
+==Losing Health==
+Players can lose health in three ways:
+
+*Indulging in a bad [[Habits|Habit]] (e.g. eating junk food).
+*Not completing a [[Dailies|Daily]].
+*Being attacked by a [[boss]] in a [[Quests|quest]] (which happens when the player or a [[party]] member does not complete all of their [[Dailies]]).
+
+The amount of health lost from [[Habits]] and [[Dailies]] depends on their difficulty, [[Task Value|value]] (color), and the player's [[Constitution]] (CON). Easy Habits and Dailies start at a base of 2 HP damage, medium tasks at 3 HP, and hard tasks at 4 HP.
+
+This type of damage is mitigated based on CON, with higher CON providing more protection. However, CON does not protect against boss damage. Constitution increases as higher levels are reached, and can be supplemented with Constitution-increasing equipment. [[Healer]]s and [[Warrior]]s can cast [[skills]] on themselves or their [[party]] to temporarily increase Constitution (for details, refer to [[Skills#Available Skills|Skills &gt; Available Skills]]), and therefore reduce the loss of HP.
+
+As the value (color) of a Habit or Daily changes, so does the damage the player take from it. Damage is lower when the task is closer to blue, while a redder task will increase damage. Thus, each time a bad Habit is recorded by clicking the - button, or a Daily is not completed before [[Cron]], the damage will increase. Certain class skills, such as the Warrior's [[Brutal Smash]] and the Healer's [[Searing Brightness]], can be used to decrease the redness of tasks (except tasks associate with a [[Challenges|challenge]]) and, therefore, cause them to deal less damage. 
+
+Finally, some damage from missed Dailies can be evaded by [[Rogue]] players that use the skill [[Stealth]] to prevent damage from being applied. 
+
+If more health seems to be lost overnight than seems appropriate be from missed Dailies, the player's browser may not be correctly recording their actions in regards to ticking off Dailies. Refer to [[Sync Errors]], especially the sections called "How to Minimize Sync Errors" and "Completing most/all Dailies but still losing health and streaks."
+
+===Death===
+
+{{main|Death Mechanics}}
+
+If the player's health reaches zero, their character will die, losing one [[level]], all of their [[Gold Points|gold]], and one piece of [[equipment]]. However, this is only the case if the player logs in whilst having 0 health. If a healer heals the player before they come online, the player is “revived” For more information and for strategies to avoid death, refer to [[Death Mechanics]].
+
+{{clr}}
+
+==Regaining Health==
+All lost health is replenished each time a player [[level|levels up]], and [[Healer]]s are able to directly restore health to themselves and to their party members (for details, refer to [[Healer#Skills|Healer Skills]]).
+
+{{infobox item
+   | title         = Health Potion
+   | image         = Shop potion.png
+   | imagewidth    = 51 [default: 210 pixels]
+   | imagecaption  = A Health Potion. 
+Used to immediately recover 15 Health (Instant Use)
+[[Art Credits|''Art by'']] BrowserQuest
+   | buy           = 25 
+   | sell          = -
+   }}Potions can also be used to directly regain lost health without leveling or the use of abilities. [[Health Potions|Health potions]] can be purchased from the Rewards column for 25 [[Gold Points|gold]] and will restore 15 HP. The [[Fortify Potion]] can be purchased from the [[Market]] for 4 [[gems]] and will restore all lost health and return all tasks to neutral (yellow). 
+
+Due to their unique strengths, [[Mage]]s are most able to rely on leveling to restore health, [[Rogue]]s can rely most on potions, and [[Healer]]s can rely most on abilities. [[Warrior]]s must rely on a combination of these strategies, good defense against their own [[Dailies]] and bad [[Habits]], and a strong offense against [[boss]]es. When in a party, however, all classes can regain HP via a Healer's [[Blessing]] skill.
+
+===Restoring Health Lost Unfairly===
+If a player feels they have unfairly lost health due to a mistake or a technical glitch, they can restore their character attributes using the [[Fix Character Values]] button under [[Settings]] -> Site ([https://habitica.com/user/settings/site direct link]).
+
+[[fr:Points de santé]]
+[[de:Lebenspunkte]]
+[[it:Punti Salute]]
+[[nl:Levenspunten]]
+[[pt-br:Pontos de Vida]]
+[[ru:Здоровье]]
+[[tr:Sağlık]]
+[[ja:体力]]
+[[zh:生命值]]
+[[Category:Incentives]]
+[[Category:Mechanics]]
+[[Category:Stats]]
+[[Category:References Source Code]]
+[[Category:Newbies]]
+[[Category:Health]]
+[[Category:Pages with files missing alt tags]]

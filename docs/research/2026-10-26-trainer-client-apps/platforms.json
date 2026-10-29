@@ -1,0 +1,3077 @@
+{
+  "meta": {
+    "research_date": "2026-10-26",
+    "subject": "Trainer-to-client coaching platforms",
+    "store_data_sources": [
+      "https://itunes.apple.com/search?term=...&entity=software&country=gb|us",
+      "https://itunes.apple.com/lookup?id=...&country=gb|us",
+      "Google Play store pages, GB and US storefronts"
+    ],
+    "conventions": "ratings and counts read 26 Oct 2026. company_claim fields are vendor marketing, not audited. null means not verified.",
+    "social_and_ad_sources": {
+      "api": "https://api.scrapecreators.com",
+      "docs": "https://docs.scrapecreators.com/llms.txt",
+      "read_date": "2026-10-26",
+      "credits_spent": 126,
+      "endpoints": [
+        "GET /v1/account/credit-balance",
+        "GET /v1/youtube/channel",
+        "GET /v1/instagram/profile",
+        "GET /v1/twitter/profile",
+        "GET /v1/tiktok/profile",
+        "GET /v1/facebook/adLibrary/search/companies",
+        "GET /v1/facebook/adLibrary/company/ads",
+        "GET /v1/facebook/adLibrary/search/ads",
+        "GET /v1/google/company/ads",
+        "GET /v1/linkedin/ads/search"
+      ],
+      "caveats": [
+        "no TikTok ad-library endpoint exists on this API",
+        "Meta counts are active ads on the read date only",
+        "Google ads are matched by destination domain, so third-party and affiliate advertisers appear alongside the company; check advertiserName",
+        "no network publishes spend, so ad counts measure activity, not budget"
+      ]
+    }
+  },
+  "platforms": [
+    {
+      "name": "ABC Trainerize",
+      "rank_by_scale": 1,
+      "site": "https://www.trainerize.com/",
+      "headline": "The #1 coaching app to better engage your clients",
+      "audience": "Trainers, gyms, studios, enterprise",
+      "owner": "ABC Fitness (acquired, announced 15 Sep 2020); operating company TSR Gym Technik Ltd, founded in Vancouver",
+      "funding": null,
+      "company_claim": {
+        "coaches": "400k+",
+        "businesses": "45k+",
+        "clients": "1.6M+",
+        "monthly": "5m workouts, 1.6m habits, 23m meals",
+        "note": "trainer count unchanged since the Nov 2022 NASM announcement"
+      },
+      "ios": {
+        "app": "Fitness App (ABC Trainerize)",
+        "id": 516851502,
+        "seller": "TSR Gym Technik Ltd.",
+        "us_rating": 4.9048,
+        "us_count": 68999,
+        "gb_rating": 4.88991,
+        "gb_count": 15651,
+        "released": "2012-04-12",
+        "updated": "2026-10-17"
+      },
+      "play": {
+        "package": "com.trainerize.Trainerize",
+        "installs": "1m+",
+        "rating": 4.7,
+        "reviews": 10865
+      },
+      "similarweb": {
+        "visits_3mo": "2.1m",
+        "global_rank": 16538,
+        "as_of": "2026-09"
+      },
+      "pricing": {
+        "model": "trainer subscription, per client band",
+        "currency": "USD",
+        "tiers": [
+          {
+            "name": "Basic",
+            "price": 0,
+            "clients": 1
+          },
+          {
+            "name": "Grow",
+            "price": 9,
+            "clients": 2
+          },
+          {
+            "name": "Pro",
+            "price_from": 23,
+            "clients": "5-200",
+            "higher_steps_verified": false
+          },
+          {
+            "name": "Studio Plus",
+            "price": 248,
+            "clients": 500
+          }
+        ],
+        "annual_discount": "10%",
+        "free_trial_days": 30,
+        "addons": {
+          "advanced_nutrition": "20-45/mo",
+          "business": "25/mo",
+          "video_coaching": "10/mo",
+          "stripe_payments": "10/mo",
+          "custom_branded_app_pro": "169 one-time"
+        }
+      },
+      "billing_route": "Stripe on the web; platform percentage not verified",
+      "apple_iap_for_clients": false,
+      "white_label": {
+        "separate_ios_listing": "Studio only",
+        "separate_play_listing": "Pro and up",
+        "pro_price": "169 one-time",
+        "studio_price": "included from 248/mo",
+        "requirements": "Apple Developer $99/yr, registered legal entity, 8-12 weeks setup"
+      },
+      "gamification": {
+        "streaks": true,
+        "badges": true,
+        "points": true,
+        "leaderboards": true,
+        "challenges": true,
+        "challenge_types": [
+          "leaderboard",
+          "threshold"
+        ],
+        "levels": null,
+        "avatars": null,
+        "habit_tracking": true,
+        "habit_score": null,
+        "has_game_layer": true
+      },
+      "features": {
+        "client_video_upload_of_sets": false,
+        "client_video_note": "feature request closed by staff 2020-06-04; video via chat only",
+        "coach_video_annotation": null,
+        "structure": "Program > Training Phase > Workout > Exercise",
+        "exercise_library": "2,400+ (not verified)",
+        "client_calendar": true,
+        "progress_dashboards": true,
+        "push_notifications": null,
+        "messaging": "1:1, group, voice messages, video calls",
+        "nutrition": true,
+        "wearables": [
+          "Apple Watch",
+          "Withings",
+          "Garmin",
+          "Fitbit"
+        ]
+      },
+      "distribution": {
+        "affiliate": "15% recurring via PartnerStack, no caps",
+        "referral": "credit equal to referee first month",
+        "named_faces": [
+          "Michelle Roots",
+          "Brian Silva",
+          "Michelle Riley",
+          "Ange Drake",
+          "Amber Coates-Reid",
+          "Johnny Loreti",
+          "Mike Monti"
+        ],
+        "acquires_first": "trainer",
+        "client_self_signup": false,
+        "in_app_marketplace": true,
+        "marketplace": "trainerize.me, open browsable consumer directory with city and specialty pages; profile is a Grow-tier feature",
+        "cert_partners": [
+          "NASM",
+          "The PTDC",
+          "NPE",
+          "IPTA",
+          "Precision Nutrition",
+          "Axelsons PT Education"
+        ],
+        "brand_partners": [
+          "Gainful"
+        ],
+        "youtube_subs": null
+      },
+      "social": {
+        "youtube": {
+          "handle": "TrainerizeYoutube",
+          "subscribers": 10700,
+          "videos": 491,
+          "views": 663591,
+          "joined": "2017-10-09"
+        },
+        "instagram": {
+          "handle": "trainerize",
+          "followers": 24247,
+          "posts": 2237
+        },
+        "x": {
+          "handle": "trainerize",
+          "followers": 3002,
+          "posts": 4600,
+          "created": "2011-02-14"
+        },
+        "tiktok": {
+          "handle": "trainerize",
+          "followers": 0,
+          "note": "dormant account, 1 video; not the company"
+        },
+        "facebook_page_likes": 18247
+      },
+      "advertising": {
+        "meta": {
+          "page_id": "179570012091994",
+          "active_ads": 29,
+          "earliest_active": "2026-09-01",
+          "lead_headline": "Explore powerful Trainerize features to build and scale your fitness businesses.",
+          "second_headline": "Scale Your Fitness Business",
+          "audience": "trainer"
+        },
+        "google": {
+          "estimate": 66,
+          "own_ads": 27,
+          "advertiser": "TSR GYM TECHNIK LTD.",
+          "first_shown": "2023-11-15",
+          "last_shown": "2026-10-26",
+          "note": "remaining 39 of 66 are third-party and affiliate advertisers"
+        },
+        "linkedin": {
+          "total_ads": 2
+        },
+        "tiktok_ad_library": "no API endpoint available"
+      }
+    },
+    {
+      "name": "TrueCoach",
+      "rank_by_scale": 2,
+      "site": "https://truecoach.co/",
+      "headline": "Train Your Clients Online With The #1 Platform Built For Personal Trainers",
+      "audience": "Solo online personal trainers",
+      "owner": "Xplor (confirmed on own about page); TSG Apr 2020 then Xplor 1 Jul 2021 not verified",
+      "funding": null,
+      "company_claim": {
+        "coaches": "16K+",
+        "clients": "250K+",
+        "workouts": "50M+",
+        "note": "published coach count has fallen from an earlier 20,000"
+      },
+      "ios": {
+        "app": "TrueCoach",
+        "id": 1439127794,
+        "seller": "TrueCoach, Inc.",
+        "us_rating": 4.86193,
+        "us_count": 35746,
+        "gb_rating": 4.84706,
+        "gb_count": 16346,
+        "released": "2018-10-19",
+        "updated": "2026-10-14"
+      },
+      "play": {
+        "package": "co.truecoach.client",
+        "installs": "100k+",
+        "rating": 4.8,
+        "reviews": 5798
+      },
+      "similarweb": {
+        "visits_3mo": "815.9k",
+        "global_rank": 53700,
+        "rank_trend": "falling from 50809",
+        "as_of": "2026-09"
+      },
+      "pricing": {
+        "model": "trainer subscription, per client band",
+        "currency": "USD",
+        "tiers": [
+          {
+            "name": "Starter",
+            "price": 26.34,
+            "clients": 5
+          },
+          {
+            "name": "Standard",
+            "price": 57.99,
+            "clients": 20
+          },
+          {
+            "name": "Pro",
+            "price": 136.99,
+            "clients": 50
+          }
+        ],
+        "caveat": "rendered figures are likely annual-equivalent monthly; monthly list prices not verified",
+        "free_trial_days": 14,
+        "transaction_fee": "flat 5% per transaction via Stripe, US/UK/AU/CA only"
+      },
+      "billing_route": "Stripe on the web",
+      "apple_iap_for_clients": false,
+      "white_label": {
+        "separate_ios_listing": false,
+        "separate_play_listing": false,
+        "note": "in-app logo and colour only, Standard and Pro"
+      },
+      "gamification": {
+        "streaks": null,
+        "badges": true,
+        "points": null,
+        "leaderboards": null,
+        "challenges": null,
+        "levels": null,
+        "avatars": null,
+        "habit_tracking": true,
+        "habit_score": null,
+        "has_game_layer": false,
+        "note": "blog publishes on gamification as coaching tactics, not product features"
+      },
+      "features": {
+        "client_video_upload_of_sets": true,
+        "client_video_note": "200MB, ~60s, attached to the exercise",
+        "coach_video_annotation": null,
+        "coach_voice_notes": true,
+        "structure": "Program > Weeks > Workouts > Exercises",
+        "exercise_library": "3,000-3,500 (own pages disagree)",
+        "client_calendar": true,
+        "progress_dashboards": true,
+        "compliance_risk_alerts": true,
+        "push_notifications": true,
+        "messaging": "1:1 with pictures/videos/GIFs, group messaging, voice notes; no verified calling",
+        "nutrition": "MyFitnessPal only; meal plans as documents",
+        "wearables": [
+          "Apple Health",
+          "Garmin",
+          "WHOOP",
+          "OURA"
+        ]
+      },
+      "distribution": {
+        "affiliate": "ReferralRock on tsgfitness domain, not linked from the site; $75/customer not verified",
+        "referral": "up to $1000 bonus credit, credit only, spin-the-wheel",
+        "named_faces": [
+          "Margaux Alverez",
+          "Taylor M",
+          "Kyle (Blacklisted HQ)",
+          "Joshua Davis",
+          "Simeon Brombach"
+        ],
+        "acquires_first": "trainer",
+        "client_self_signup": false,
+        "in_app_marketplace": false,
+        "marketplace": "Public Coach Profiles (Standard+) are shareable pages with a lead form, not a directory",
+        "cert_partners": [
+          "NASM"
+        ],
+        "youtube_subs": null
+      },
+      "social": {
+        "youtube": null,
+        "instagram": {
+          "handle": "truecoach.co",
+          "followers": 33065,
+          "posts": 4181
+        },
+        "x": {
+          "handle": "truecoachco",
+          "followers": 1519,
+          "posts": 1482
+        },
+        "tiktok": {
+          "handle": "therealtruecoach",
+          "followers": null,
+          "note": "linked in footer; API returned no profile data"
+        },
+        "facebook_page_likes": 23089
+      },
+      "advertising": {
+        "meta": {
+          "page_id": "825464357519848",
+          "active_ads": 0
+        },
+        "google": {
+          "estimate": 47,
+          "own_ads": 40,
+          "advertiser": "AI Sky US Bidco Inc",
+          "first_shown": "2021-10-25",
+          "last_shown": "2026-10-26",
+          "formats": {
+            "text": 37,
+            "video": 1,
+            "image": 2
+          },
+          "note": "Xplor holding entity pays; mostly search text ads"
+        },
+        "linkedin": {
+          "total_ads": 0
+        },
+        "tiktok_ad_library": "no API endpoint available"
+      }
+    },
+    {
+      "name": "Everfit",
+      "rank_by_scale": 3,
+      "site": "https://everfit.io/",
+      "headline": "The all-in-one platform for Fitness Coaches / Gyms & Studios / Nutrition Coaches / Sport Coaches to level up your business",
+      "subheadline": "Unlock your full potential with the #1 platform to coach, scale, and win.",
+      "audience": "Fitness, nutrition and sport coaches, gyms and studios",
+      "owner": "Everfit Technologies Inc.; ownership, HQ, founders and founding year not stated on the site",
+      "funding": "$1.1m seed 2019-10-24 (PitchBook); not verified from the company. Name collision: the $7m June 2022 seed led by 645 Ventures belongs to EverFit Inc. trading as kickoff, a different company",
+      "company_claim": {
+        "coaches": "over 380,000",
+        "note": "unsubstantiated; older copy said over 200,000 in 190+ countries, and only 2.7k iOS ratings sit behind it"
+      },
+      "ios": {
+        "client_app": "Everfit - Train smart",
+        "client_id": 1438926364,
+        "us_rating": 4.71919,
+        "us_count": 2710,
+        "gb_rating": 4.76415,
+        "gb_count": 1166,
+        "coach_app": "Everfit for Coach",
+        "coach_id": 1485827117,
+        "coach_us_count": 177,
+        "coach_gb_count": 89,
+        "released": "2019-03-23",
+        "updated": "2026-10-26"
+      },
+      "play": {
+        "package": "com.everfit",
+        "installs": "100k+",
+        "rating": 4.4,
+        "reviews": 990,
+        "coach_package": "com.everfit.coach",
+        "coach_installs": "10k+",
+        "coach_rating": 4.2,
+        "coach_reviews": 146
+      },
+      "similarweb": {
+        "visits_3mo": "1.2m",
+        "global_rank": 26917,
+        "trend": "down 3.57% month on month",
+        "as_of": "2026-09"
+      },
+      "pricing": {
+        "model": "trainer subscription, per client band",
+        "currency": "USD",
+        "tiers": [
+          {
+            "name": "Starter",
+            "price": 0,
+            "clients": 5,
+            "forever_free": true
+          },
+          {
+            "name": "Pro",
+            "annual_monthly": "16-242",
+            "monthly": "19-290",
+            "clients": "5-300"
+          },
+          {
+            "name": "Studio",
+            "annual_monthly": "88-358",
+            "monthly": "105-430",
+            "clients": "50-500"
+          },
+          {
+            "name": "Enterprise",
+            "price": "custom",
+            "clients": "500+"
+          }
+        ],
+        "annual_discount": "16%",
+        "free_trial_days": null,
+        "addons": {
+          "autoflow": "24-29/mo",
+          "on_demand_collections": "21-25/mo",
+          "payments_packages": "8-9/mo",
+          "meal_plans": "33-39/mo",
+          "advanced_custom_branding": "75 one-time"
+        },
+        "transaction_fee": "$9/mo platform plus 3.15%+$0.30 US domestic and 4.65%+$0.30 international, Stripe fees included in the blended rate"
+      },
+      "billing_route": "Stripe on the web",
+      "apple_iap_for_clients": false,
+      "white_label": {
+        "separate_ios_listing": "Enterprise only",
+        "separate_play_listing": "Enterprise only",
+        "gate": "minimum Studio plan with 500 clients",
+        "advanced_branding": "75 one-time; icon, splash, workout backgrounds, colour themes, welcome video only",
+        "help_quote": "Android and Apple only allow for the app icon to be switchable"
+      },
+      "gamification": {
+        "streaks": true,
+        "badges": null,
+        "points": null,
+        "leaderboards": true,
+        "leaderboard_types": 11,
+        "leaderboard_groups": [
+          "weight loss",
+          "strength",
+          "activity"
+        ],
+        "challenges": true,
+        "challenges_gate": "paid Autoflow add-on",
+        "ai_pushup_challenge": true,
+        "levels": null,
+        "avatars": null,
+        "habit_tracking": true,
+        "habit_score": "streak insights: current streak, best streak, daily average, completion percentage",
+        "community_forums": true,
+        "has_game_layer": true
+      },
+      "features": {
+        "client_video_upload_of_sets": true,
+        "client_video_note": "Message/Image/Video comments during a workout, collected in a per-workout thread tagged per exercise",
+        "coach_video_annotation": null,
+        "structure": "Program > Week > Workout > Section > Exercise > Set",
+        "section_types": [
+          "regular",
+          "interval",
+          "AMRAP",
+          "timed"
+        ],
+        "exercise_library": "inconsistent across own pages: 3,500 / 2,500 / 1,000+",
+        "client_calendar": false,
+        "client_surface": "Today screen with up to six adaptive sections",
+        "progress_dashboards": true,
+        "push_notifications": true,
+        "messaging": "1:1, scheduled, saved responses, AI smart response, group chat and broadcast on Studio, community forums; no verified calling",
+        "nutrition": "MacroSnap AI meal logging, food journal, meal plans add-on",
+        "wearables": [
+          "Apple Health",
+          "Fitbit",
+          "Google Fit",
+          "Health Connect",
+          "Oura",
+          "Garmin"
+        ],
+        "smartwatch_app": true
+      },
+      "distribution": {
+        "affiliate": "10% of referred coach revenue for the first two years, no caps, 30-day cookie, monthly PayPal",
+        "referral": true,
+        "named_faces": [
+          "Matthew Hebert",
+          "Riane Anjuanew Payne",
+          "Joshua Alston",
+          "Celeste Harrington",
+          "Leanne Dilnot",
+          "Josh Clay",
+          "Despina Staikos",
+          "Brandon Woo"
+        ],
+        "acquires_first": "trainer, actively building the consumer side",
+        "client_self_signup": true,
+        "client_self_signup_note": "Public Client Invite Link with no manual gate and a waiting list on overflow",
+        "in_app_marketplace": true,
+        "marketplace": "everfit.io/explore, public beta for coaches in USA/UK/AU/NZ/CA; signed-out view, checkout and commission all not verified",
+        "cert_partners": [],
+        "other_partners": [
+          "NPE Fitness (business coaching, not a certifier)"
+        ],
+        "llms_txt": true,
+        "youtube_subs": null
+      },
+      "social": {
+        "youtube": {
+          "channelId": "UC9WcVndJYeRe1Muha1oM98w",
+          "subscribers": 4310,
+          "videos": 174,
+          "views": 59200441,
+          "joined": "2020-01-26"
+        },
+        "instagram": {
+          "handle": "everfit",
+          "followers": 32628,
+          "posts": 578,
+          "secondary": {
+            "handle": "everfitpros",
+            "followers": 2940,
+            "posts": 46
+          }
+        },
+        "x": {
+          "handle": "geteverfit",
+          "followers": 710,
+          "posts": 194
+        },
+        "tiktok": {
+          "handle": "everfit.io",
+          "followers": 10
+        },
+        "facebook_page_likes": 9849
+      },
+      "advertising": {
+        "meta": {
+          "page_id": "1792380510832178",
+          "active_ads": 141,
+          "earliest_active": "2026-09-12",
+          "lead_headline": "Everfit | Start Your 30 Day Free Trial",
+          "lead_body": "Run your entire coaching business on your couch. Let Everfit manage your business so you can focus on actually coaching.",
+          "second_headline": "Macro-Tracking for Clients",
+          "audience": "trainer",
+          "note": "heaviest Meta buyer in the set; ads state the 30-day trial the site does not publish"
+        },
+        "google": {
+          "estimate": 200,
+          "own_ads": 40,
+          "advertiser": "Everfit Technologies Inc.",
+          "first_shown": "2022-07-19",
+          "last_shown": "2026-10-26"
+        },
+        "linkedin": {
+          "total_ads": 0,
+          "note": "LinkedIn hits are EverFit the home-care company, a name collision"
+        },
+        "tiktok_ad_library": "no API endpoint available"
+      }
+    },
+    {
+      "name": "My PT Hub",
+      "rank_by_scale": 4,
+      "site": "https://www.mypthub.net/",
+      "headline": "The all-in-one personal training software and app",
+      "subheadline": "Unlimited clients. Unlimited growth. One coaching app.",
+      "audience": "Personal trainers, fitness coaches and nutritionists",
+      "owner": "PYXiS Software Group (a division of Jonas Software, ultimately Constellation Software Inc.) since 13 Mar 2024; previously EverCommerce from 18 Nov 2020; trading entity Fitii Ltd, Burgess Hill, West Sussex; founded 2015 by Phil Carr",
+      "funding": null,
+      "company_claim": {
+        "coaches": "200,000+",
+        "countries": "170+",
+        "clients": "3m+ (homepage) vs 2 million+ (customers page)",
+        "reviews": "10,000+ 5-star",
+        "self_description": "the world's most-reviewed app for personal trainers",
+        "at_2020_acquisition": "83,000 trainers and 1.3m clients"
+      },
+      "ios": {
+        "app": "My PT Hub",
+        "id": 1473947709,
+        "seller": "Fitii LLC",
+        "us_rating": 4.14462,
+        "us_count": 1860,
+        "gb_rating": 4.14368,
+        "gb_count": 1733,
+        "released": "2019-10-21",
+        "updated": "2026-10-26"
+      },
+      "play": {
+        "package": "net.mypthub.kilo",
+        "developer": "Fitii Ltd",
+        "installs": "100k+",
+        "rating": 4.6,
+        "reviews": 2315
+      },
+      "pricing": {
+        "model": "trainer subscription, unlimited clients above the entry tier",
+        "currency": "GBP",
+        "tiers": [
+          {
+            "name": "Starter",
+            "price": 20,
+            "clients": 3,
+            "annual_monthly": 18
+          },
+          {
+            "name": "Premium",
+            "price": 59,
+            "clients": "unlimited",
+            "annual_monthly": 52
+          },
+          {
+            "name": "Ultimate",
+            "price": 199,
+            "clients": "unlimited",
+            "annual_monthly": 179,
+            "note": "all add-ons included"
+          }
+        ],
+        "free_trial_days": 30,
+        "post_trial": "auto-downgrades to a Free plan",
+        "addons": {
+          "custom_branded_app": "95 one-time",
+          "white_label_app_with_store_listings": "125/mo",
+          "additional_trainers": "10/mo each",
+          "checkins_ai": "9/mo",
+          "zapier": "15/mo"
+        },
+        "transaction_fee": null
+      },
+      "billing_route": "Stripe on the web; Apple Pay accepted as a card method",
+      "apple_iap_for_clients": false,
+      "white_label": {
+        "separate_ios_listing": true,
+        "separate_play_listing": true,
+        "price": "125/mo GBP",
+        "cheaper_option_without_listing": "95 one-time GBP",
+        "requirements": [
+          "App Store Developer Account",
+          "DUNS number",
+          "independent website",
+          "independent privacy policy hosted on your website"
+        ]
+      },
+      "gamification": {
+        "streaks": null,
+        "badges": null,
+        "points": null,
+        "leaderboards": null,
+        "challenges": "a naming convention for community groups only",
+        "levels": null,
+        "avatars": null,
+        "habit_tracking": true,
+        "habit_score": null,
+        "personal_bests": true,
+        "has_game_layer": false
+      },
+      "features": {
+        "client_video_upload_of_sets": null,
+        "coach_video_annotation": null,
+        "structure": "Workouts > Programs (multi-week, automated progression) > Exercises; supersets, giant sets, circuits",
+        "tracked_metrics": [
+          "1RM",
+          "tempo",
+          "rep range"
+        ],
+        "exercise_library": "8,000+ HD",
+        "client_calendar": true,
+        "progress_dashboards": true,
+        "push_notifications": true,
+        "messaging": "individual, group or broadcast, instant and scheduled; no verified calling",
+        "nutrition": "650,000 food items, barcode scanner, Nutrition AI",
+        "wearables": [
+          "Apple Watch",
+          "Apple Health",
+          "Fitbit",
+          "Google Fit",
+          "MyFitnessPal"
+        ],
+        "ai": [
+          "AI workout builder",
+          "Nutrition AI",
+          "Check-Ins AI"
+        ]
+      },
+      "distribution": {
+        "affiliate": "up to 25% per sale (blog: 10% monthly, 25% annual), Referral Rock, PayPal, no cap, open to anyone; referred trainer gets 30% off",
+        "referral": "same scheme",
+        "named_faces": [
+          "Lane Bunch",
+          "Emma Storey-Gordon",
+          "Chloe Madeley",
+          "Jeremy Boisseau",
+          "Emily DeLuzy"
+        ],
+        "acquires_first": "trainer",
+        "client_self_signup": false,
+        "in_app_marketplace": false,
+        "marketplace_note": "the page labelled Marketplace is a template library for trainers",
+        "cert_partners": [
+          "CIMSPA",
+          "Create PT",
+          "FutureFit",
+          "Strength & Conditioning Education",
+          "The Fitness Group"
+        ],
+        "cert_partner_dates": null,
+        "youtube_subs": 12400
+      },
+      "social": {
+        "youtube": {
+          "handle": "MyPTHub",
+          "subscribers": 12400,
+          "videos": 2028,
+          "views": 23010002,
+          "joined": "2015-04-07"
+        },
+        "instagram": {
+          "handle": "mypthub",
+          "followers": 7511,
+          "posts": 1445
+        },
+        "x": {
+          "handle": "mypthub",
+          "followers": 1083,
+          "posts": 2097
+        },
+        "tiktok": {
+          "handle": "mypthub",
+          "followers": 27,
+          "videos": 5
+        },
+        "facebook_page_likes": 11509
+      },
+      "advertising": {
+        "meta": {
+          "page_id": "324873511052146",
+          "active_ads": 28,
+          "earliest_active": "2026-07-08",
+          "lead_headline": "Start Your 30-Day Free Trial",
+          "second_headline": "The #1 App for Personal Trainers",
+          "lead_body": "Too much admin, not enough coaching? Save up to 80% of your admin time",
+          "audience": "trainer"
+        },
+        "google": {
+          "estimate": 200,
+          "own_ads": 40,
+          "advertiser": "Fitii Ltd",
+          "first_shown": "2021-12-07",
+          "last_shown": "2026-10-26"
+        },
+        "linkedin": {
+          "total_ads": 11,
+          "advertiser": "My PT Hub (Fitii Ltd)",
+          "headlines": [
+            "15+ Features In One Software",
+            "The #1 App for Personal Trainers"
+          ],
+          "note": "the only real LinkedIn buy in the set"
+        },
+        "tiktok_ad_library": "no API endpoint available"
+      }
+    },
+    {
+      "name": "TrainHeroic",
+      "rank_by_scale": 5,
+      "site": "https://www.trainheroic.com/",
+      "headline": "The Premier Platform For Strength Coaches",
+      "subheadline": "Deliver a premium athlete experience, manage remote and in-person clients in one place, and scale without losing your personal touch.",
+      "audience": "Strength and conditioning coaches, teams and athletes",
+      "owner": "Garmin, acquired 22 Jul 2026 from Peaksware Holdings together with TrainingPeaks; the site still reads TrainHeroic, Inc., Denver, Colorado",
+      "funding": null,
+      "company_claim": {
+        "homepage": "500000+ athletes, 10000+ coaches, 96 countries",
+        "coach_page": "20k+ coaches, 650k+ athletes, 96 countries",
+        "note": "own pages disagree by 2x on coaches",
+        "marketplace_visitors": "over 1 million unique visitors per year"
+      },
+      "ios": {
+        "app": "TrainHeroic: Strength Training",
+        "id": 955074569,
+        "seller": "Train Heroic, LLC",
+        "us_rating": 4.25871,
+        "us_count": 1836,
+        "gb_rating": 4.29204,
+        "gb_count": 113,
+        "released": "2015-05-23",
+        "updated": "2026-10-19",
+        "has_iap": true
+      },
+      "play": {
+        "package": "com.TrainHeroic.TrainHeroic",
+        "developer": "TrainHeroic LLC",
+        "installs": "500k+",
+        "reviews": 688
+      },
+      "pricing": {
+        "model": "per athlete band, plus a marketplace cut, plus a direct-to-athlete tier",
+        "currency": "USD",
+        "coach_bands": {
+          "1": 9.99,
+          "5": 17.99,
+          "15": 34.99,
+          "25": 44.99,
+          "35": 59.99,
+          "50": 74.99,
+          "100": 99.99,
+          "250": 159.99,
+          "500": 199.99,
+          "750": 299.99,
+          "1000": 399.99
+        },
+        "assistant_coach": 9.99,
+        "free_trial_days": 14,
+        "athlete_pro": {
+          "monthly": 4.99,
+          "yearly": 29.99,
+          "free_trial_days": 14,
+          "billed_via": "Apple IAP"
+        },
+        "marketplace": {
+          "access_fee": 0,
+          "self_sourced": "$1/client/month",
+          "th_sourced_split": "70/30 in the coach's favour",
+          "affiliate_link": "$1/transaction plus bank fees (not verified)",
+          "bank_fee": "2.9% + $0.30 on all sales",
+          "payout": "PayPal, 15th of the month",
+          "observed_price_points": "$16-49/mo subscriptions and ~$50 one-offs, with 7-day free trials"
+        },
+        "no_client_billing": true,
+        "billing_partner": "Pike13"
+      },
+      "billing_route": "Marketplace: card at 2.9%+$0.30 with PayPal payout. Athlete Pro: Apple IAP. No 1:1 client billing at all.",
+      "apple_iap_for_clients": "only for its own Athlete Pro tier",
+      "white_label": {
+        "separate_ios_listing": false,
+        "separate_play_listing": false,
+        "note": "none by design; in-app logo and custom exercise demos only, so the shared app can carry the marketplace and global leaderboards"
+      },
+      "gamification": {
+        "streaks": true,
+        "streak_unit": "consecutive weeks",
+        "badges": "Millionaire's club (1M lbs lifted) only",
+        "points": null,
+        "leaderboards": true,
+        "leaderboard_kinds": [
+          "coach-programmed team leaderboards attached to any exercise, circuit or superset, scored on Reps, Weight or Time",
+          "global StackUp percentile leaderboards, Athlete Pro only"
+        ],
+        "virtual_fist_bumps": true,
+        "challenges": null,
+        "levels": false,
+        "strength_score": "no such product; StackUp is a body-weight-scaled percentile, formula not directly verified",
+        "avatars": null,
+        "habit_tracking": null,
+        "readiness_survey": "5 questions, attributed to the Air Force Research Lab",
+        "has_game_layer": true
+      },
+      "features": {
+        "client_video_upload_of_sets": true,
+        "client_video_note": "'Video review' is a headline coach feature",
+        "coach_video_annotation": null,
+        "structure": "Programs > Sessions > Circuits/Exercises, with separately reusable Exercise, Prescription and Program libraries; athletes grouped into Teams",
+        "prescription_as_object": true,
+        "exercise_library": "1,200-1,500 (three different figures on its own pages)",
+        "client_calendar": true,
+        "progress_dashboards": true,
+        "metrics": [
+          "PRs",
+          "total volume lifted",
+          "total reps",
+          "hours trained",
+          "Training Load Calendar",
+          "readiness trends",
+          "compliance"
+        ],
+        "push_notifications": null,
+        "messaging": "real-time chat with GIFs and reactions, 1:1 and team-wide; no verified calling",
+        "nutrition": "Nutrition Sync, Athlete Pro only",
+        "wearables": null,
+        "extras": [
+          "smart timers (rest, AMRAP, EMOM)",
+          "%1RM calculator",
+          "kg/lb toggle",
+          "two done-for-you annual plans"
+        ]
+      },
+      "distribution": {
+        "affiliate": "delegated to coaches at $1/transaction with no built-in rewards; no public platform affiliate programme",
+        "referral": "$100 finder's fee within 90 days (search-surfaced, not verified)",
+        "named_faces": [
+          "Matt Chan",
+          "Matt Wenning",
+          "Christian Harris",
+          "Maddy Forberg",
+          "Catalyst Athletics (Greg Everett)",
+          "MBSC / Mike Boyle",
+          "California Strength",
+          "Lift-Run-Bang (Paul Carter)",
+          "Power Athlete"
+        ],
+        "named_faces_basis": "revenue-shared marketplace sellers, not sponsored or paid",
+        "acquires_first": "both; the athlete side is a genuine front door",
+        "client_self_signup": true,
+        "in_app_marketplace": true,
+        "marketplace": "marketplace.trainheroic.com, public and unauthenticated, plus a Matching service at 30%",
+        "cert_partners": [],
+        "cert_note": "appears under NSCA member Pro Deals, a discount not a partnership, not verified",
+        "brand_partners": [
+          "Bells of Steel",
+          "Strong Coffee",
+          "BioSteel US",
+          "BioSteel CA",
+          "Vibram",
+          "LMNT",
+          "O2",
+          "Designs For Sport"
+        ],
+        "software_partners": [
+          "Pike13"
+        ],
+        "youtube_subs": 25100
+      },
+      "social": {
+        "youtube": {
+          "handle": "TrainHeroic",
+          "subscribers": 25100,
+          "videos": 369,
+          "views": 9765452,
+          "joined": "2011-10-01"
+        },
+        "instagram": {
+          "handle": "trainheroic",
+          "followers": 66344,
+          "posts": 3173,
+          "note": "largest Instagram in the set"
+        },
+        "x": {
+          "handle": "trainheroic",
+          "followers": 3704,
+          "posts": 6559
+        },
+        "tiktok": {
+          "handle": "trainheroic",
+          "followers": 389,
+          "videos": 35
+        },
+        "facebook_page_likes": 30013
+      },
+      "advertising": {
+        "meta": {
+          "page_id": "144952055597057",
+          "active_ads": 35,
+          "earliest_active": "2026-10-21",
+          "lead_headline": "Start Your Free Trial",
+          "lead_body": "Your coaching is premium. Your athletes' experience should be too.",
+          "audience": "trainer"
+        },
+        "google": {
+          "estimate": 43,
+          "own_ads": 24,
+          "advertiser": "TrainHeroic",
+          "first_shown": "2025-05-08",
+          "last_shown": "2026-10-26",
+          "delegated_advertisers": [
+            "California Strength, LLC",
+            "Richard M Gorrell",
+            "Matt Wenning",
+            "Atlas Training Solutions",
+            "GBRS Group LLC"
+          ],
+          "note": "marketplace coaches buy their own Google ads pointing at trainheroic.com"
+        },
+        "linkedin": {
+          "total_ads": 10,
+          "advertiser": "TrainHeroic"
+        },
+        "tiktok_ad_library": "no API endpoint available"
+      }
+    },
+    {
+      "name": "Playbook",
+      "rank_by_scale": 6,
+      "site": "https://www.playbookapp.io/",
+      "headline": "Turn your audience into recurring income",
+      "audience": "Fitness and wellness creators, coaches and instructors; not a 1:1 personal-training tool",
+      "owner": "Playbook Technologies Inc., founded 2016, CEO Jeff Krahel, 41 people across 30 cities",
+      "funding": "$9.3m Series A announced 14 Oct 2020 (E.ventures, Michael Ovitz, Abstract, Algae Ventures, Porsche Ventures, FJ Labs); total $12.3m including a June 2020 seed; no round since found",
+      "company_claim": {
+        "paid_to_creators": "$233M+ since 2016",
+        "earning_creators": "2,500+",
+        "active_subscribers": "300k+",
+        "workouts_completed": "80M+",
+        "catalogue": "56,000+ workouts from 500+ instructors",
+        "top_creators": "$40k+ per month"
+      },
+      "ios": {
+        "app": "Playbook - Trainers & Workouts",
+        "id": 1107266414,
+        "seller": "Playbook Technologies Inc",
+        "us_rating": 4.92478,
+        "us_count": 37040,
+        "gb_rating": 4.88367,
+        "gb_count": 1427,
+        "released": "2016-09-09",
+        "updated": "2026-10-26",
+        "creator_app_id": 1166632935,
+        "creator_us_count": 34
+      },
+      "play": {
+        "package": "io.playbookapp.android",
+        "installs": "500k+",
+        "reviews": 10491
+      },
+      "pricing": {
+        "model": "revenue share",
+        "creator_share": "80%",
+        "platform_share": "20% of Net Revenue",
+        "net_revenue_definition": "gross less payment processing fees, app store fees, refunds, chargebacks and taxes, so the creator absorbs Apple's cut before the split",
+        "subscription": 0,
+        "setup_fee": 0,
+        "consumer_price": {
+          "monthly": 14.99,
+          "yearly": 99.99,
+          "currency": "USD",
+          "free_trial_days": 7
+        }
+      },
+      "billing_route": "Apple In-App Purchases, Google Play Billing and Stripe",
+      "apple_iap_for_clients": true,
+      "white_label": {
+        "separate_ios_listing": false,
+        "note": "structurally impossible; one consumer app in which creators are discoverable together"
+      },
+      "gamification": {
+        "streaks": null,
+        "badges": null,
+        "points": null,
+        "leaderboards": null,
+        "challenges": "member-facing challenges with prizes in the app listing; 'Quarterly Challenges' are business-growth challenges for creators, not clients",
+        "levels": null,
+        "avatars": null,
+        "habit_tracking": null,
+        "community": true,
+        "post_workout_rating": true,
+        "has_game_layer": false
+      },
+      "features": {
+        "client_video_upload_of_sets": null,
+        "structure": "programmes, one-time purchases, subscriptions, templates",
+        "exercise_library": "56,000+ workouts, creator-recorded",
+        "client_calendar": null,
+        "progress_dashboards": "creator analytics with baked-in benchmarks; member progress tracking per the app listing",
+        "push_notifications": null,
+        "messaging": "community posts and comments; 1:1 direct messaging not verified",
+        "livestream": true,
+        "offline_download": true,
+        "apple_health": true
+      },
+      "distribution": {
+        "affiliate": null,
+        "referral": null,
+        "named_faces": [
+          "Mackenzie Wells",
+          "Alicia Erickson",
+          "Judd Lienhard",
+          "Melania Antuchas",
+          "Aubri & Liv",
+          "Quinton Pulliam",
+          "Dana Linn Bailey",
+          "Amy Williams",
+          "Andi Di Battista"
+        ],
+        "staff_influencers": [
+          "Morgan Tyler (500k)",
+          "Courtney Worthington (100k)",
+          "Brooke Bohning (70k)"
+        ],
+        "acquires_first": "consumer and creator both; the consumer side is fully open",
+        "client_self_signup": true,
+        "in_app_marketplace": true,
+        "marketplace": "500+ instructors browsable in one consumer app; the free trial unlocks the entire platform",
+        "cert_partners": [],
+        "youtube_subs": null
+      },
+      "social": {
+        "youtube": {
+          "handle": "join.playbook",
+          "subscribers": 145,
+          "videos": 25,
+          "joined": "2025-06-25"
+        },
+        "instagram": {
+          "handle": "joinplaybook",
+          "followers": 8073
+        },
+        "x": null,
+        "tiktok": null,
+        "facebook_page_likes": null
+      },
+      "advertising": {
+        "meta": {
+          "page_id": "111907537611003",
+          "active_ads": 0
+        },
+        "google": {
+          "estimate": 20,
+          "own_ads": 5,
+          "advertiser": "Playbook Technologies Inc.",
+          "first_shown": "2026-08-26",
+          "last_shown": "2026-10-26",
+          "delegated_advertisers": [
+            "Latitude Wellness",
+            "KAITLYNN JONES"
+          ],
+          "note": "14 of 20 ads are creators buying their own Playbook pages; paid acquisition is delegated"
+        },
+        "linkedin": {
+          "total_ads": 0
+        },
+        "tiktok_ad_library": "no API endpoint available"
+      }
+    },
+    {
+      "name": "FITR",
+      "rank_by_scale": 7,
+      "site": "https://www.coachwithfitr.com/",
+      "former_domain": "fitr.training (301 redirect)",
+      "headline": "where your business works out",
+      "subheadline": "You're already a great coach. This is where you build the systems you need to run a great coaching business too.",
+      "audience": "Coaches and gyms, functional-fitness lean; UK-rooted",
+      "owner": "Fitr. Holdings Limited, Companies House 09759426, incorporated 2 Sep 2015, registered office Richmond House, Walkern Road, Stevenage, Hertfordshire SG1 3QP, status Active, SIC 62012 and 63110; formerly Libertatum Applications Limited until 18 Jul 2019; a second entity Fitr. Training Limited (12112152) also exists",
+      "leadership": [
+        {
+          "name": "Leon Cassidy",
+          "role": "Founder & CEO"
+        },
+        {
+          "name": "Katrina Southey",
+          "role": "COO"
+        },
+        {
+          "name": "Tom Livings",
+          "role": "Chief Product Officer"
+        },
+        {
+          "name": "Ryan Singh",
+          "role": "Chief Customer Officer"
+        },
+        {
+          "name": "Clive Baker",
+          "role": "CTO"
+        },
+        {
+          "name": "Keith Boyd",
+          "role": "Board member, investor and advisor"
+        }
+      ],
+      "funding": [
+        {
+          "date": "2022-04",
+          "amount": "$1.2m",
+          "type": "seed",
+          "investors": [
+            "Maven Capital Partners",
+            "Mat Fraser"
+          ]
+        },
+        {
+          "date": "2025-12-02",
+          "amount": "GBP 1.5m",
+          "type": "growth",
+          "investors": [
+            "Maven VCTs"
+          ],
+          "note": "Maven states the company is already profitable"
+        },
+        {
+          "investor": "Reggie Fasa",
+          "note": "elite CrossFit athlete, per FITR's own blog"
+        }
+      ],
+      "company_claim": {
+        "programs_run_daily": "34,000+",
+        "income_generated": "GBP 53 million+",
+        "clients": "120,000+",
+        "directory_copy": "over 30,000 programs and 8 million workouts"
+      },
+      "ios": {
+        "client_app": "Fitr Client",
+        "client_id": 1548478229,
+        "seller": "Fitr. Holdings Limited",
+        "client_gb_rating": 5.0,
+        "client_gb_count": 4,
+        "client_us_rating": 2.33333,
+        "client_us_count": 3,
+        "client_released": "2021-01-19",
+        "client_updated": "2026-10-07",
+        "version": "2.0.2",
+        "coach_app": "Fitr Coach",
+        "coach_id": 1576833196,
+        "coach_gb_rating": 5.0,
+        "coach_gb_count": 12,
+        "coach_us_count": 1,
+        "coach_released": "2021-09-09",
+        "note": "fewer than 25 ratings in total across both apps across gb/us/au/ie/ca/nz/de/se"
+      },
+      "play": {
+        "client_package": "com.fitr_training.client",
+        "client_installs": "50k+",
+        "client_rating": 3.0,
+        "client_reviews": 74,
+        "coach_package": "com.fitr_training.coach",
+        "coach_installs": "1k+"
+      },
+      "pricing": {
+        "model": "trainer subscription, per active client",
+        "entry": "GBP 14.99/mo",
+        "per_client": "GBP 3.00",
+        "unlimited_option": true,
+        "currencies": [
+          "GBP",
+          "USD",
+          "EUR"
+        ],
+        "annual_discount": "20%",
+        "tax": "prices include all sales tax",
+        "contracts": "none; change plan anytime",
+        "free_trial_days": 14,
+        "transaction_fee": "5.99% Business Automation fee; Stripe fees passed through with no markup",
+        "custom_app": {
+          "monthly": 199.99,
+          "annual_monthly": 119.92,
+          "currency": "USD"
+        },
+        "active_client_definition": "any client currently subscribed to an ongoing programme; fixed-length programme downloads do not count",
+        "legacy_tier_names": [
+          "Starter",
+          "Pro",
+          "Unlimited"
+        ],
+        "migration_service": true
+      },
+      "billing_route": "Stripe via FITR, with a 5.99% platform fee",
+      "apple_iap_for_clients": false,
+      "white_label": {
+        "separate_ios_listing": true,
+        "separate_play_listing": true,
+        "price": "$199.99/mo or $119.92/mo billed annually",
+        "build_time": "about 4 weeks",
+        "requirements": [
+          "coach registers an Apple developer account",
+          "coach registers a Google developer account"
+        ],
+        "brand_kit_note": "Brand Kit adds branding inside the Fitr app; the Custom App is a standalone listing",
+        "maintenance": "FITR handles publishing, maintenance and future updates"
+      },
+      "client_access": {
+        "invite_only": true,
+        "public_marketplace": false,
+        "evidence": [
+          "Sign up to a program with your coach first, then download the Fitr Client app",
+          "the App Store description repeats it",
+          "/marketplace, /explore and /find-a-coach all return 404",
+          "no Wayback snapshot exists for fitr.training/marketplace"
+        ],
+        "storefront": "per-coach storefront at brand-name.fitr.app/t/<slug>, now resolving under coachwithfitr.com/t/<slug>, shared by the coach through their own channels",
+        "evaluation_route": "Example Programs - Try FITR as a Client, for coaches assessing the product"
+      },
+      "gamification": {
+        "streaks": false,
+        "badges": false,
+        "points": false,
+        "leaderboards": true,
+        "leaderboard_note": "challenge leaderboards with client @-mentions",
+        "challenges": true,
+        "challenges_note": "repeatable, every entry saved",
+        "levels": false,
+        "avatars": false,
+        "habit_tracking": true,
+        "habit_score": false,
+        "habit_note": "progress bars and completion counts only",
+        "has_game_layer": "partial"
+      },
+      "features": {
+        "client_video_upload_of_sets": true,
+        "client_video_note": "photos and videos up to 500MB per file, attached to training performances, Personal Records, Challenges and Body Metrics; coach comments trigger a push notification to the client",
+        "coach_video_annotation": null,
+        "structure": "Program > Training Day > Sets & Reps table > Exercises; training blocks combined into weeks; Tracks as programme variants",
+        "supersets_max": 10,
+        "pr_library": "2,500+ options",
+        "exercise_library": "'hundreds' on the programming page versus '1,000+ movement videos' on the communication page",
+        "client_calendar": true,
+        "progress_dashboards": true,
+        "push_notifications": true,
+        "messaging": "1-2-1 chat, community chat for subscription programmes, bulk messaging to segments, comments on workouts/exercises/PRs, @-mentions, media attachments, automated welcome messages, private coach notes",
+        "voice_notes": false,
+        "whatsapp_sms": false,
+        "nutrition": "coach-set macros followed in the client app",
+        "wearables": "Readiness, Strain and more",
+        "ai": "Fitr AI marked coming soon, so not shipped"
+      },
+      "distribution": {
+        "affiliate": null,
+        "referral": {
+          "exists": false,
+          "quote": "There is no formal coach referral scheme on Fitr at the moment",
+          "article_date": "2026-08-28",
+          "note": "older third-party copy describing GBP 10/30/50 credits by plan refers to a retired scheme"
+        },
+        "named_faces": [
+          "Mat Fraser",
+          "Matt O'Keefe (HWPO)",
+          "Reggie Fasa",
+          "Emma Mcquaid",
+          "Gus Vaz Tostes",
+          "Shawna Norton",
+          "Alex Conroy",
+          "Luke Bartlett",
+          "Tom Bliss",
+          "Andy Murphy",
+          "Ziggy McGinnis",
+          "George Thompson",
+          "Jake Lowry",
+          "Rasmus Andersen",
+          "Baylee Rayl Christophel"
+        ],
+        "acquires_first": "trainer",
+        "client_self_signup": false,
+        "in_app_marketplace": false,
+        "gym_partners": [
+          {
+            "name": "PureGym",
+            "scope": "370+ locations nationwide",
+            "offer": "90 Day FREE Trial and 10% OFF Annual Plan for verified trainers"
+          }
+        ],
+        "event_partners": [
+          {
+            "name": "HYROX",
+            "offer": "free 90-day trial of the Fitr Unlimited plan for HYROX-affiliated coaches"
+          }
+        ],
+        "brand_partners": [
+          "MyProtein",
+          "Hyperice",
+          "Eleiko",
+          "Built For Athletes",
+          "Compete for a Cure"
+        ],
+        "hashtag": "#FITRTOGETHER",
+        "cert_partners": [],
+        "youtube_subs": 408,
+        "youtube_videos": 28,
+        "content": [
+          "Coach Spotlight series (~19 coaches)",
+          "real-results page naming 12",
+          "how-we-compare page versus Everfit, ABC Trainerize, My PT Hub and TrueCoach",
+          "fitr-switch page",
+          "webinars",
+          "five free calculators"
+        ]
+      },
+      "social": {
+        "youtube": {
+          "handle": "PERSONALTRAINERSOFTWARE",
+          "subscribers": 408,
+          "videos": 28,
+          "joined": "2018-09-18"
+        },
+        "instagram": {
+          "handle": "fitr.app",
+          "followers": 11990,
+          "posts": 490
+        },
+        "x": null,
+        "tiktok": {
+          "handle": "fitr.app",
+          "followers": 81,
+          "videos": 21
+        },
+        "facebook_page_likes": null
+      },
+      "advertising": {
+        "meta": {
+          "page_id": null,
+          "active_ads": 0,
+          "note": "no ad-library page found under the company name"
+        },
+        "google": {
+          "estimate": 200,
+          "advertiser": "Fitr Holdings Limited",
+          "domain": "coachwithfitr.com",
+          "first_shown": "2025-06-03",
+          "last_shown": "2026-10-26",
+          "own_ads_on_fitr_training": 18,
+          "note": "heaviest Google buyer alongside Exercise.com; runs nothing on Meta"
+        },
+        "linkedin": {
+          "total_ads": 0,
+          "note": "LinkedIn hits are Fitrama, FITRADIO, Fitrockr — name collisions"
+        },
+        "tiktok_ad_library": "no API endpoint available"
+      }
+    },
+    {
+      "name": "PT Distinction",
+      "rank_by_scale": 8,
+      "site": "https://ptdistinction.com/",
+      "headline": "Personal Trainer Software",
+      "subheadline": "Train more clients in less time, with better results",
+      "audience": "Online personal trainers",
+      "owner": "PT Distinction Ltd, UK company 8413544, 12 Forest Gate, Pewsham, Wiltshire SN15 3RS; founded 2010 by brothers Tim and Adam Saye; independent",
+      "funding": "none ever announced",
+      "company_claim": {
+        "businesses": "over 60,000 training businesses",
+        "review_claims": "4.9 on Capterra, GetApp and G2; number 1 on Trustpilot, Capterra, Software Advice and GetApp"
+      },
+      "ios": {
+        "app": "PT Distinction",
+        "id": 973466681,
+        "seller": "P T Distinction Ltd",
+        "us_rating": 4.15702,
+        "us_count": 121,
+        "gb_rating": 4.07937,
+        "gb_count": 63,
+        "released": "2015-03-12",
+        "updated": "2026-09-01",
+        "container_app": "Online Personal Training",
+        "container_id": 1249635424,
+        "container_seller": "BH APP DEVELOPMENT LIMITED",
+        "container_us_count": 471,
+        "container_gb_count": 383
+      },
+      "play": {
+        "listing_found": false
+      },
+      "pricing": {
+        "model": "trainer subscription plus a marginal per-client fee",
+        "currency": "USD",
+        "tiers": [
+          {
+            "name": "Basic",
+            "price": 19.9,
+            "clients": 3,
+            "extra_client": 6.0,
+            "custom_branding": false
+          },
+          {
+            "name": "Pro",
+            "price": 59.9,
+            "clients": 25,
+            "extra_client": 2.4,
+            "custom_branding": true
+          },
+          {
+            "name": "Master",
+            "price": 89.9,
+            "clients": 50,
+            "extra_client": 1.6,
+            "custom_branding": true
+          }
+        ],
+        "every_feature_every_plan": true,
+        "free_trial": "1 month",
+        "extra_clients_free_first_month": true,
+        "transaction_fee": null
+      },
+      "billing_route": "the trainer's own PayPal or Stripe, sold from the trainer's own website",
+      "apple_iap_for_clients": false,
+      "white_label": {
+        "separate_ios_listing": null,
+        "separate_play_listing": null,
+        "note": "'custom branded iOS and Android apps' free from $59.90, but no store listing, developer account or DUNS requirement is ever mentioned, unlike My PT Hub; unresolved"
+      },
+      "gamification": {
+        "streaks": false,
+        "badges": false,
+        "points": false,
+        "leaderboards": false,
+        "challenges": "a business-development product, not a mechanic; PT Distinction pays for prospect accounts during challenges",
+        "levels": false,
+        "avatars": false,
+        "habit_tracking": true,
+        "habit_score": false,
+        "has_game_layer": false
+      },
+      "features": {
+        "client_video_upload_of_sets": true,
+        "client_video_note": "'Client exercise technique reviews' is a billed feature line on every tier: clients video their technique while training, which goes straight to the coach for review",
+        "coach_video_annotation": null,
+        "structure": "Program Builder > training programs > multiple workouts on one page > exercises; circuits, supersets, giant sets, 6-12-25; item-level scheduling",
+        "exercise_library": "over 1200 (own blog, 14 Feb 2024) versus 'thousands' (features page)",
+        "client_calendar": true,
+        "progress_dashboards": true,
+        "push_notifications": true,
+        "messaging": "Messenger 1:1, group messenger/forum, pre-scheduled messages, email from the trainer's own address, scheduled SMS; 'Video coaching' means recorded content, not live calls",
+        "nutrition": "the most complete MyFitnessPal integration found, plus AI Meal Planner and a photo food diary",
+        "wearables": [
+          "Fitbit",
+          "Apple Watch",
+          "MyZone"
+        ],
+        "ai": [
+          "AI Program Builder (~20 seconds)",
+          "Nutrition AI",
+          "Marketing AI"
+        ]
+      },
+      "distribution": {
+        "affiliate": null,
+        "referral": "refer-a-friend paying the referrer the referred trainer's first monthly payment (up to $89.90), after the trial completes and a first payment clears; not verified on the company site, effectively invite-only",
+        "named_faces": [
+          "Jon Goodman",
+          "AJ Mihrzad",
+          "Paul Mort",
+          "Joey Percia",
+          "Sukh Sidhu",
+          "Linh Trinh",
+          "Dan Salcumbe",
+          "Tim Drummond",
+          "Janak Patel"
+        ],
+        "named_faces_basis": "interview library content; paid status not verified",
+        "acquires_first": "trainer",
+        "client_self_signup": false,
+        "in_app_marketplace": false,
+        "cert_partners": [],
+        "youtube_subs": 2900,
+        "distinctive": "PT Distinction pays for the prospect's account during challenges, automated free trials and sample programmes"
+      },
+      "social": {
+        "youtube": {
+          "channelId": "UC2Q2UcCtid-OkVn9-afG0Ew",
+          "subscribers": 2900,
+          "videos": 306,
+          "joined": "2014-01-07"
+        },
+        "instagram": {
+          "handle": "pt_distinction",
+          "followers": 3769,
+          "posts": 3139
+        },
+        "x": {
+          "handle": "PTDistinction",
+          "followers": 474,
+          "posts": 7500
+        },
+        "tiktok": {
+          "handle": null,
+          "followers": null,
+          "note": "no handle published; request failed twice"
+        },
+        "facebook_page_likes": 7505
+      },
+      "advertising": {
+        "meta": {
+          "page_id": "153736141492401",
+          "active_ads": 12,
+          "earliest_active": "2025-08-29",
+          "lead_headline": "Unlock the Future of Fitness Training!",
+          "lead_body": "Sign up for a 1-Month Free Trial and elevate your PT game!",
+          "landing": "/ai-coaching",
+          "audience": "trainer",
+          "note": "longest unbroken flight in the set"
+        },
+        "google": {
+          "estimate": 27,
+          "own_ads": 27,
+          "advertiser": "PT Distinction",
+          "first_shown": "2023-11-07",
+          "last_shown": "2026-10-26"
+        },
+        "linkedin": {
+          "total_ads": 0
+        },
+        "tiktok_ad_library": "no API endpoint available"
+      }
+    },
+    {
+      "name": "TrainerFu",
+      "rank_by_scale": 9,
+      "site": "https://www.trainerfu.com/",
+      "headline": "Simple Personal Trainer Software for In-Person and Online Training.",
+      "subheadline": "Personal training software to build workouts, track progress, sell programs, engage clients and grow your fitness business the easy way.",
+      "audience": "Solo trainers and small studios",
+      "owner": "TRAINERFU LLC; founder Manobal Jain; no team page and no HQ published",
+      "funding": "none found",
+      "company_claim": {
+        "trainers": "thousands (Google Play description only)",
+        "store_badges": "2,511 iOS ratings at 4.8 and 595 Android at 4.7"
+      },
+      "ios": {
+        "app": "Trainerfu For Personal Trainer",
+        "id": 807834256,
+        "seller": "TRAINERFU LLC",
+        "us_rating": 4.84044,
+        "us_count": 3209,
+        "gb_rating": 4.7351,
+        "gb_count": 302,
+        "released": "2014-02-01",
+        "updated": "2025-05-19",
+        "version": "14.6"
+      },
+      "play": {
+        "package": "com.trainerfu.android",
+        "developer": "Trainerfu LLC",
+        "installs": "50k+",
+        "rating": 4.8,
+        "reviews": 692,
+        "updated": "2025-10-26"
+      },
+      "pricing": {
+        "model": "trainer subscription, per client band",
+        "currency": "USD",
+        "bands": {
+          "10": 29,
+          "20": 49,
+          "40": 79,
+          "60": 99,
+          "80": 119,
+          "100": 139,
+          "150": 189,
+          "250": 250
+        },
+        "branded_app": "75/mo",
+        "annual": "2 months free",
+        "free_trial_days": 14,
+        "setup_fee": 0,
+        "clients_free": true,
+        "source_note": "figures extracted from the site's own main.js, since prices render client-side"
+      },
+      "billing_route": "payment processing offered for one-time payments, subscriptions and free trials; processor not named",
+      "apple_iap_for_clients": null,
+      "white_label": {
+        "separate_ios_listing": true,
+        "separate_play_listing": true,
+        "price": "75/mo",
+        "build_time": "less than 3 weeks"
+      },
+      "gamification": {
+        "streaks": null,
+        "streak_note": "'streaks broken' appears only as a coach-facing alert, not a client counter",
+        "badges": null,
+        "points": null,
+        "leaderboards": "on the habit-coaching page only",
+        "challenges": true,
+        "levels": null,
+        "avatars": null,
+        "habit_tracking": true,
+        "habit_score": null,
+        "has_game_layer": "thin"
+      },
+      "features": {
+        "client_video_upload_of_sets": null,
+        "client_video_note": "the only verified client upload is meal photos",
+        "coach_video_annotation": null,
+        "structure": "workout builder with templates; workouts scheduled weeks or months ahead",
+        "exercise_library": "over 1000+ exercise videos, plus custom exercises via YouTube links",
+        "client_calendar": true,
+        "progress_dashboards": true,
+        "progress_photos": true,
+        "push_notifications": "verified for habit reminders",
+        "messaging": "live chat, group messaging, in-app community newsfeed",
+        "nutrition": "MyFitnessPal integration and meal photo upload"
+      },
+      "distribution": {
+        "affiliate": null,
+        "affiliate_note": "/affiliate.html, /affiliate-program.html, /referral.html, /refer.html and /partners.html all return 404",
+        "referral": null,
+        "named_faces": [],
+        "named_faces_note": "social proof is anonymous App Store snippets; the only named person is the founder",
+        "acquires_first": "trainer",
+        "client_self_signup": false,
+        "in_app_marketplace": false,
+        "cert_partners": [],
+        "youtube_subs": null,
+        "localisation": "Spanish site at /es/ for a second SEO market",
+        "dormancy": "iOS not updated since 19 May 2025 and Android since 26 Oct 2025; marketing-site lastmod dates stall at March-April 2024; blog live to 13 Jul 2026"
+      },
+      "social": {
+        "youtube": {
+          "handle": "trainerfu",
+          "subscribers": 314,
+          "videos": 26,
+          "joined": "2020-03-11"
+        },
+        "instagram": {
+          "handle": "trainerfuapp",
+          "followers": 138,
+          "posts": 14
+        },
+        "x": {
+          "handle": "trainerfu",
+          "followers": 49,
+          "posts": 31
+        },
+        "tiktok": null,
+        "facebook_page_likes": null
+      },
+      "advertising": {
+        "meta": {
+          "page_id": null,
+          "active_ads": 0
+        },
+        "google": {
+          "estimate": 0,
+          "own_ads": 0
+        },
+        "linkedin": {
+          "total_ads": 0,
+          "note": "the one LinkedIn hit is TRAINERFUL, a HAZOP training company"
+        },
+        "tiktok_ad_library": "no API endpoint available",
+        "summary": "buys nothing on any network"
+      }
+    },
+    {
+      "name": "Kahunas",
+      "rank_by_scale": 10,
+      "site": "https://kahunas.io/",
+      "headline": "When it comes to coaching, who has time for clunky platforms and dull spreadsheets?",
+      "subheadline": "Switch to Kahunas, and get back to doing what you do best - helping your clients transform their lives!",
+      "audience": "Online coaches wanting their own branded app",
+      "owner": "Founder Mark Fox; the App Store listing is published by an individual, 'Mark Covey-Fox', not a company; HQ not published anywhere on the site",
+      "funding": "none found",
+      "company_claim": {
+        "users": "750,000+",
+        "coaches": "Over 14,000",
+        "app_delivery": "99% of all apps live within 30 days",
+        "nutrition_db": "1.6m verified foods, 800k barcodes, 2,400+ restaurant food items"
+      },
+      "third_party_reported": {
+        "source": "Stripe customer page, 2023 vintage",
+        "trainers": "over 6,000",
+        "customers": "150,000 global",
+        "arr": "$4 million",
+        "growth_2023": "900%",
+        "monthly_client_payments": "$1.2 million",
+        "churn": "16% to 7%",
+        "trial_conversion": "50% to 65%",
+        "stripe_products": [
+          "Payments",
+          "Billing",
+          "Connect",
+          "Checkout"
+        ],
+        "note": "Stripe's figures are well below the company's current claims"
+      },
+      "ios": {
+        "app": "Kahunas",
+        "id": 1638377758,
+        "seller": "Mark Covey-Fox",
+        "us_rating": 3.31169,
+        "us_count": 77,
+        "gb_rating": 3.19718,
+        "gb_count": 142,
+        "released": "2022-08-10",
+        "updated": "2026-03-30"
+      },
+      "play": {
+        "package": "com.cofox.kahunas.Kahunas",
+        "installs": "100k+",
+        "rating": 2.5,
+        "reviews": 257
+      },
+      "pricing": {
+        "model": "trainer subscription",
+        "currency": "USD",
+        "tiers": [
+          {
+            "name": "Essentials",
+            "monthly": 35,
+            "yearly": 315,
+            "clients": 25
+          },
+          {
+            "name": "Growth",
+            "monthly": 69,
+            "yearly": 621,
+            "clients": 50
+          },
+          {
+            "name": "Ultimate",
+            "monthly": 99,
+            "yearly": 900,
+            "clients": "unlimited",
+            "includes": "own branded iOS and Android apps with own store listings"
+          }
+        ],
+        "free_trial_days": 14,
+        "guarantee": "founder's personal same-day refund promise within 3 months",
+        "transaction_fee": 0,
+        "apple_developer_account": "$99/yr, paid by the coach"
+      },
+      "billing_route": "Stripe or PayPal direct to the coach, on Stripe Connect; no commission taken",
+      "apple_iap_for_clients": "in-app payments offered and set up on request; whether they route through Apple IAP is not stated",
+      "white_label": {
+        "separate_ios_listing": true,
+        "separate_play_listing": true,
+        "tier": "Ultimate",
+        "price": "99/mo",
+        "build_time": "under 30 days",
+        "quote": "In the Google Play & Apple App Store you have your own page with your logo, name, description, it's 100% yours",
+        "verified_example": {
+          "app": "UNLMTD PERFORMANCE",
+          "bundle": "com.kahunas.unlmtdcoaching",
+          "developer": "Kahunas",
+          "seller": "The Trustee for THE SARANDIS TRUST"
+        }
+      },
+      "gamification": {
+        "streaks": "login streak only, shipped in v2.6.0 on 2024-12-21",
+        "badges": false,
+        "points": false,
+        "leaderboards": false,
+        "challenges": false,
+        "levels": false,
+        "avatars": false,
+        "habit_tracking": true,
+        "habit_score": "'Health Score A.I' is named as a Growth-tier feature but is entirely undocumented",
+        "water_tracker": true,
+        "has_game_layer": false
+      },
+      "features": {
+        "client_video_upload_of_sets": null,
+        "coach_video_annotation": null,
+        "structure": null,
+        "structure_note": "workout plans with straight sets, supersets and circuits, plus nutrition and supplement plans; no named hierarchy published",
+        "exercise_library": "Over 1000, plus own uploads or YouTube import",
+        "client_calendar": true,
+        "progress_dashboards": true,
+        "progress_overlay": "instant client photo comparison",
+        "check_in_forms": "custom, with any metric",
+        "push_notifications": true,
+        "messaging": "1:1 with voice notes on every tier; group messaging from Growth; no verified calling",
+        "nutrition": "the deepest in the set",
+        "wearables": true,
+        "known_weakness": "repeated public App Store complaints about workout data loss and Apple Health syncing steps but not workouts"
+      },
+      "distribution": {
+        "affiliate": "a Rewardful programme exists; its terms page is Cloudflare-403 so rates are not verified from the page; reported elsewhere as 35% standard, 45% at 100 subscribers and 50% at 500+, with 20K Instagram or 10K YouTube eligibility",
+        "referral": "$49 per referred coach, paid once the referral has been active 60 days, via PayPal",
+        "named_faces": [
+          "Adam Ballinger",
+          "Lucy Anjuna",
+          "Shane Parsons",
+          "Callum Siddall",
+          "Louise Harwood",
+          "Excel Coaching",
+          "Bryce Bahm",
+          "Meftah Dagali",
+          "Louis Barril",
+          "Sean Barber",
+          "Haider Medhi",
+          "Robert Laing",
+          "Sadie Moes",
+          "Ryan Lee",
+          "Angas Wright",
+          "Clare Windsor",
+          "Martin Rowlands",
+          "Yonah Duniam"
+        ],
+        "acquires_first": "trainer",
+        "client_self_signup": false,
+        "in_app_marketplace": false,
+        "marketplace_note": "per-coach public package pages are search-indexed but there is no browsable directory",
+        "cert_partners": [],
+        "unexplained_signal": "a PureGym logo under a 'Recommended by' heading, with no wording, date or scope",
+        "youtube_subs": 1810,
+        "site_shape": "a single marketing page plus 75 blog posts and no comparison estate"
+      },
+      "social": {
+        "youtube": {
+          "handle": "kahunasio",
+          "subscribers": 1810,
+          "videos": 814,
+          "joined": "2014-10-31"
+        },
+        "instagram": {
+          "handle": "kahunasio",
+          "followers": 20185,
+          "posts": 1379
+        },
+        "x": {
+          "handle": "kahunasio",
+          "followers": 9,
+          "posts": 26,
+          "created": "2026-09-14"
+        },
+        "tiktok": null,
+        "facebook_page_likes": 2567
+      },
+      "advertising": {
+        "meta": {
+          "page_id": "108609668169335",
+          "active_ads": 58,
+          "earliest_active": "2026-07-23",
+          "lead_headline": "14 Day Free Trial",
+          "audience": "trainer",
+          "note": "every ad carries the same title; bodies open on a coach pain point"
+        },
+        "google": {
+          "estimate": 11,
+          "own_ads": 4,
+          "advertiser": "Kahunas FZC",
+          "first_shown": "2024-10-11",
+          "last_shown": "2026-10-26",
+          "note": "FZC is a UAE free-zone company — the only signal found of where Kahunas is registered"
+        },
+        "linkedin": {
+          "total_ads": 0,
+          "note": "LinkedIn hits are Kahuna competency software and Kahuna CRM"
+        },
+        "tiktok_ad_library": "no API endpoint available"
+      }
+    },
+    {
+      "name": "Hevy Coach",
+      "rank_by_scale": 11,
+      "site": "http://hevycoach.com/",
+      "headline": "Simple Personal Trainer Software for Professional Coaches",
+      "subheadline": "Take your coaching business to the next level using intuitive personal trainer software, and deliver a world class experience to your clients. Built by the Hevy team.",
+      "audience": "Strength coaches with small rosters",
+      "owner": "Hevy Studios, S.L. (Spain); founders Guillem Ros (co-founder and CEO) and Desmond McNamee (co-founder and CTO); ~25 staff based primarily in Barcelona with people in nine other countries",
+      "funding": "none found; a reported $2M annual revenue (Ottawa Business Journal) is not verified",
+      "company_claim": {
+        "hevy_users": "17+ million",
+        "exercise_library": "400+ exercises",
+        "borrowed_proof": "4.9 App Store and 4.9 Google Play from 630,000+ ratings, which belong to the consumer app",
+        "coach_count": null
+      },
+      "ios": {
+        "coach_app": "Hevy Coach - For Coaches & PT",
+        "coach_id": 6502961756,
+        "seller": "Hevy Studios S.L.",
+        "coach_us_rating": 4.0,
+        "coach_us_count": 4,
+        "coach_gb_rating": 2.5,
+        "coach_gb_count": 6,
+        "coach_released": "2024-10-21",
+        "coach_updated": "2026-10-21",
+        "consumer_app": "Hevy - Workout Tracker Gym Log",
+        "consumer_id": 1458862350,
+        "consumer_us_rating": 4.92344,
+        "consumer_us_count": 100098,
+        "consumer_gb_rating": 4.91442,
+        "consumer_gb_count": 30581,
+        "consumer_released": "2019-07-01"
+      },
+      "play": {
+        "coach_package": "com.hevycoach.app",
+        "coach_installs": "10k+",
+        "coach_rating": 3.7,
+        "coach_reviews": 70,
+        "consumer_package": "com.hevy",
+        "consumer_installs": "5m+",
+        "consumer_rating": 4.9,
+        "consumer_reviews": 255183
+      },
+      "pricing": {
+        "model": "trainer subscription, per client band",
+        "currency": "USD",
+        "bands": {
+          "1-10": 25,
+          "11-25": 50,
+          "26-50": 90,
+          "51-100": 160,
+          "101-200": 250,
+          "201-300": 360,
+          "301-400": 460,
+          "401-500": 550,
+          "501-1000": 700
+        },
+        "free_trial_days": 30,
+        "processor": "Paddle, for the coach subscription",
+        "clients_free": true,
+        "client_perk": "free Hevy Pro for all clients while coached",
+        "transaction_fee": "none, because there is no client billing"
+      },
+      "billing_route": "none; no client billing exists in the product",
+      "apple_iap_for_clients": false,
+      "white_label": {
+        "separate_ios_listing": false,
+        "separate_play_listing": false,
+        "note": "none at any price; the client uses the consumer Hevy app, which is the point of the model"
+      },
+      "gamification": {
+        "coach_product_has_game_layer": false,
+        "consumer_app_streaks": "weekly streak with forgiving backfill, shown at the top of the Calendar tab",
+        "consumer_app_leaderboards": "heaviest weight on 38 movements, among followed users only",
+        "live_pr_notification": true,
+        "monthly_report": true,
+        "year_in_review": true,
+        "badges": false,
+        "points": false,
+        "levels": false,
+        "avatars": false,
+        "challenges": false,
+        "habit_tracking": false
+      },
+      "features": {
+        "client_video_upload_of_sets": "partial",
+        "client_video_note": "three images or two images and one video per session, attached to the session rather than a set, visible to followers or the public, not routed to a coach; coach chat separately exchanges image and video files and is pitched to monitor technique",
+        "coach_video_annotation": null,
+        "structure": "Program > Workout (also called a routine) > Exercise > Set; assigned for 1-52 weeks with a start date; no periodisation vocabulary",
+        "exercise_library": "400+ with step-by-step instructions and animations; producer not stated",
+        "client_calendar": true,
+        "progress_dashboards": true,
+        "metrics": [
+          "exercise performance graphs",
+          "1RM predictions",
+          "weight lifted over time",
+          "set volume",
+          "time spent training",
+          "sets per muscle group",
+          "total training volume",
+          "body measurements",
+          "progress photos"
+        ],
+        "push_notifications": "thin; the client is notified when a coach messages, the coach gets email and browser notifications",
+        "messaging": "1:1 only, with image and video files; group chat, voice notes and calling not verified",
+        "nutrition": false,
+        "habit_tracking": false,
+        "wearables": [
+          "Apple Watch app",
+          "Strava"
+        ],
+        "apple_health": null
+      },
+      "distribution": {
+        "affiliate": "consumer app only: 25% commission on every new subscription and renewal, 5K+ follower eligibility, monthly payouts via Everflow",
+        "coach_affiliate": null,
+        "referral": null,
+        "named_faces": [
+          "Scott Slaman (@themechanic)",
+          "Fit With Rashid (@fitwithrashid)",
+          "Gilian Reichert (@om_giigo)"
+        ],
+        "acquires_first": "consumer, then monetises coaches on top",
+        "client_self_signup": "yes for the consumer app; the coach connection is invite-based by email",
+        "in_app_marketplace": false,
+        "marketplace_note": "despite a 17m-user consumer base there is no coach directory; the connection is coach-initiated and the coach's lead generation is a contact form and a unique invite link",
+        "cert_partners": [],
+        "youtube_subs": 56,
+        "youtube_videos": 2,
+        "consumer_youtube_subs": 3410,
+        "site_urls": 216,
+        "comparison_pages": 12
+      },
+      "social": {
+        "youtube": {
+          "handle": "hevycoach",
+          "subscribers": 56,
+          "videos": 2,
+          "joined": "2023-06-02"
+        },
+        "instagram": {
+          "handle": "hevycoach",
+          "followers": 1221,
+          "posts": 16
+        },
+        "x": null,
+        "tiktok": null,
+        "facebook_page_likes": null,
+        "consumer_hevy": {
+          "youtube": {
+            "handle": "HevyApp",
+            "subscribers": 3410,
+            "videos": 48,
+            "joined": "2019-04-07"
+          },
+          "instagram": {
+            "handle": "hevyapp",
+            "followers": 60085,
+            "posts": 161
+          },
+          "x": {
+            "handle": "hevyapp",
+            "followers": 5424,
+            "posts": 561
+          },
+          "tiktok": {
+            "handle": "hevyapp",
+            "followers": 25600,
+            "likes": 715600,
+            "videos": 222,
+            "note": "the only real TikTok presence in the set"
+          },
+          "facebook_page_likes": 12157
+        }
+      },
+      "advertising": {
+        "meta": {
+          "page_id": "453778398520668",
+          "active_ads": 0,
+          "note": "Hevy consumer page; 0 active"
+        },
+        "google": {
+          "estimate": 0,
+          "own_ads": 0,
+          "note": "hevyapp.com shows only 2 unrelated third-party advertisers; hevycoach.com none"
+        },
+        "linkedin": {
+          "total_ads": 0
+        },
+        "tiktok_ad_library": "no API endpoint available",
+        "summary": "buys nothing on any network, and still holds the largest consumer following in the set"
+      }
+    },
+    {
+      "name": "CoachRx",
+      "rank_by_scale": 12,
+      "site": "https://www.coachrx.app/",
+      "headline": "Build a Coaching Practice That Values Depth Over Volume",
+      "subheadline": "Design complete programs efficiently. Deliver high-impact 1:1 coaching. Scale to full-time income.",
+      "audience": "Coaches wanting depth over volume; OPEX-trained",
+      "owner": "OPEX Fitness (App Store seller OPEX Fitness LLC, Play developer OPEX Management Corporation); OPEX founder James Fitzgerald, CEO Carl Hardwick; Scottsdale, Arizona; CoachRx launched 2022",
+      "funding": "none disclosed",
+      "company_claim": {
+        "coaches": "Trusted by 8,000+ coaches",
+        "income_framing": "a sustainable 40-60 client practice at $80K-150K+",
+        "opex_method": "more than 10,000 coaches have trained in it since 1999"
+      },
+      "ios": {
+        "app": "CoachRx by OPEX Fitness",
+        "id": 1544150077,
+        "seller": "OPEX Fitness LLC",
+        "us_rating": 3.62963,
+        "us_count": 81,
+        "gb_rating": 4.07143,
+        "gb_count": 14,
+        "released": "2020-12-15",
+        "updated": "2026-10-23"
+      },
+      "play": {
+        "package": "app.coachrx.android",
+        "developer": "OPEX Management Corporation",
+        "installs": "10k+"
+      },
+      "pricing": {
+        "model": "trainer subscription, per client band",
+        "currency": "USD",
+        "tiers": [
+          {
+            "clients": "1-5",
+            "monthly": 29,
+            "annual_monthly": 25
+          },
+          {
+            "clients": "6-50",
+            "monthly": 79,
+            "annual_monthly": 67
+          },
+          {
+            "clients": "51-150",
+            "monthly": 199,
+            "annual_monthly": 169,
+            "note": "the homepage FAQ still quotes $149/mo for this tier"
+          },
+          {
+            "clients": "150+",
+            "price": "enterprise, contact support"
+          }
+        ],
+        "free_trial_days": 14,
+        "free_migration": true,
+        "migration_pitch": "Free migration (we know TrueCoach inside-out)"
+      },
+      "billing_route": "Stripe on the web, coach to client, with custom storefronts",
+      "apple_iap_for_clients": false,
+      "white_label": {
+        "separate_ios_listing": false,
+        "separate_play_listing": false,
+        "note": "none; 'custom storefronts' is a sales page, not an app"
+      },
+      "gamification": {
+        "streaks": true,
+        "streak_note": "consecutive completed workouts, visible in the shipped iOS app and its reviews but never mentioned on the website",
+        "badges": false,
+        "points": false,
+        "leaderboards": false,
+        "challenges": false,
+        "levels": false,
+        "avatars": false,
+        "habit_tracking": "behaviour tracking with visual compliance calendars",
+        "has_game_layer": false,
+        "positioning": "explicitly anti-gamification: depth over volume, a relationship not a transaction"
+      },
+      "features": {
+        "client_video_upload_of_sets": null,
+        "coach_video_review": true,
+        "coach_video_note": "Loom video messaging and screen share, coach to client",
+        "structure": "macro, micro and meso cycle planning; a unified programme calendar with the RxBot AI assistant; 60+ OPEX-designed templates",
+        "exercise_library": "over 2,000 video demonstrations, hosted on Vimeo",
+        "client_calendar": true,
+        "client_calendar_note": "unified across exercise, nutrition and lifestyle",
+        "progress_dashboards": true,
+        "push_notifications": null,
+        "messaging": "activity feed with workout comments, direct messaging, weekly check-ins, monthly consultations",
+        "nutrition": true,
+        "wearables": true,
+        "extras": [
+          "intake forms",
+          "contracts and waivers",
+          "mass client import",
+          "organisation and team accounts"
+        ]
+      },
+      "distribution": {
+        "affiliate": null,
+        "referral": {
+          "name": "CoachRx Referral Program (New April 2026)",
+          "date": "2026-04-21",
+          "terms": "$50 cash per referred signup, and the referred coach gets their first 30 days free, double the standard trial"
+        },
+        "named_faces": [
+          "Kyle Krancher",
+          "Bruno Miguel Ferreira Rocha",
+          "Dr Austin Schoen",
+          "Sam Smith",
+          "Brandon Wilton",
+          "Dr Frank Tardi",
+          "Chad Johnson"
+        ],
+        "named_faces_note": "working practitioners rather than influencers; James Fitzgerald and Carl Hardwick are not named on coachrx.app at all",
+        "acquires_first": "trainer",
+        "client_self_signup": false,
+        "in_app_marketplace": false,
+        "cert_funnel": {
+          "programme": "OPEX Coaching Certificate Program",
+          "price": "$5,995",
+          "payment_plans": "from $250 monthly",
+          "includes": "16 weeks of CoachRx plus LearnRx for 12 months and the cohort Slack",
+          "note": "the certification is the acquisition channel and the software the recurring revenue"
+        },
+        "podcast": "CoachRx Podcast Network",
+        "email_list": "weekly PROGRAM DESIGN PRO TIPS",
+        "cert_partners": [
+          "OPEX Fitness (same owner)"
+        ],
+        "youtube_subs": null
+      },
+      "social": {
+        "youtube": {
+          "handle": null,
+          "note": "footer links a playlist, not a channel"
+        },
+        "instagram": {
+          "handle": "coachrx.app",
+          "followers": 15201,
+          "posts": 2464
+        },
+        "x": null,
+        "tiktok": null,
+        "facebook_page_likes": 1911
+      },
+      "advertising": {
+        "meta": {
+          "page_id": "102775272355941",
+          "active_ads": 15,
+          "earliest_active": "2026-10-07",
+          "lead_headline": "Upgrade Your Coaching Software Now",
+          "lead_body": "Don't settle, demand more and start your free trial now. We offer free transition",
+          "audience": "trainer",
+          "note": "a switching ad aimed at competitors customers"
+        },
+        "google": {
+          "estimate": 20,
+          "own_ads": 18,
+          "advertiser": "OPTIMUM PERFORMANCE TRAINING LLC",
+          "first_shown": "2024-07-30",
+          "last_shown": "2026-10-26",
+          "note": "OPEX legal entity"
+        },
+        "linkedin": {
+          "total_ads": 0
+        },
+        "tiktok_ad_library": "no API endpoint available"
+      }
+    },
+    {
+      "name": "FitBudd",
+      "rank_by_scale": 13,
+      "site": "https://www.fitbudd.com/",
+      "headline": "#1 Personal Training Software for Fitness Coaches & Gyms",
+      "hero_h2": "Launch your Branded Fitness App in minutes",
+      "headline_note": "the literal H1 is the small kicker line; the dominant hero title is an H2",
+      "audience": "Coaches, influencers, gyms and studios wanting their own store listing",
+      "owner": "FitBudd, Inc.; founded 2021 by Saumya Mittal (CEO), Pranav Chaturvedi and Naman Singhal, IIT Delhi graduates; US entity with an India engineering base; no address published and /about-us returns 404",
+      "funding": [
+        {
+          "date": "2022-10-12",
+          "amount": "$3.4m",
+          "type": "seed",
+          "lead": "Accel India",
+          "others": [
+            "Beenext",
+            "Sequoia Capital India",
+            "Waveform Ventures"
+          ],
+          "at_the_time": "over 600 coaches across 20 countries"
+        },
+        {
+          "amount": "$3.9m lifetime (Tracxn)",
+          "verified": false
+        }
+      ],
+      "company_claim": {
+        "coaches": "10,000+ fitness coaches, influencers, gyms and studios",
+        "countries": "80+",
+        "capterra": "4.6/5",
+        "trainer_satisfaction": "88% trainers worldwide gave us 5 stars",
+        "press": [
+          "Forbes",
+          "VCcircle",
+          "Inc42",
+          "Business Insider"
+        ]
+      },
+      "ios": {
+        "client_app": "FitBudd Client",
+        "client_id": 1588719496,
+        "seller": "FitBudd Inc",
+        "client_us_rating": 4.66055,
+        "client_us_count": 109,
+        "client_gb_rating": 4.16667,
+        "client_gb_count": 6,
+        "client_released": "2021-10-07",
+        "client_updated": "2026-09-22",
+        "coach_app": "FitBudd Coach",
+        "coach_id": 6748600009,
+        "coach_us_count": 0,
+        "coach_gb_count": 0,
+        "coach_released": "2025-09-11"
+      },
+      "play": {
+        "client_package": "com.fitbudd.app",
+        "client_installs": "5k+",
+        "coach_package": "com.fitbudd.coach",
+        "coach_installs": "1k+",
+        "developer_page_apps": 20,
+        "developer_page_note": "20 distinct apps on the first page, nearly all trainer-branded, which is the real scale signal"
+      },
+      "pricing": {
+        "model": "trainer subscription plus a marginal per-client fee",
+        "currency": "USD",
+        "tiers": [
+          {
+            "name": "Starter",
+            "monthly": 15,
+            "yearly": 159,
+            "clients": 2,
+            "extra_client": 4
+          },
+          {
+            "name": "Pro",
+            "monthly": 79,
+            "yearly": 799,
+            "clients": 20,
+            "extra_client": 2,
+            "setup_fee": 0
+          },
+          {
+            "name": "Super Pro",
+            "monthly": 149,
+            "yearly": 1499,
+            "clients": 20,
+            "extra_client": 2,
+            "setup_fee": 75
+          },
+          {
+            "name": "Elite - Studio",
+            "price": "custom",
+            "setup_fee": 100
+          },
+          {
+            "name": "Elite - Creator",
+            "price": "custom",
+            "setup_fee": 100
+          }
+        ],
+        "free_trial_days": 30,
+        "addons": {
+          "appointments": "50/mo",
+          "team_unlimited_trainers": "50/mo",
+          "explore_on_demand": "50/mo",
+          "smart_flow": "20/mo plus $1/client over 20"
+        },
+        "white_label_extras": "a D-U-N-S number, a non-refundable $75 setup fee, $99 Apple and $25 Google developer fees"
+      },
+      "billing_route": "Stripe or PayPal direct to the coach on the web, PLUS Apple in-app purchase on Super Pro, where Apple pays the coach monthly and the coach checks Sales & Trends in App Store Connect",
+      "apple_iap_for_clients": "Super Pro only; FitBudd never states Apple's commission rate",
+      "white_label": {
+        "separate_ios_listing": true,
+        "separate_play_listing": "published under FitBudd's own Play developer account, not the trainer's",
+        "tier": "Super Pro",
+        "help_quote": "Clients can directly search for your app on the iOS App Store or the Google Play Store by typing the name of your app and downloading it from there",
+        "verified_example": {
+          "app": "BossFitAmy",
+          "ios_id": 6479200038,
+          "bundle": "com.bossfitamy.app",
+          "ios_developer_and_seller": "Amy Hollings",
+          "play_developer": "FitBudd",
+          "ios_released": "2024-03-11",
+          "ios_updated": "2026-01-28",
+          "finding": "on iOS the trainer's store identity is genuinely theirs; on Android it is not"
+        },
+        "pro_tier_note": "Pro gives theming and a branded website on FitBudd's own client app, not a listing"
+      },
+      "gamification": {
+        "streaks": false,
+        "badges": false,
+        "points": false,
+        "leaderboards": "Elite tier only",
+        "challenges": "Elite tier only; body transformation and activity types; ranks on Total Workouts Completed, Total Duration or Total Calories Burned Per Day, updated in real time",
+        "levels": false,
+        "avatars": false,
+        "habit_tracking": false,
+        "habit_note": "water intake and daily activity targets only; no habit module",
+        "has_game_layer": "Elite only"
+      },
+      "features": {
+        "client_video_upload_of_sets": null,
+        "client_video_note": "chat carries video messages with documented duration and size limits; no form-check or annotation article exists in a 41-article client-app help collection",
+        "coach_video_annotation": null,
+        "structure": "Workout Schedule > Workout (Structured or Follow-Along Video) > Segment > Exercise > reps or duration",
+        "segment_types": [
+          "superset",
+          "triset",
+          "warm-up",
+          "circuit",
+          "AMRAP",
+          "Tabata",
+          "EMOM"
+        ],
+        "alternates": "alternate exercises per exercise and alternate workouts per schedule",
+        "exercise_library": "4000+ Dynamic Exercises, plus unlimited own uploads at no add-on cost",
+        "client_calendar": true,
+        "progress_dashboards": true,
+        "progress_metrics": [
+          "configurable body measurements",
+          "progress photos",
+          "manual exercise progression logs",
+          "1RM",
+          "an RPE scale",
+          "workout-completion checks",
+          "weight and measurement goals"
+        ],
+        "push_notifications": true,
+        "messaging": "the richest in the set: 1:1 toggleable per client, group chat, broadcast, scheduled group messages, automated drips, audio notes, video messages, reply-privately within a group, document sharing, 1:1 video calling on Pro, Zoom for group classes, Live Connect sessions",
+        "nutrition": "nutrition library, BMR-based meal plans, meal schedules, recipe library, barcode scanning, grocery list, supplement plans, micronutrients",
+        "wearables": [
+          "Fitbit",
+          "Apple Watch",
+          "Garmin",
+          "Google Health/Health Connect"
+        ],
+        "casting": [
+          "AirPlay",
+          "Chromecast",
+          "Apple TV",
+          "Google TV"
+        ]
+      },
+      "distribution": {
+        "affiliate": "up to $50 bonus on the first successful customer plus 15% monthly recurring commission for 12 months, 90-day tracking cookie, no minimum payout",
+        "referral": "separate Refer a Coach and Refer a Gym paths",
+        "named_faces": [
+          "Derek Noble",
+          "Amy Hollings",
+          "Ben Corliss",
+          "Mike Lacombe",
+          "Meha Jivan",
+          "Shruthi Reddy",
+          "Justin Perkins",
+          "Chef Yadiyah",
+          "Pelegrina Dora",
+          "Jeremy Sry"
+        ],
+        "collaborator": "@drmarcmorris (15K subscribers) listed on its YouTube channel",
+        "acquires_first": "trainer",
+        "client_self_signup": "direct app sign-ups listed from Super Pro",
+        "in_app_marketplace": false,
+        "marketplace_note": "/personal-trainers-near-me reads as consumer intent but serves a trainer-acquisition page; per-trainer apps mean there is no shared surface for discovery",
+        "cert_partners": [],
+        "cert_note": "heavy NASM and ISSA comparison content is keyword capture, not partnership",
+        "integrations": [
+          "Mindbody (Elite Studio)",
+          "Zapier",
+          "Mailchimp",
+          "Zoom",
+          "Google Calendar"
+        ],
+        "youtube_subs": 1840,
+        "site_urls": 4341,
+        "comparison_pages": 60,
+        "niche_landing_pages": 34,
+        "sales_motion": "self-serve for Starter and Pro; Book a Demo is the only CTA on Super Pro and both Elite tiers",
+        "llm_optimisation": "the pricing page offers 'Get an unbiased answer from AI' with ChatGPT, Claude, Perplexity and Gemini buttons"
+      },
+      "social": {
+        "youtube": {
+          "handle": "fitbudd.",
+          "subscribers": 1840,
+          "videos": 526,
+          "joined": "2021-10-01"
+        },
+        "instagram": {
+          "handle": "fitbudd.app",
+          "followers": 13689,
+          "posts": 1050
+        },
+        "x": null,
+        "tiktok": {
+          "handle": "fitbudd",
+          "followers": 20,
+          "videos": 18
+        },
+        "facebook_page_likes": null
+      },
+      "advertising": {
+        "meta": {
+          "page_id": null,
+          "active_ads": 0,
+          "note": "no ad-library page found under the company name"
+        },
+        "google": {
+          "estimate": 67,
+          "own_ads": 35,
+          "advertiser": "Fitbudd Inc",
+          "first_shown": "2024-01-11",
+          "last_shown": "2026-10-26"
+        },
+        "linkedin": {
+          "total_ads": 0
+        },
+        "tiktok_ad_library": "no API endpoint available"
+      }
+    },
+    {
+      "name": "Exercise.com",
+      "rank_by_scale": 14,
+      "site": "https://www.exercise.com/",
+      "headline": "The #1 Software for Fitness Businesses",
+      "subheadline": "Ditch the generic salon tools. Exercise.com is the best gym management software built to grow your fitness business, online and in-person.",
+      "audience": "Gyms, studios and multi-location fitness businesses",
+      "owner": "Daxko, acquired 23 Oct 2025; the about page gives Daxko's address, 600 University Park Place, Suite 500, Birmingham, AL 35209; founder and CEO Joel Ohman is named in Daxko's release but not on Exercise.com's own about page",
+      "funding": "acquisition terms undisclosed; Vista Point Advisors acted as Exercise.com's exclusive financial adviser",
+      "company_claim": {
+        "scale": "Trusted by some of the biggest names in fitness today",
+        "logos": [
+          "Gold's Gym",
+          "APEC Sports Performance"
+        ],
+        "acquirer_claim": "trusted by thousands of studios, coaches, and personal trainers worldwide",
+        "counts": null
+      },
+      "ios": {
+        "app": "Daxko Exercise",
+        "id": 559019054,
+        "seller": "Exercise.com LLC",
+        "copyright": "(c) 2026 Daxko Exercise",
+        "us_rating": 3.22727,
+        "us_count": 22,
+        "gb_rating": 2.25,
+        "gb_count": 4,
+        "released": "2012-12-21",
+        "last_version": "5.32.0",
+        "last_version_date": "2024-10-14",
+        "note": "the generic listing understates the product, which ships per-customer branded apps, but there is no sign of post-acquisition release activity"
+      },
+      "play": {
+        "listing_found": false
+      },
+      "pricing": {
+        "model": "quote only",
+        "published_prices": null,
+        "free_trial": null,
+        "cta": "Book Demo on every page; Get a Quote on the pricing page",
+        "third_party_estimate": "~$239/mo per Capterra, not verified"
+      },
+      "billing_route": "web merchant processing, ECommerce, POS and payment splitting; processor not verified",
+      "apple_iap_for_clients": null,
+      "white_label": {
+        "separate_ios_listing": true,
+        "note": "'Custom-Branded Apps' is a headline feature in top-level navigation on every page; price undisclosed"
+      },
+      "gamification": {
+        "streaks": false,
+        "badges": false,
+        "points": false,
+        "leaderboards": true,
+        "challenges": true,
+        "challenge_note": "On-Demand Challenges",
+        "levels": false,
+        "avatars": false,
+        "habit_tracking": true,
+        "has_game_layer": "two mechanics only"
+      },
+      "features": {
+        "client_video_upload_of_sets": null,
+        "coach_video_annotation": null,
+        "structure": "Workout Plan Creator, Workout Logger, Exercise Library, Rep Max Progressions, Supersets",
+        "exercise_library": "with video demonstrations; size not published",
+        "client_calendar": "booking and check-in verified; a client-facing training calendar not verified",
+        "progress_dashboards": true,
+        "progress_features": [
+          "Performance Reporting",
+          "Progress Photos",
+          "Rep Max Progressions"
+        ],
+        "push_notifications": true,
+        "messaging": "email, SMS and push verified; in-app 1:1 chat not verified",
+        "extras": [
+          "Remote Door Access",
+          "E-Sign Waivers and Contracts",
+          "Trainer Commissions",
+          "Multi-Location",
+          "Sales Funnels",
+          "Websites",
+          "Livestreaming",
+          "Digital Products",
+          "CRM and Leads"
+        ]
+      },
+      "distribution": {
+        "affiliate": "run on Refersion: 10.00% commission, 7-day attribution window, payout net 60 days, open sign-up",
+        "in_product_features_not_to_confuse": [
+          "Trainer Commissions for staff earnings",
+          "Refer-a-Friend for a gym's own members to earn account credit"
+        ],
+        "referral": null,
+        "named_faces": [
+          "Brandon Stro"
+        ],
+        "named_faces_note": "institutional logos rather than individual influencers",
+        "acquires_first": "the business, via a sales call; consumers never meet the brand because each gym ships its own branded app",
+        "client_self_signup": false,
+        "in_app_marketplace": false,
+        "marketplace_note": "lead generation is sold to the gym (CRM, Leads, Sales Funnels, Websites), so there is no cross-business directory",
+        "cert_partners": [],
+        "acquisition": {
+          "date": "2025-10-23",
+          "acquirer": "Daxko",
+          "named": [
+            "Jeff VanDixhorn (CEO, Daxko)",
+            "Joel Ohman (Founder and CEO, Exercise.com)",
+            "Aldor H. Delp (President of Boutique Fitness, Daxko)"
+          ],
+          "terms": "not disclosed"
+        },
+        "youtube_subs": null
+      },
+      "social": {
+        "youtube": {
+          "handle": "exercise",
+          "name": "Daxko Exercise",
+          "subscribers": 682,
+          "videos": 313,
+          "joined": "2014-08-28"
+        },
+        "instagram": {
+          "handle": "exercisecom",
+          "followers": null,
+          "note": "handle in own footer returns HTTP 404"
+        },
+        "x": {
+          "handle": "exercise",
+          "name": "Daxko Exercise",
+          "followers": 7814,
+          "posts": 3606,
+          "created": "2010-07-28"
+        },
+        "tiktok": {
+          "handle": "exercisecom",
+          "followers": 28,
+          "videos": 257
+        },
+        "facebook_page_likes": null
+      },
+      "advertising": {
+        "meta": {
+          "page_id": null,
+          "active_ads": 0,
+          "note": "no ad-library page found under the company name"
+        },
+        "google": {
+          "estimate": 200,
+          "own_ads": 40,
+          "advertiser": "Exercise.com LLC",
+          "first_shown": "2025-06-05",
+          "last_shown": "2026-10-26",
+          "formats": {
+            "text": 17,
+            "image": 13,
+            "video": 10
+          },
+          "note": "heaviest Google buyer in the set"
+        },
+        "linkedin": {
+          "total_ads": 0
+        },
+        "tiktok_ad_library": "no API endpoint available"
+      }
+    },
+    {
+      "name": "Sidekick",
+      "rank_by_scale": null,
+      "status": "no such product",
+      "evidence": [
+        "sidekick.fit returns HTTP 302 to domains.atom.com; dig sidekick.fit NS returns ns1.atom.com and ns2.atom.com, i.e. parked on a domain marketplace and for sale",
+        "trainwithsidekick.com has no DNS A or NS records and does not resolve",
+        "sidekick.fitness resolves but serves an empty client-rendered shell; manifest.json reads 'Sidekick Fitness' and the asset fingerprints are Create React App v3-era builds from roughly 2019-2020, with no marketing site, pricing or about page",
+        "'Sidekick Fitness' on Google Play is com.trainerize.sidekickfitness, i.e. a Trainerize white-label app belonging to a gym of that name",
+        "'Sidekick Platform' (iOS 6504539500, Android com.sidekickwellness.chat) is Sidekick Health, a digital-therapeutics company",
+        "sidekicktraining.com is corporate workforce training, 'Powered by Enable Education'"
+      ],
+      "asking_price": null,
+      "note": "If the brief meant a small PT platform that died, QuickCoach is the real example: a genuine PT coaching platform that has shut down and is being actively poached by competitors, including by Hevy Coach's comparison pages.",
+      "social": null,
+      "advertising": null
+    }
+  ],
+  "cross_cutting": {
+    "client_video_upload_verified": [
+      "TrueCoach",
+      "Everfit",
+      "PT Distinction",
+      "TrainHeroic",
+      "FITR"
+    ],
+    "client_video_upload_absent": [
+      "ABC Trainerize"
+    ],
+    "client_video_upload_not_verified": [
+      "My PT Hub",
+      "Kahunas",
+      "FitBudd",
+      "TrainerFu",
+      "Playbook",
+      "Exercise.com",
+      "CoachRx"
+    ],
+    "client_video_annotation_verified_anywhere": false,
+    "genuine_game_layer": [
+      "Everfit",
+      "ABC Trainerize",
+      "TrainHeroic"
+    ],
+    "isolated_mechanics_only": [
+      "Exercise.com",
+      "FITR",
+      "FitBudd",
+      "Hevy (consumer app)",
+      "Kahunas",
+      "CoachRx",
+      "TrainerFu",
+      "TrueCoach"
+    ],
+    "no_game_layer_at_all": [
+      "My PT Hub",
+      "PT Distinction",
+      "Playbook"
+    ],
+    "points_levels_avatars_verified_anywhere": false,
+    "apple_iap_for_end_users": [
+      "TrainHeroic (its own Athlete Pro only)",
+      "Playbook (consumer subscription)",
+      "FitBudd (Super Pro)"
+    ],
+    "platform_rake_on_client_payments": {
+      "FITR": "5.99%",
+      "TrueCoach": "flat 5%",
+      "Everfit": "$9/mo plus 3.15%+$0.30 US domestic",
+      "ABC Trainerize": "$10/mo add-on, percentage not verified",
+      "Kahunas": "none",
+      "Hevy Coach": "no client billing",
+      "PT Distinction": "none stated; trainer's own processor",
+      "TrainHeroic": "2.9%+$0.30 bank fee on marketplace sales, plus 30% or $1/client/mo",
+      "Playbook": "20% of net revenue"
+    },
+    "separate_store_listing_prices": {
+      "TrainerFu": "$75/mo",
+      "Kahunas": "$99/mo (Ultimate)",
+      "My PT Hub": "GBP 125/mo",
+      "FitBudd": "$149/mo plus $75 setup, $99 Apple, $25 Google (Super Pro)",
+      "FITR": "$199.99/mo",
+      "ABC Trainerize": "from $248/mo (Studio)",
+      "Everfit": "Enterprise custom, gated at 500 clients",
+      "Exercise.com": "undisclosed",
+      "TrueCoach": "not offered",
+      "TrainHeroic": "not offered",
+      "CoachRx": "not offered",
+      "Hevy Coach": "not offered",
+      "Playbook": "structurally impossible",
+      "PT Distinction": "not verified"
+    },
+    "in_product_client_side_discovery": {
+      "yes": [
+        "ABC Trainerize (trainerize.me)",
+        "TrainHeroic (marketplace plus a 30% Matching service)",
+        "Everfit (everfit.io/explore, public beta in five countries)"
+      ],
+      "shareable_page_only": [
+        "TrueCoach",
+        "Kahunas",
+        "FITR",
+        "CoachRx",
+        "PT Distinction"
+      ],
+      "none": [
+        "My PT Hub",
+        "TrainerFu",
+        "Exercise.com",
+        "Hevy Coach",
+        "FitBudd"
+      ],
+      "consumer_marketplace_is_the_product": [
+        "Playbook"
+      ]
+    },
+    "consolidation_2024_2026": [
+      {
+        "date": "2024-03-13",
+        "event": "PYXiS Software Group (Jonas Software / Constellation Software) acquires EverCommerce's fitness solutions, including My PT Hub"
+      },
+      {
+        "date": "2025-10-23",
+        "event": "Daxko acquires Exercise.com"
+      },
+      {
+        "date": "2026-07-22",
+        "event": "Garmin acquires TrainHeroic and TrainingPeaks from Peaksware Holdings"
+      }
+    ],
+    "earlier_ownership_events": [
+      {
+        "date": "2020-09-15",
+        "event": "ABC Financial / ABC Fitness acquires Trainerize"
+      },
+      {
+        "date": "2020-11-18",
+        "event": "EverCommerce acquires My PT Hub for $11.7m, announced 3 Dec 2020"
+      },
+      {
+        "date": "2021-07-01",
+        "event": "Xplor Group acquires TrueCoach (third-party reported, not verified)"
+      }
+    ],
+    "notable_independents": [
+      "PT Distinction",
+      "FITR",
+      "Hevy Studios",
+      "Kahunas",
+      "FitBudd",
+      "CoachRx / OPEX",
+      "TrainerFu",
+      "Playbook"
+    ],
+    "free_trial_lengths_days": {
+      "ABC Trainerize": 30,
+      "My PT Hub": 30,
+      "Hevy Coach": 30,
+      "FitBudd": 30,
+      "PT Distinction": 30,
+      "TrueCoach": 14,
+      "TrainHeroic": 14,
+      "FITR": 14,
+      "TrainerFu": 14,
+      "CoachRx": 14,
+      "Kahunas": 14,
+      "Everfit": null,
+      "Playbook": 7,
+      "Exercise.com": null
+    },
+    "youtube_subscribers": {
+      "TrainHeroic": 25100,
+      "My PT Hub": 12400,
+      "Hevy (consumer)": 3410,
+      "PT Distinction": 2900,
+      "FitBudd": 1840,
+      "Kahunas": 1810,
+      "FITR": 408,
+      "Hevy Coach": 56,
+      "ABC Trainerize": null,
+      "TrueCoach": null,
+      "Everfit": null,
+      "Playbook": null,
+      "CoachRx": null,
+      "TrainerFu": null,
+      "Exercise.com": null
+    },
+    "certification_partnerships": {
+      "ABC Trainerize": [
+        "NASM",
+        "The PTDC",
+        "NPE",
+        "IPTA",
+        "Precision Nutrition",
+        "Axelsons PT Education"
+      ],
+      "TrueCoach": [
+        "NASM"
+      ],
+      "My PT Hub": [
+        "CIMSPA",
+        "Create PT",
+        "FutureFit",
+        "Strength & Conditioning Education",
+        "The Fitness Group"
+      ],
+      "CoachRx": [
+        "OPEX Coaching Certificate Program, same owner, $5,995 including the software"
+      ],
+      "others": "not verified for Everfit, PT Distinction, TrainHeroic, FITR, Hevy Coach, Kahunas, FitBudd, TrainerFu, Playbook or Exercise.com"
+    },
+    "unverified_across_the_board": [
+      "Instagram, TikTok and X follower counts for every platform",
+      "Capterra, GetApp, G2 and Trustpilot review counts, all Cloudflare-blocked",
+      "paid advertising activity for every platform; no ad library was queried",
+      "exercise-library provenance (who filmed the videos) for every platform",
+      "any sponsored-creator or podcast-ad relationship for any platform"
+    ],
+    "social_read_date": "2026-10-26",
+    "instagram_followers": {
+      "TrainHeroic": 66344,
+      "Hevy (consumer)": 60085,
+      "TrueCoach": 33065,
+      "Everfit": 32628,
+      "ABC Trainerize": 24247,
+      "Kahunas": 20185,
+      "CoachRx": 15201,
+      "FitBudd": 13689,
+      "FITR": 11990,
+      "Playbook": 8073,
+      "My PT Hub": 7511,
+      "PT Distinction": 3769,
+      "Hevy Coach": 1221,
+      "TrainerFu": 138,
+      "Exercise.com": null
+    },
+    "tiktok_followers": {
+      "Hevy (consumer)": 25600,
+      "TrainHeroic": 389,
+      "FITR": 81,
+      "Exercise.com": 28,
+      "My PT Hub": 27,
+      "FitBudd": 20,
+      "Everfit": 10,
+      "ABC Trainerize": 0,
+      "Kahunas": null,
+      "CoachRx": null,
+      "Playbook": null,
+      "TrainerFu": null,
+      "TrueCoach": null,
+      "PT Distinction": null,
+      "note": "TikTok is empty for twelve of the fourteen; only consumer Hevy has an audience"
+    },
+    "x_followers": {
+      "Exercise.com": 7814,
+      "Hevy (consumer)": 5424,
+      "TrainHeroic": 3704,
+      "ABC Trainerize": 3002,
+      "TrueCoach": 1519,
+      "My PT Hub": 1083,
+      "Everfit": 710,
+      "PT Distinction": 474,
+      "TrainerFu": 49,
+      "Kahunas": 9,
+      "FitBudd": null,
+      "FITR": null,
+      "Playbook": null,
+      "CoachRx": null
+    },
+    "meta_active_ads": {
+      "Everfit": 141,
+      "Kahunas": 58,
+      "TrainHeroic": 35,
+      "ABC Trainerize": 29,
+      "My PT Hub": 28,
+      "CoachRx": 15,
+      "PT Distinction": 12,
+      "TrueCoach": 0,
+      "Hevy": 0,
+      "Playbook": 0,
+      "FitBudd": null,
+      "FITR": null,
+      "Exercise.com": null,
+      "TrainerFu": null,
+      "note": "active ads on 2026-10-26 only; None means no ad-library page found under the company name",
+      "total_active_across_the_set": 318
+    },
+    "google_ads_estimate": {
+      "Exercise.com": 200,
+      "FITR": 200,
+      "Everfit": 200,
+      "My PT Hub": 200,
+      "FitBudd": 67,
+      "ABC Trainerize": 66,
+      "TrueCoach": 47,
+      "TrainHeroic": 43,
+      "PT Distinction": 27,
+      "Playbook": 20,
+      "CoachRx": 20,
+      "Kahunas": 11,
+      "Hevy": 0,
+      "TrainerFu": 0,
+      "note": "the API caps the estimate at 200"
+    },
+    "linkedin_ads": {
+      "My PT Hub": 11,
+      "TrainHeroic": 10,
+      "ABC Trainerize": 2,
+      "everyone_else": 0,
+      "note": "every other apparent hit was a company-name collision"
+    },
+    "ads_never_target_the_end_client": "No platform runs a consumer-facing ad for its own brand. The only paid consumer acquisition is delegated: Playbook creators and TrainHeroic marketplace coaches buy their own ads.",
+    "nobody_advertises_video_review": "Across 318 active Meta ads from eight platforms, plus the Google and LinkedIn creatives read, not one leads with form review, video feedback or technique.",
+    "platforms_buying_nothing": [
+      "Hevy / Hevy Coach",
+      "TrainerFu"
+    ]
+  }
+}

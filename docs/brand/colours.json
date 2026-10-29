@@ -1,0 +1,184 @@
+{
+ "proposed": "2026-10-28",
+ "source": "Tailwind v4 scales",
+ "light": {
+  "page": {
+   "tailwind": "stone-50",
+   "hex": "#FAFAF9"
+  },
+  "card": {
+   "tailwind": "white",
+   "hex": "#FFFFFF"
+  },
+  "line": {
+   "tailwind": "stone-200",
+   "hex": "#E7E5E4"
+  },
+  "text": {
+   "tailwind": "stone-800",
+   "hex": "#292524"
+  },
+  "muted": {
+   "tailwind": "stone-500",
+   "hex": "#79716B"
+  },
+  "primary": {
+   "tailwind": "green-700",
+   "hex": "#008236"
+  },
+  "on-primary": {
+   "tailwind": "white",
+   "hex": "#FFFFFF"
+  },
+  "link": {
+   "tailwind": "green-700",
+   "hex": "#008236"
+  },
+  "tint": {
+   "tailwind": "green-100",
+   "hex": "#DCFCE7"
+  },
+  "tint-text": {
+   "tailwind": "green-800",
+   "hex": "#016630"
+  },
+  "carrot": {
+   "tailwind": "orange-500",
+   "hex": "#FF6900"
+  },
+  "carrot-tint": {
+   "tailwind": "orange-100",
+   "hex": "#FFEDD4"
+  },
+  "carrot-text": {
+   "tailwind": "orange-800",
+   "hex": "#9F2D00"
+  },
+  "gold": {
+   "tailwind": "amber-400",
+   "hex": "#FFB900"
+  },
+  "on-gold": {
+   "tailwind": "stone-950",
+   "hex": "#0C0A09"
+  },
+  "danger": {
+   "tailwind": "red-600",
+   "hex": "#E7000B"
+  },
+  "danger-tint": {
+   "tailwind": "red-100",
+   "hex": "#FFE2E2"
+  },
+  "danger-text": {
+   "tailwind": "red-800",
+   "hex": "#9F0712"
+  },
+  "warning": {
+   "tailwind": "amber-600",
+   "hex": "#E17100"
+  },
+  "warning-tint": {
+   "tailwind": "amber-100",
+   "hex": "#FEF3C6"
+  },
+  "warning-text": {
+   "tailwind": "amber-800",
+   "hex": "#973C00"
+  },
+  "info": {
+   "tailwind": "sky-600",
+   "hex": "#0084D1"
+  }
+ },
+ "dark": {
+  "page": {
+   "tailwind": "stone-950",
+   "hex": "#0C0A09"
+  },
+  "card": {
+   "tailwind": "stone-900",
+   "hex": "#1C1917"
+  },
+  "line": {
+   "tailwind": "stone-800",
+   "hex": "#292524"
+  },
+  "text": {
+   "tailwind": "stone-100",
+   "hex": "#F5F5F4"
+  },
+  "muted": {
+   "tailwind": "stone-400",
+   "hex": "#A6A09B"
+  },
+  "primary": {
+   "tailwind": "green-500",
+   "hex": "#00C950"
+  },
+  "on-primary": {
+   "tailwind": "stone-950",
+   "hex": "#0C0A09"
+  },
+  "link": {
+   "tailwind": "green-400",
+   "hex": "#05DF72"
+  },
+  "tint": {
+   "tailwind": "green-950",
+   "hex": "#032E15"
+  },
+  "tint-text": {
+   "tailwind": "green-300",
+   "hex": "#7BF1A8"
+  },
+  "carrot": {
+   "tailwind": "orange-400",
+   "hex": "#FF8904"
+  },
+  "carrot-tint": {
+   "tailwind": "orange-950",
+   "hex": "#441306"
+  },
+  "carrot-text": {
+   "tailwind": "orange-300",
+   "hex": "#FFB86A"
+  },
+  "gold": {
+   "tailwind": "amber-400",
+   "hex": "#FFB900"
+  },
+  "on-gold": {
+   "tailwind": "stone-950",
+   "hex": "#0C0A09"
+  },
+  "danger": {
+   "tailwind": "red-400",
+   "hex": "#FF6467"
+  },
+  "danger-tint": {
+   "tailwind": "red-950",
+   "hex": "#460809"
+  },
+  "danger-text": {
+   "tailwind": "red-300",
+   "hex": "#FFA2A2"
+  },
+  "warning": {
+   "tailwind": "amber-400",
+   "hex": "#FFB900"
+  },
+  "warning-tint": {
+   "tailwind": "amber-950",
+   "hex": "#461901"
+  },
+  "warning-text": {
+   "tailwind": "amber-300",
+   "hex": "#FFD230"
+  },
+  "info": {
+   "tailwind": "sky-400",
+   "hex": "#00BCFF"
+  }
+ }
+}

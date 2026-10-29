@@ -1,0 +1,921 @@
+[
+  {
+    "name": "Stardew Valley",
+    "app_store_id": "1406710800",
+    "developer": "ConcernedApe (Eric Barone); mobile port by The Secret Police, London",
+    "launch_year": "2016 on PC; iOS 24 October 2018; Android 13 March 2019",
+    "business_model": "Premium one-off purchase, no in-app purchases and no ads. Announced at £7.99; £4.99 on the GB store on 27 October 2026. 'It's the full game, not a cut down version.'",
+    "unit_of_play": "The farm as individual tiles, plus the farmer as a character. You till a tile, water it and plant a seed, each one tool use costing energy. Crops are seasonal. Around the farm sits a second unit of play that matters as much to many players: the farmer's five skills, relationships with twelve marriage candidates, the mines, fishing and the Community Center bundles.",
+    "session_shape": "The session unit is the in-game day, ended by choosing to go to bed. The day is bounded by the clock (bed at or before midnight restores full energy; later restores less) and by the energy bar. There is no quick-glance screen and no ten-second move; the mobile port answers that with auto-save and control aids, including auto-tool selection on tap, rather than a shorter loop. This is the one app in the lane whose session shape is flatly wrong for a gym.",
+    "absence": "Crops do NOT die if you fail to water them. The wiki is explicit: 'Crops must be watered every day for maximum growth. If unwatered for a day, a crop will not grow. Unwatered crops do not die, but they will not grow either.' Neglect stalls progress; it does not destroy it. Loss comes from three other places: a known deadline ('On the 1st of each season, all crops that are no longer in season will wither and die'), randomness ('Lightning during thunderstorms can randomly strike crops, causing them to wither and die') and a missing defence ('Crops can be eaten by Crows when there are over 15 crops growing and there is no Scarecrow within range'). Real-world absence costs nothing at all: the clock is in-game only, so closing the app for six months leaves the farm exactly as it was.",
+    "streak_protection": "None needed. There is no streak and no real-time clock, so there is nothing to freeze, repair or forgive. The only forward-reaching penalty is exhaustion, which halves the next night's energy restoration and can be cured by eating a Muscle Remedy or, if married, kissing your spouse for the first time that day. Even a dead crop is partly forgiving - it keeps the soil beneath it tilled, saving work at the start of the next season.",
+    "currency": [
+      {
+        "name": "Gold (g)",
+        "earned_by": "Shipping crops, fish, foraged goods and artisan products; quests; the mines",
+        "spent_on": "Seeds, tool upgrades, farm buildings, animals, house upgrades and gifts",
+        "feeds_back": true
+      }
+    ],
+    "stakes_risk_chance": "Energy is the real stake and it bites: 'The player becomes exhausted upon reaching 0 energy... At -15 energy, the player passes out, ending the day. If the player passes out anywhere outside the house, the player will lose 10% of their money, up to 1,000g', and exhaustion then halves that night's energy restoration. Seasonal deadlines make planting a bet - an expensive long-growing seed planted too late withers worthless on day 1 of the next season. Chance is mostly upside: giant crops have a 1% chance per 3x3 grid per day and drop 15-21 items; there is a casino and a Night Market. The most important progression reward is risk removal - the Sprinkler 'waters 4 tiles... every morning' from Farming level 2, so the daily chore can be engineered away.",
+    "progression": "Time is the frame: four 28-day seasons make a year, each with its own festivals, birthdays and crops, shown on a calendar you can buy and hang on the wall. Milestones come from five skill trees levelled 1-10 with a profession choice at 5 and again at 10, tool upgrades, farm buildings, Community Center bundles, marriage, and a judged verdict from Grandpa at year 3. The mobile port carries PC content up to 1.6.15.",
+    "social": "Thin on iOS, rich inside the fiction. Mobile shipped with '1.3 single player content... but not Multiplayer'; Android now has 'multiplayer support as an experimental feature' and the 1.6.9 port included everything 'except non-LAN multiplayer'. The real social layer is single-player: gift-giving, heart levels and twelve romanceable villagers. The March 2026 iOS update added Game Center leaderboards for Junimo Kart endless mode and deepest Skull Cavern floor - opt-in, and about side activities rather than the farm.",
+    "freedom_identity": "Very high. You name the farmer, the farm, the pet and every animal; choose a farm layout type at the start; lay out crops, buildings, paths and furniture freely; and decide what each day is for. A tailoring menu and equipped clothes make cosmetic self-expression a real system.",
+    "signature_interaction": "Going to bed to end the day, and the overnight tally - the shipping bin totted up, money landing, skills levelling with a jingle, and a clean morning. The second gesture is the watering-can sweep: dragging across a row of tilled tiles in one continuous hold.",
+    "ui_type": "top-down world",
+    "art_style": "Hand-made 16-bit-style pixel art seen from a slightly angled top-down perspective, warm and strongly seasonal, with hand-drawn character portraits for dialogue.",
+    "home_screen": "The farm itself with the farmer standing on it. Sparse: a clock-and-date box and an energy bar at the edges, a small item toolbar, and nothing else laid over the world.",
+    "sound_feel": "Per-tool sound effects, seasonal music that changes with the calendar, animal noises, and the end-of-day level-up jingle. Mobile feel is dominated by the control schemes - tap-to-move plus auto-attack by default, an on-screen joystick alternative, and auto-tool selection so the right tool fires on a tap. Game Center support arrived in 1.6.15.1. Haptics not confirmed.",
+    "ios_gb_rating": 4.80051,
+    "ios_gb_rating_count": 6206,
+    "play_installs": "5m+ downloads; Play rating 4.58 from 156,785 reviews",
+    "complaints": [
+      {
+        "text": "Touch controls fight the player in combat: 'The on screen joysticks suck. Tap to move works until you need to do combat... I accidentally click my toolbar, switch from my sword, and get swarmed while holding a geode.'",
+        "url": "https://www.reddit.com/r/StardewValley/comments/1gqvq60/controls_on_mobile_are_so_frustrating/"
+      },
+      {
+        "text": "Tap-to-move misroutes and misfires - the wiki itself warns the character 'may suddenly stop, try a different path, or head off in a random direction (very likely a bug)' and that near the screen edge 'it is very easy to accidentally change the selected tool, resulting in unexpected gifting or bomb usage'",
+        "url": "https://stardewvalleywiki.com/Mobile_Controls"
+      },
+      {
+        "text": "No cross-platform multiplayer on iOS years after PC got it: mobile shipped 'not Multiplayer', and Android's is still only 'an experimental feature'",
+        "url": "https://stardewvalleywiki.com/Mobile_Version_History"
+      },
+      {
+        "text": "A long tail of port bugs - the 1.6.15.1 notes alone fix disappearing buildings, a shop crash, an infinite money exploit, an infinite item glitch and saves that would not load",
+        "url": "https://apps.apple.com/gb/app/stardew-valley/id1406710800"
+      }
+    ],
+    "praise": [
+      {
+        "text": "Value for a flat price with nothing to buy: 'If you are thinking of buying this app, IT IS SO WORTH THE MONEY.'",
+        "url": "https://apps.apple.com/gb/app/stardew-valley/id1406710800"
+      },
+      {
+        "text": "Sheer depth: 'This is a great game to lose who knows how many hours to', against an advertised 'over 50+ hours of gameplay content'",
+        "url": "https://apps.apple.com/gb/app/stardew-valley/id1406710800"
+      },
+      {
+        "text": "Players who stick with the touch controls say the objection is overstated: 'A week after playing Stardew on mobile and it's fine! Idk why all the hate on touch controls. I work it just fine!'",
+        "url": "https://www.reddit.com/r/StardewValley/comments/1w1321d/a_week_after_playing_stardew_on_mobile_and_its/"
+      },
+      {
+        "text": "The port is kept current with the PC game rather than abandoned - mobile is at 1.6.15 equivalence",
+        "url": "https://stardewvalleywiki.com/Mobile_Version_History"
+      }
+    ],
+    "lesson": "The most useful correction in this lane: the most beloved farm game in the world does not kill your crops when you neglect them, it stalls them. 'Unwatered crops do not die, but they will not grow either' is the exact rule RepGarden should adopt for a missed session - it punishes nothing and still makes attendance visibly matter. Steal two more things: loss attached to a deadline you were told about (the season boundary) rather than to absence, and progression that removes the chore, since the sprinkler is a reward for having watered by hand, the right shape for a client who gets fitter and needs less hand-holding. Avoid the session shape and the energy system: Stardew's day needs fifteen uninterrupted minutes, and an exhaustion penalty that halves tomorrow's capacity after overdoing it today is precisely the wrong message for a gym app.",
+    "sources": [
+      "https://itunes.apple.com/lookup?id=1406710800&country=gb",
+      "https://apps.apple.com/gb/app/stardew-valley/id1406710800",
+      "https://play.google.com/store/apps/details?id=com.chucklefish.stardewvalley",
+      "https://stardewvalleywiki.com/Crops",
+      "https://stardewvalleywiki.com/Energy",
+      "https://stardewvalleywiki.com/Sprinkler",
+      "https://stardewvalleywiki.com/Calendar",
+      "https://stardewvalleywiki.com/Mobile_Controls",
+      "https://stardewvalleywiki.com/Mobile_Version_History",
+      "https://www.stardewvalley.net/stardew-valley-coming-to-mobile/",
+      "https://www.reddit.com/r/StardewValley/comments/1gqvq60/controls_on_mobile_are_so_frustrating/",
+      "https://www.reddit.com/r/StardewValley/comments/1w1321d/a_week_after_playing_stardew_on_mobile_and_its/",
+      "https://www.reddit.com/r/StardewValley/comments/1u0yu7p/need_help_with_mobile_controls/"
+    ]
+  },
+  {
+    "name": "Hay Day",
+    "app_store_id": "506627515",
+    "developer": "Supercell",
+    "launch_year": "2012",
+    "business_model": "Free to download; in-app purchases (diamonds £0.99-£39.99, coin packs, a £4.99 Farm Pass) plus opt-in rewarded video for higher-level players; over $1.2bn lifetime revenue and 300m+ downloads. Supercell's stated intent: 'we designed the game so that it could be played truly for free without ever having to pay in order to progress.'",
+    "unit_of_play": "A whole isometric farm: fields of crops, animals, production buildings (bakery, BBQ grill, sugar mill, sewing machine, loom, cake oven), plus a Town with visitors, a Fishing Lake and the Valley unlocked by level. One real action = tap to sow, tap to harvest, feed an animal, feed the goods into a machine, sell the product. Goods go to a Barn, crops to a Silo.",
+    "session_shape": "Many short visits driven by timers from 2 minutes to 20+ hours. Ten-second visit: tap every ready field and machine, replant, leave - the farm itself is the dashboard, so no menu is needed. Longer sit-down: up to nine truck orders at level 32, a boat every 4 hours, the Roadside Shop, Derby tasks, the Valley. Supercell removed the scaffolding that would force a longer session: 'There's no forced tutorial. No missions or quests in Hay Day. And there's no right way to play.'",
+    "absence": "Nothing is lost, ever. Official Supercell page: 'It never rains here, but the crops never die.' Animals do not starve and fields wait indefinitely. The only forfeit in the whole game is an accepted Derby task failed inside its time limit (4h30m to 3 days).",
+    "streak_protection": "No daily streak exists to break (not confirmed that any streak mechanic exists). Instead the game pays for return: a farm inactive over 31 days, and not triggered in the last 365 days, receives Re-engagement Rewards - two days of special visitor offers, a free day of Tom's services, a free day of tree/bush/rock removal, a free Silo upgrade, a free Barn upgrade, and all animals fed on return. Players discuss deliberately lapsing to collect them.",
+    "currency": [
+      {
+        "name": "Coins",
+        "earned_by": "Filling truck and boat orders, serving town visitors, selling goods in the Roadside Shop",
+        "spent_on": "Seeds, animals, buildings, expansion supplies (land deeds, mallets, marker stakes at 403 coins each from level 22)",
+        "feeds_back": true
+      },
+      {
+        "name": "Diamonds",
+        "earned_by": "Achievements, boat and Derby rewards, mystery boxes, rewarded video ads - a slow drip of mostly single units; mainly bought with real money",
+        "spent_on": "Skipping production timers, Barn and Silo expansion, decorations and paths - 'almost anything'",
+        "feeds_back": true
+      },
+      {
+        "name": "Barn and Silo upgrade materials (bolts, planks, duct tape / nails, screws, wood panels)",
+        "earned_by": "Random drops from harvesting, producing goods and mystery crates; traded with neighbours or bought in roadside shops",
+        "spent_on": "Barn upgrades and Silo upgrades; each upgrade needs one more of each part than the last. This drip, not money, is what actually gates progress.",
+        "feeds_back": true
+      },
+      {
+        "name": "Vouchers",
+        "earned_by": "Completing truck and boat orders",
+        "spent_on": "Special items and upgrades",
+        "feeds_back": true
+      },
+      {
+        "name": "Valley tokens (blue, green, pink)",
+        "earned_by": "Valley delivery quests, product requests, cooperative quests, found on the valley road",
+        "spent_on": "Valley shop items only; capped at 6,000 per colour",
+        "feeds_back": true
+      }
+    ],
+    "stakes_risk_chance": "No betting and nothing lost outside opt-in events. The Derby is the opt-in challenge: tasks award roughly 50-320 points by difficulty, most carry a 4h30m to 3-day limit, and an unfinished task is not credited. Chance is additive only: mystery boxes and the Daily Dirt drop expansion supplies at random, boat requests appear random, town visitors arrive every 6 hours on the EGGspress train and some ask to see a named sanctuary animal for an extra gift. The App Store 9+ rating lists loot boxes.",
+    "progression": "Experience levels unlock content - boat dock at 17, Derby at 18, farm expansion at 22, Valley at 25, Fishing Lake at 27, ninth truck order at 32. Beyond levels the milestones are capacity: each Barn and Silo upgrade, each patch of land, each Town Station level up to 12 (14 visitors per train). Seasons layer on: a weekly Derby (six days, 08:00 UTC Tuesday to 08:00 UTC Monday, with a 24-hour cooldown to opt out or back in), roughly three-week Valley seasons since June 2019, and a Farm Pass season from level 11 with free and paid tracks.",
+    "social": "Opt-in and layered. Neighbourhoods of up to 30 players with chat and a weekly Derby. Help is asked, not imposed, through a neighbourhood mailbox/request board and help signs in chat. The Roadside Shop is genuine player-to-player trade: up to ten units of an item per box at any price from one coin up, with buyers finding you through the Daily Dirt newspaper where you pay to advertise. You can send your personal train to a neighbour's town. Reviewers note you can be 'as competitive (or chill) as you like'.",
+    "freedom_identity": "The farm is a layout you author - place and move buildings, fields, animals, paths and decorations; 'Decorate your farm' is a listed feature. You also choose sanctuary animals, your neighbourhood and your own shop prices. Supercell's refusal to teach ('we avoid teaching players to play the game') is itself a freedom choice.",
+    "signature_interaction": "Dragging a finger across a field of ripe wheat so the whole row cuts and bales under your thumb, then dragging back over bare soil to sow it again - harvest and replant are the same gesture on the same patch, which is why a visit can take ten seconds. Gesture description inferred from the listing and reviews; not confirmed as a quoted developer statement.",
+    "ui_type": "isometric world",
+    "art_style": "One continuous isometric farm you pan and pinch, 'bright, clean, and cartoony, with just enough detail to make everything feel alive without overwhelming your screen' - high-quality 2D, warm bright palette, a 'feel-good' register. Dense but legible, and entirely diegetic rather than dashboard-driven.",
+    "home_screen": "The farm itself. Ready crops and finished goods are flagged by icons floating above them; the order board, Roadside Shop, barn and silo sit in the world as buildings you tap, with the neighbourhood, Derby and Valley as boards at the edges. There is no stat dashboard - the barn, the fields and the order board are the readout.",
+    "sound_feel": "Animation-led feedback: chickens flap when you collect eggs, pigs wiggle in the mud, and the bakery and jam maker have their own little animations that make the production cycle feel satisfying; a reviewer called the result 'a quietly pleasing experience'. Push notifications carry the loop outside the app ('Milk is ready to be collected'). Haptics not confirmed.",
+    "ios_gb_rating": 4.67398,
+    "ios_gb_rating_count": 73805,
+    "play_installs": "100m+ (Google Play, 4.4 stars from 13.1m reviews)",
+    "complaints": [
+      {
+        "text": "'My Barn and Silo are constantly full, which prevents me from producing items, completing orders, and making meaningful progress in the game. The expansion materials needed to increase storage capacity are extremely difficult to obtain.'",
+        "url": "https://www.sikayetvar.com/en/hay-day-us/hay-day-storage-problem-makes-progress-impossible"
+      },
+      {
+        "text": "'Farm pass is worthless' - 171 upvotes, 61 comments; a companion thread titled 'Keep playing, quit paying.' drew 136 upvotes",
+        "url": "https://www.reddit.com/r/HayDay/comments/1n5kss1/farm_pass_is_worthless/"
+      },
+      {
+        "text": "Identity gated behind an unearnable currency: 'the cost of the only pretty dirt path in game is higher than my will to live' - 196 upvotes. Pocket Gamer's verdict was 'just another freemium time sink'.",
+        "url": "https://www.reddit.com/r/HayDay/comments/11laikv/anyone_have_any_tips_on_how_to_get_diamonds_since/"
+      }
+    ],
+    "praise": [
+      {
+        "text": "'Nothing Bad Ever Happens in the Oldest Game at Supercell' - the subreddit's own summary of the design",
+        "url": "https://www.reddit.com/r/HayDay/comments/1ub5k05/nothing_bad_ever_happens_in_the_oldest_game_at/"
+      },
+      {
+        "text": "'I was surprised to see the game doesn't punish you for not logging in. If you don't play the game for a while, your crops don't dry out and your starving animals somehow stay alive.'",
+        "url": "https://www.blog.udonis.co/mobile-marketing/mobile-games/hay-day-monetization"
+      },
+      {
+        "text": "'Chickens flap around when you collect eggs, pigs wiggle in the mud, and machines like the bakery or jam maker have fun little animations that make the production cycle feel more satisfying.'",
+        "url": "https://www.playnforge.com/hay-day-review/"
+      },
+      {
+        "text": "Players return after years away rather than churning for good: 'Took a break for 8 years...is it possible to get back to it?'",
+        "url": "https://www.reddit.com/r/HayDay/comments/1tidbec/took_a_break_for_8_yearsis_it_possible_to_get/"
+      }
+    ],
+    "lesson": "Hay Day proves a fourteen-year retention curve with zero decay, so RepGarden's pressure must come from capacity and orders, not loss: a barn that fills up, a weekly order to fill, and a slow drip of upgrade parts earned from logged sets, so the squeeze is 'more than I can store' rather than 'my plants died'. Copy the opt-in Derby shape for the trainer's challenges - a bounded weekly task with a real deadline that a client can sit out at no cost is the only place stakes belong in a three-times-a-week app - and copy the Re-engagement Reward: pay a returning client with a free capacity upgrade instead of showing them a broken streak. Avoid Hay Day's one real failure: gating the identity layer (paths, decoration) behind a currency nobody can earn is the loudest complaint in its own subreddit, so in a free app every cosmetic must be buyable with training.",
+    "sources": [
+      "https://itunes.apple.com/lookup?id=506627515&country=gb",
+      "https://apps.apple.com/gb/app/hay-day/id506627515",
+      "https://play.google.com/store/apps/details?id=com.supercell.hayday",
+      "https://supercell.com/en/games/hayday/",
+      "https://en.wikipedia.org/wiki/Hay_Day",
+      "https://www.deconstructoroffun.com/blog//2013/01/behind-success-of-hay-day.html",
+      "https://www.gamedeveloper.com/business/game-monetization-design-analysis-of-hay-day",
+      "https://www.blog.udonis.co/mobile-marketing/mobile-games/hay-day-monetization",
+      "https://www.pocketgamer.com/hay-day/review/",
+      "https://www.playnforge.com/hay-day-review/",
+      "https://ingame.help.supercellsupport.com/hay-day/en/articles/re-engagement-rewards.html",
+      "https://hayday.fandom.com/wiki/Vacation_Mode",
+      "https://hayday.fandom.com/wiki/Barn",
+      "https://hayday.fandom.com/wiki/Silo",
+      "https://hayday.fandom.com/wiki/Roadside_Shop",
+      "https://hayday.fandom.com/wiki/Mailbox",
+      "https://hayday.fandom.com/wiki/Truck",
+      "https://hayday.fandom.com/wiki/Boat",
+      "https://hayday.fandom.com/wiki/Town_Visitors",
+      "https://hayday.fandom.com/wiki/Town_Station",
+      "https://hayday.fandom.com/wiki/Valley",
+      "https://hayday.fandom.com/wiki/Token",
+      "https://hayday.fandom.com/wiki/Fishing_Lake",
+      "https://myfarm.site/articles/hay-day-derby-events-guide/",
+      "https://www.thehaytrade.com/guides/hay-day-land-expansion-materials",
+      "https://www.supercheats.com/hay-day/walkthrough/roadside-shop",
+      "https://www.sikayetvar.com/en/hay-day-us/hay-day-storage-problem-makes-progress-impossible",
+      "https://www.reddit.com/r/HayDay/comments/1ub5k05/nothing_bad_ever_happens_in_the_oldest_game_at/",
+      "https://www.reddit.com/r/HayDay/comments/1tidbec/took_a_break_for_8_yearsis_it_possible_to_get/",
+      "https://www.reddit.com/r/HayDay/comments/1b7m4i7/would_you_stop_playing_and_start_playing_again/",
+      "https://www.reddit.com/r/HayDay/comments/1n5kss1/farm_pass_is_worthless/",
+      "https://www.reddit.com/r/HayDay/comments/1t1x254/keep_playing_quit_paying/",
+      "https://www.reddit.com/r/HayDay/comments/11laikv/anyone_have_any_tips_on_how_to_get_diamonds_since/"
+    ]
+  },
+  {
+    "name": "FarmVille 2: Country Escape",
+    "app_store_id": "824318267",
+    "developer": "Zynga Inc.",
+    "launch_year": "2014",
+    "business_model": "Free to download; in-app purchases (Keys from £1.99 'Pile of Keys' to £19.99 packs, coin packs, a Premium Farm Pass) plus event passes and published gacha drop rates for the Prize Wheel, Prospector's Corner, the Magic Magnus Show and Pet Pass. Metacritic Metascore 64 from 4 critics; user score 5.3.",
+    "unit_of_play": "A coastal farm: crops, animals (horses, chickens, cows, farm dogs), crafting workshops turning harvests into recipes such as apple pies, and a map of off-farm Places of Interest you send Farm Hands to forage. Storage splits across Barn, Crop Silo and Seaway Storage. Essential history: the original FarmVille (Facebook, 19 June 2009, peak 83.76m monthly and 34.5m daily active users in March 2010) made the farm itself the thing at risk - 'Crops wither if unharvested within 2.5 times their growth duration' - and closed on 31 December 2020 because Facebook stopped supporting Flash Player games that day.",
+    "session_shape": "Short bursts against timers, with the player picking crop lengths to match their own absence - fast crops while actively playing, 'slower crops and longer crafting jobs so they finish by your next visit' when leaving. Ten-second visit: harvest, replant, restart a workshop, spin the daily Prize Wheel. Pacing degrades with level: 'wait times have increased to hours rather than minutes' and 'soon enough it takes hours upon hours to see progress'. Runs fully offline with no connection required, uploading progress when convenient.",
+    "absence": "No withering is documented. The official Zynga help centre's entire Crop & Silo section (What is the Crop Silo? / What can it store? / What happens when it is full? / How do I upgrade the Barn, Crop Silo and Seaway Storage?) contains no article on crops withering, spoiling or dying, and veteran players bank ready crops indefinitely as a tactic: 'Many of the fast-growing crops I just leave ready to harvest, so that when I need them, I can just harvest and replant them immediately.' CORRECTION TO THE BRIEF: that Zynga publicly said it removed withering for Country Escape is NOT CONFIRMED. The much-quoted Tim LeTourneau line (VP of Games, Kotaku, 5 September 2012) is about FarmVille 2 on Facebook and cites withering as still present: 'in most social games, what you're really combatting is time... For example, that your crops wither if you don't come back and take care of them. So it is really positive, the pinch is really the speed at which we progress, or really, the loss of your effort.' FarmVille 2 on Facebook kept withering at the same 2.5x multiplier with a Farm Cash 'unwither'. Withering was dropped somewhere between the 2012 Facebook game and the 2014 mobile one, but the stated reason is not confirmed.",
+    "streak_protection": "No streak mechanic in Country Escape is documented, so nothing to protect - not confirmed either way. By contrast the original FarmVille's answer to loss was purchasable: the Unwither Ring cost 250 Farm Cash, about $42 of real money, and permanently stopped crops withering. It was defended at the time on the grounds that 'The threat of withering plants is what keeps players engaged and coming back for more on a daily basis.'",
+    "currency": [
+      {
+        "name": "Coins",
+        "earned_by": "Selling crops, crafted goods and animal products; orders and quests",
+        "spent_on": "Seeds, animals, buildings, basic upgrades",
+        "feeds_back": true
+      },
+      {
+        "name": "Keys",
+        "earned_by": "A very limited free supply after an introductory package - level-ups, events, the country fair and prize pickups; mainly bought with real money",
+        "spent_on": "Skipping wait times, unlocking multiple copies of production buildings, land expansion, tough timed quests",
+        "feeds_back": true
+      },
+      {
+        "name": "Event and collection currencies (Collections, Wild Trails, Crown Society, Pet Pals, Tiny Tracks, Treasure Trench tokens)",
+        "earned_by": "Timed events, collections, Prize Wheel and Prospector's Corner drops",
+        "spent_on": "Event-specific rewards, animals and decorations",
+        "feeds_back": true
+      }
+    ],
+    "stakes_risk_chance": "Chance is the main spice and all upside: a daily Prize Wheel spin with an extra spin for inviting friends, daily mystery chests, a Prize Tent, Prospector's Corner and the Magic Magnus Show, each with Zynga-published drop rates. Farm Hands are the one genuine gamble of time - you commit hands to a Place of Interest for 'a chance to find the rarest and most valuable items', with per-location capacities (Grandma's Glade 2, Pappy's Pond 4, Merryweather Mine 6) and per-hand bonus percentages. Co-op group challenges and limited-time events are the opt-in competitive stakes. No betting or risked loss documented.",
+    "progression": "Experience levels unlock crops, buildings and areas, with storage upgrades (Barn, Crop Silo, Seaway Storage) as the parallel capacity track and land expansion key-gated. On top sit named seasonal and collection systems - Collections, Wild Trails, Crown Society - plus timed events such as Pet Pals, Tiny Tracks and Treasure Trench, each its own chapter with its own rewards; the game's own Hot Topics flag 'milestone rewards'. Reviewers found expansion and decoration 'more restrictive than predecessor'.",
+    "social": "Opt-in, and explicitly redesigned to kill the original's spam, where players performed five actions a day on each other's farms and gift-begging was the alternative to paying. Country Escape offers Farm Co-ops you join or create to 'trade goods, complete group challenges, and progress together' with in-game chat, a global market for player-to-player trading, and Speed Seed requests to friends. Built 'with optimizations to save time and reduce social spamming' and 'designed for iOS without requiring pestering friends for items'. Zynga's framing on the mobile relaunch, from VP of Games Jonathan Knight: 'The game is better with friends, but that's the player's choice.' Players sort themselves by intensity, advertising for a 'no pressure' co-op.",
+    "freedom_identity": "Decorate the farm 'with flowers, buildings, and scenery'; keep and name pets and animals including farm dogs and horses; choose your co-op. Reviewers rated the customisation thinner than the Facebook original's. Crafting specialisation gives a soft identity - which goods you make - rather than a visual one.",
+    "signature_interaction": "Sending a Farm Hand off the farm, down the coast road to Grandma's Glade or Merryweather Mine, and getting back a bag of foraged rarities you could not have grown - dispatching a helper into the world and waiting for the surprise, rather than tending a square. The original FarmVille's signature was the opposite and worth naming for contrast: the feed post asking a friend to come and water your dying crops.",
+    "ui_type": "isometric world",
+    "art_style": "A single continuous isometric coastal farm you scroll, plus a map layer for off-farm Places of Interest. 'Bright and colorful', with 'a hopeful and cheery tone'; the interface judged 'welcoming enough - pleasant and straightforward'. Dense: crops, animals, workshops, co-op and event buttons all compete for the screen.",
+    "home_screen": "The farm, with the Barn, Crop Silo and crafting workshops placed in it as buildings you tap, ready crops flagged in the fields, and event, co-op, Prize Wheel and Farm Hand entry points layered around the edges.",
+    "sound_feel": "The felt experience reviewers report is progress-bar watching - it 'boils down to watching progress bars fill up' - with the appeal being rhythm rather than punch: 'There's a certain rhythm to all this growing, feeding, and selling that makes the early levels fly by.' Specific haptics, sound design and completion animations: not confirmed.",
+    "ios_gb_rating": 4.60952,
+    "ios_gb_rating_count": 27054,
+    "play_installs": "50m+ (Google Play, 4.6 stars from 3.23m reviews)",
+    "complaints": [
+      {
+        "text": "'FarmVille 2: Country Escape is a true time waster. Despite plenty of content that could last weeks, it boils down to watching progress bars fill up.' - Pocket Gamer UK, 50/100, Danny Russell, 2 May 2014",
+        "url": "https://www.pocketgamer.com/farmville-2-country-escape/review/"
+      },
+      {
+        "text": "Keys are 'very hard to come by' yet 'essential for expanding your farm's production', and the tap-and-wait loop 'gets kind of old after a while'; 148apps adds they are 'available in very limited number after the initial introductory package'",
+        "url": "https://www.withoutthesarcasm.com/posts/farmville-2-country-escape-review/"
+      },
+      {
+        "text": "'Average game but very slow and crashes a lot. Items and expansions can be pricey.' - Metacritic user Xbluannax, 5/10. Storage friction recurs on r/farmville2 as 'Barn and Silo issues'.",
+        "url": "https://www.metacritic.com/game/farmville-2-country-escape/"
+      }
+    ],
+    "praise": [
+      {
+        "text": "'The game is bright and colorful, and has a hopeful and cheery tone' - it manages to feel 'fun' and 'relaxing', and 'there's a certain rhythm to all this growing, feeding, and selling that makes the early levels fly by'",
+        "url": "https://www.withoutthesarcasm.com/posts/farmville-2-country-escape-review/"
+      },
+      {
+        "text": "'it's possible to play offline and then upload what's been going on when it's convenient' - and it is designed for iOS without 'pestering friends for items'",
+        "url": "https://www.148apps.com/reviews/farmville-2-country-escape-review/"
+      },
+      {
+        "text": "'the first few days with FarmVille 2: Country Escape were almost fever-inducing in their addictiveness', and the interface is 'welcoming enough - pleasant and straightforward'",
+        "url": "https://www.pocketgamer.com/farmville-2-country-escape/review/"
+      },
+      {
+        "text": "Players self-select their intensity rather than being pushed, advertising for a 'no pressure' co-op",
+        "url": "https://www.reddit.com/r/farmville2/comments/1nwh6b7/looking_for_a_no_pressure_coop/"
+      }
+    ],
+    "lesson": "The FarmVille arc is the lane's clearest argument against decay: the withering that made the original a phenomenon also got it called 'a series of mindless chores on a digital farm' and spawned a $42 ring whose only job was to switch the punishment off, while the successor that survived on mobile has no withering at all - so a missed gym day must never kill a vegetable, and RepGarden must never sell or grant a way to undo a loss. Steal the Farm Hand instead: an opt-in dispatch that costs nothing to skip, runs while the client is away and returns a random useful thing is the cheapest way to make the evening check-in worth opening, and it needs no trainer input. Avoid Country Escape's two real failures - a scarce premium currency standing in front of every capacity upgrade, which soured its reviews, and timers that stretch from minutes to 'hours upon hours' as you level, which is backwards for a client who trains more as they get fitter.",
+    "sources": [
+      "https://itunes.apple.com/lookup?id=824318267&country=gb",
+      "https://apps.apple.com/gb/app/farmville-2-country-escape/id824318267",
+      "https://play.google.com/store/apps/details?id=com.zynga.FarmVille2CountryEscape",
+      "https://en.wikipedia.org/wiki/FarmVille",
+      "https://en.wikipedia.org/wiki/FarmVille_2",
+      "https://farmville2.fandom.com/wiki/Unwither",
+      "https://kotaku.com/zynga-thinks-youll-like-farmville-2-im-not-so-sure-5940700",
+      "https://www.yahoo.com/news/2010-02-14-farmville-unwither-ring-the-worst-thing-to-happen-to-virtual-fa.html",
+      "https://www.pocketgamer.biz/crops-with-clans-how-zynga-rethought-farmville-2-for-the-post-facebook-generation/",
+      "https://zyngasupport.helpshift.com/hc/en/11-farmville-2-country-escape/",
+      "https://zyngasupport.helpshift.com/hc/en/11-farmville-2-country-escape/section/300-crop-silo/",
+      "https://zyngasupport.helpshift.com/hc/en/11-farmville-2-country-escape/faq/91-how-do-i-use-the-farm-hands/",
+      "https://www.pocketgamer.com/farmville-2-country-escape/review/",
+      "https://www.148apps.com/reviews/farmville-2-country-escape-review/",
+      "https://www.withoutthesarcasm.com/posts/farmville-2-country-escape-review/",
+      "https://www.withoutthesarcasm.com/posts/top-answers-farmville-2-country-escape-part-2/",
+      "https://www.metacritic.com/game/farmville-2-country-escape/",
+      "https://www.techbloat.com/farmville-2-country-escape-top-10-tips-hints-and-cheats.html",
+      "http://siege-engine.blogspot.com/2020/03/farmville-2-country-escape-farm-hands.html",
+      "https://www.reddit.com/r/farmville2/comments/1nwh6b7/looking_for_a_no_pressure_coop/",
+      "https://www.reddit.com/r/farmville2/comments/1tkbrsk/barn_and_silo_issues/"
+    ]
+  },
+  {
+    "name": "Township",
+    "app_store_id": "638689075",
+    "developer": "Playrix",
+    "launch_year": "2012",
+    "business_model": "Free-to-play with in-app purchases (GB packs £1.99–£6.99), a 'Loot Boxes' content label, a 28-day Gold Pass season pass and Piggy Bank discounted-bundle offers; coins cannot be bought except with real money",
+    "unit_of_play": "An isometric town plus farm. Loop: plant and harvest crops, craft goods in factories, ship them via helicopter orders, trains, planes and zoo orders for coins and XP, then upgrade buildings and expand territory. One tap starts a real-time timer; goods are logically composed (pizza = cheese + tomato + wheat + 2 hours).",
+    "session_shape": "Many short returns rather than one long sit-down; everything is time-gated so players plan what to produce and when to come back. Ten-second action is dragging the sickle across a ripe field or double-tapping it. Longer sit-down is the match-3 side game, events and the Regatta. A Play reviewer characterises free play as '3 minutes a day and then wait 24hrs'.",
+    "absence": "No decay, no wither, no death and no daily streak. No source describes crops spoiling or being lost; the official farming help page and the Deconstructor of Fun loop contain no decay step (not explicitly confirmed — the Township wiki returns HTTP 402 to all fetchers). Match-3 works offline. The pressure is spatial instead: the barn fills up and 'won't be able to accept any new stuff you produce', and it refills within hours of every upgrade.",
+    "streak_protection": "No streak exists, so nothing needs protecting. The functional equivalent of a freeze is buying barn capacity or territory expansion with T-Cash or building materials from trains.",
+    "currency": [
+      {
+        "name": "Coins",
+        "earned_by": "Helicopter, train, plane and zoo orders; selling goods; daily bonuses",
+        "spent_on": "Buildings, crops, animals, decorations, territory",
+        "feeds_back": true
+      },
+      {
+        "name": "Township Cash (T-Cash)",
+        "earned_by": "Level-ups, achievements, events, plane order rows; mostly bought with real money",
+        "spent_on": "Skipping timers, barn upgrade shortcuts, market boxes, speeding production",
+        "feeds_back": true
+      },
+      {
+        "name": "Building materials (hammers, nails, paint)",
+        "earned_by": "Train deliveries, co-op requests",
+        "spent_on": "Barn upgrades, community buildings, territory expansion",
+        "feeds_back": true
+      }
+    ],
+    "stakes_risk_chance": "No betting and nothing built can be lost. Randomness is bolted on: randomised purchasable items and a Loot Boxes label, animal cards with rarities every 12 zoo orders, treasure probability on island expeditions, and the Piggy Bank which fills with order completions then offers a discounted cash bundle. Opt-in challenge comes from the Regatta and limited-time events on a 2–3 week cadence lasting 7–10 days.",
+    "progression": "XP levels unlock whole new systems at fixed gates — trains at level 5, airport at 17, mine at 21, zoo at 40 — so milestones are new kinds of play rather than bigger numbers. A parallel 28-day Gold Pass adds 30 reward tiers plus perks such as 30% extra barn space.",
+    "social": "Opt-in and layered. Co-ops allow sending and requesting materials and asking other players for help. Regattas are periodic team competitions for rewards and global ratings, needing 30 active players for the global leaderboard. The game's own teardown doubts the Regatta burns players out, and an App Store reviewer reports being kicked from teams for insufficient task completion.",
+    "freedom_identity": "High. Players construct houses, factories and community buildings, lay out the farm and decorate freely, with over 200 decorations available; decoration is visible to visiting players and is an explicit self-expression monetisation pillar. One player found most of their town was decorations.",
+    "signature_interaction": "Dragging the sickle from the bottom panel across a ripe field to harvest it — a gesture mapped directly to the real-world action. Secondary: a building floating a thought-bubble picture of the goods it wants.",
+    "ui_type": "isometric world",
+    "art_style": "Bright, saturated, chunky 3D-rendered cartoon — red barn, mint-green roofs, glossy oversized produce, no outlines, every object readable at thumbnail size; marketed as 'stunning graphics and charming animations'.",
+    "home_screen": "Seven persistent chrome elements counted on the App Store screenshot: level star badge with XP bar (top-left), T-Cash counter with a green '+' buy button (top-right), coins counter beneath it, hard-hat build button (bottom-left), helicopter and train buttons (bottom-right), plus in-world thought bubbles over buildings. A simultaneous CTA/badge count for the live game is NOT CONFIRMED (store screenshots are simplified marketing art and the wiki is unfetchable). Indirect evidence of far greater live density: a review lists tabs for farm, town, factory, orders, zoo, mine, match-3 and events; Metacritic criticises confusing button placement with activation and cancellation buttons adjacent; the top clutter thread in r/TownshipGame is titled 'Annoying popups'. A 2017 usability audit praised the screen as uncluttered and ad-pop-up-free, so the density accreted over time.",
+    "sound_feel": "Not confirmed in detail. Confirmed: feedback is carried by animation and icons rather than text — completed buildings surface a ready icon, produce appears above factories — and the store promises charming animations. No haptics documentation found.",
+    "ios_gb_rating": 4.72245,
+    "ios_gb_rating_count": 263895,
+    "play_installs": "500,000,000+",
+    "complaints": [
+      {
+        "text": "'Annoying popups' — the top-voted clutter thread in r/TownshipGame, 52 upvotes and 13 comments.",
+        "url": "https://www.reddit.com/r/TownshipGame/comments/1uovwp1/annoying_popups/"
+      },
+      {
+        "text": "Criticises 'poor interface design with confusing button placement' and 'the tendency to put activation and cancellation type buttons right next to each other'.",
+        "url": "https://www.metacritic.com/game/township/"
+      },
+      {
+        "text": "'Storage too limited for produce, materials for upgrade too limited... the game reaches a level where paying is the only way to progress.'",
+        "url": "https://play.google.com/store/apps/details?id=com.playrix.township"
+      },
+      {
+        "text": "'Everything costs too much or takes too long' — describes the experience as 'stress inducing' rather than relaxing.",
+        "url": "https://apps.apple.com/gb/app/township/id638689075?see-all=reviews"
+      },
+      {
+        "text": "'This game is stressful now', 83 upvotes.",
+        "url": "https://www.reddit.com/r/TownshipGame/comments/1sw8z1g/this_game_is_stressful_now/"
+      }
+    ],
+    "praise": [
+      {
+        "text": "'It is very addictive, a lot of fun when competing in competitions. I've joined family members in so we have lots of fun together.'",
+        "url": "https://play.google.com/store/apps/details?id=com.playrix.township"
+      },
+      {
+        "text": "'Almost a year to get there! Looking forward to another. Been a fun relaxing game', 50 upvotes.",
+        "url": "https://www.reddit.com/r/TownshipGame/comments/1adg8k7/almost_a_year_to_get_there_looking_forward_to/"
+      },
+      {
+        "text": "'The town itself is still lovely and that's my favourite bit' — from an otherwise one-star review.",
+        "url": "https://play.google.com/store/apps/details?id=com.playrix.township"
+      },
+      {
+        "text": "'Love this game' — praises the cooperative regatta events and prompt developer fixes with compensation.",
+        "url": "https://apps.apple.com/gb/app/township/id638689075?see-all=reviews"
+      }
+    ],
+    "lesson": "Township proves a farm needs no withering to create urgency: it swaps a decay squeeze for a capacity squeeze (the barn), so missing three days costs nothing you built — exactly right for trainer-prescribed rest days. Copy the thought-bubble, which turns a whole screen into one glanceable instruction readable between sets. Avoid its accreted density and competitive co-op: a 2017 audit called the UI clean, and by 2026 the subreddit's top clutter thread is 'Annoying popups' and players say the game is stressful, while the game's own teardown doubts the Regatta because most players are there to unwind. One scene, one badge, no leaderboard that can kick you out.",
+    "sources": [
+      "https://itunes.apple.com/lookup?id=638689075&country=gb",
+      "https://apps.apple.com/gb/app/township/id638689075",
+      "https://apps.apple.com/gb/app/township/id638689075?see-all=reviews",
+      "https://play.google.com/store/apps/details?id=com.playrix.township",
+      "https://en.wikipedia.org/wiki/Township_(video_game)",
+      "https://www.deconstructoroffun.com/blog/2020/10/13/how-playrix-township-became-a-billion-dollar-game",
+      "https://playrix.helpshift.com/hc/en/3-township/faq/152-farming-fields-crops-and-animals/",
+      "https://www.levelwinner.com/township-guide-2021-update-tips-tricks-strategies-to-grow-and-expand-your-town/",
+      "https://medium.com/@aarthi.design/playrixs-township-6418f4ce319d",
+      "https://iphoneappsarena.com/township/",
+      "https://www.metacritic.com/game/township/",
+      "https://www.reddit.com/r/TownshipGame/comments/1uovwp1/annoying_popups/",
+      "https://www.reddit.com/r/TownshipGame/comments/1sw8z1g/this_game_is_stressful_now/",
+      "https://www.reddit.com/r/TownshipGame/comments/1adg8k7/almost_a_year_to_get_there_looking_forward_to/",
+      "https://www.reddit.com/r/TownshipGame/comments/1uprxkd/i_never_realised_that_most_of_my_town_was/"
+    ]
+  },
+  {
+    "name": "Gardenscapes",
+    "app_store_id": "1105855019",
+    "developer": "Playrix",
+    "launch_year": "2016",
+    "business_model": "Free-to-play with in-app purchases (£0.99-£5.99 coin packs and kits) and rewarded ads; coins are purchasable but Stars, which drive all garden progress, are not; near $2bn lifetime revenue by 2021",
+    "unit_of_play": "A derelict estate garden restored area by area. The unit is the task - a cleanup, repair, planting or decoration job bought with Stars. One match-3 level won = exactly 1 Star. The garden is never the activity; it is the receipt for having done an unrelated puzzle.",
+    "session_shape": "Two separated screens: a glance screen (the garden with Stars, coins, five life hearts and the tablet task list) and a sit-down screen (the match-3 board). A level is one to three minutes. Sessions are capped by lives, not willpower: 5 lives max, one lost per failed level, one restored every 30 minutes, 2.5 hours for a full bar. Ten-second actions: spend a Star on a task, read a line of dialogue, take the daily Lucky Spin. From level 18 a Complete the Day button lets you bank Stars and spend them in one go.",
+    "absence": "Nothing decays, ever. Restored areas are permanent with no maintenance requirement. Absence is actively rewarded because lives regenerate while you are away, so you return to a full bar of five. The only cost of being away is missing time-limited events, the Garden Pass and team competitions, which run on a calendar you do not control.",
+    "streak_protection": "No streak in the core loop, so nothing to protect. Lives are the only depletable resource and they refill on their own at one per 30 minutes; they can also be refilled with coins (900) or received from teammates every 4 hours, and starting a new day grants a full five. Up to 15 extra gifted lives can be banked.",
+    "currency": [
+      {
+        "name": "Stars",
+        "earned_by": "Exactly one per match-3 level completed; cannot be bought with real money at any price",
+        "spent_on": "Garden restoration and story tasks - early tasks cost 1 Star, later ones several",
+        "feeds_back": true
+      },
+      {
+        "name": "Coins",
+        "earned_by": "Winning levels, team gifts, watching rewarded ads, and real-money purchase from £0.99",
+        "spent_on": "Boosters, 5 extra moves for 900 coins (escalating on repeat), instant life refills for 900 coins",
+        "feeds_back": false
+      }
+    ],
+    "stakes_risk_chance": "Failing a level costs a life, the only real loss. Coins can be gambled on sunk cost - buy five more moves when one move short, then again at a higher price. Randomness comes from the daily Lucky Spin wheel and Challenge levels that 'appear randomly'. Players widely suspect the difficulty is tuned to sell boosters.",
+    "progression": "A nested ladder: level to Star to task to the day's progress bar to a completed day to a new garden area. Over 16,000 levels, so the ladder is effectively endless; the visible rank is the level number. The genuine milestone is unlocking a new garden area, such as the treehouse expansion.",
+    "social": "All opt-in and all beside the garden rather than inside it. Teams give free coins and life-sharing through chat requests every 4 hours; competitive events called Expeditions; a profile and friends system. Players recruit for teams on Reddit, so the pull is real.",
+    "freedom_identity": "Narrow but well-placed. Each decoration task offers three designs, and the choice is reversible for free forever by long-pressing the item. You cannot place objects freely or lay out the garden; you pick between pre-authored variants. There is a player profile.",
+    "signature_interaction": "Spending a Star from the tablet on a task and watching one corner of the garden visibly transform - the before-and-after. Note that the gesture the public associates with the game, pull-the-pin rescue puzzles, is not really in it: the ASA banned those ads in 2020 because the minigame appeared only after level 20 and was reached by about 0.03% of players.",
+    "ui_type": "side-on single scene",
+    "art_style": "A painterly, warmly lit 2.5D diorama seen from slightly above and to the side, panned across area by area; lush high-saturation illustrated realism rather than cartoon, with character portraits for Austin the butler and the dog.",
+    "home_screen": "The garden scene itself, overlaid with a Stars counter, a coin counter, five life hearts, the tablet task button, the Lucky Spin, the play button and a stack of event icons and timed-offer badges. Dense, and getting denser - the most-cited complaint.",
+    "sound_feel": "Tactility is the point: 'large puzzle pieces that have a gratifying tactility when moved' and power-ups that deliver 'extremely satisfying board-wiping eruptions'. Power-ups escalate by match size (Firecracker at 4, Bomb at 5, Dynamite, TNT Barrel) and the Rainbow Blast is the only chargeable power-up, a meter that fills and discharges across the board. Austin is a reactive presence rather than a menu: he congratulates successful matches, offers encouragement after failures, and does ambient things like watering plants, reading the newspaper and posting pictures of the estate on his social media. Garden tasks resolve with an animated transformation plus a line of dialogue, and the animations are load-bearing - reviewers resent changes to them. Haptics not confirmed.",
+    "ios_gb_rating": 4.67112,
+    "ios_gb_rating_count": 249729,
+    "play_installs": "500m+ downloads; Play rating 4.69 from 10,117,888 reviews",
+    "complaints": [
+      {
+        "text": "The reward stops feeling like a reward: 'the makeover tasks feel like I picked up a second job... a conveyor belt of tiny errands that never actually change anything. Slow progress is fine, but not when it feels like ticking boxes with zero payoff.'",
+        "url": "https://www.reddit.com/r/Gardenscapes/comments/1u8bssl/rant_makeover_tasks_have_turned_the_garden_into_a/"
+      },
+      {
+        "text": "Interface and event overload: 'I have to dismiss a stack of popups before I can actually start: event announcements, limited-time deals, click here for a reward chain, timers, special passes, side stories. By the time I reach the level I wanted, my mood has gone from cozy to an annoyed ugh, fine.'",
+        "url": "https://www.reddit.com/r/Gardenscapes/comments/1tusjja/anyone_else_exhausted_by_how_the_game_keeps/"
+      },
+      {
+        "text": "Distrust of the difficulty curve - players believe levels are tuned to sell boosters: 'Does the game hate me/us? it feels rigged' (29 upvotes, 24 comments)",
+        "url": "https://www.reddit.com/r/Gardenscapes/comments/1ufkc54/does_the_game_hate_meus_it_feels_rigged/"
+      },
+      {
+        "text": "The UK Advertising Standards Authority ruled Playrix's pull-the-pin ads 'not representative of the games they were purported to feature' and banned them, because the minigame was only available after the first twenty levels",
+        "url": "https://techraptor.net/gaming/news/uk-asa-upholds-misleading-pin-pulling-puzzle-ad-claims-against-playrix"
+      },
+      {
+        "text": "The lives cap forces waiting: 'there is a hard cap of five lives right now' with slow refresh, creating forced waiting periods during challenging stages",
+        "url": "https://www.gamezebo.com/reviews/gardenscapes-new-acres-review/"
+      }
+    ],
+    "praise": [
+      {
+        "text": "The match-3 is a genuinely good micro-break: 'The match-3 rounds are perfect for that: quick, a little crossword for my brain, satisfying and done.'",
+        "url": "https://www.reddit.com/r/Gardenscapes/comments/1u8bssl/rant_makeover_tasks_have_turned_the_garden_into_a/"
+      },
+      {
+        "text": "The cosy scene is the reason people open the app: 'I like the nature-y vibe and the visuals; it is my wind-down after a long day.'",
+        "url": "https://www.reddit.com/r/Gardenscapes/comments/1tusjja/anyone_else_exhausted_by_how_the_game_keeps/"
+      },
+      {
+        "text": "Finished renovations are shown off to other players as achievements in their own right: 'Cozy Attic Renovation Completed.'",
+        "url": "https://www.reddit.com/r/Gardenscapes/comments/168y96w/cozy_attic_renovation_completed/"
+      },
+      {
+        "text": "Longevity and the ad-for-coins option: 'I have played thousands of levels and regularly used the option of watching an ad or two to get extra coins.'",
+        "url": "https://apps.apple.com/gb/app/gardenscapes/id1105855019"
+      },
+      {
+        "text": "Reviewers rate the pacing itself: the game 'provides the perfect cycle of challenge and progress, wrapped in a highly polished set of game modes that work together beautifully'",
+        "url": "https://www.gamezebo.com/reviews/gardenscapes-new-acres-review/"
+      }
+    ],
+    "lesson": "This is exactly RepGarden's proposed architecture - unrelated effort converted into garden progress - and its two most transferable decisions are both about currency: one unit of effort buys exactly one Star, and Stars cannot be bought, ever, so money reaches only the boosters and never the garden. Copy the free, reversible three-design choice, which gives real identity at almost no authoring cost. Avoid the failure the players name themselves: with two to five workouts a week RepGarden has roughly twelve Stars a month, so each must buy a visible, nameable change to the plot rather than a sub-step, and the Complete-the-Day idea of banking Stars for one satisfying spend fits a weekly sit-down. Avoid the event stack entirely - the cosy scene is what people come for, and every timed badge over it moves them from cosy to annoyed.",
+    "sources": [
+      "https://itunes.apple.com/lookup?id=1105855019&country=gb",
+      "https://apps.apple.com/gb/app/gardenscapes/id1105855019",
+      "https://play.google.com/store/apps/details?id=com.playrix.gardenscapes",
+      "https://en.wikipedia.org/wiki/Gardenscapes:_New_Acres",
+      "https://www.deconstructoroffun.com/blog/2017/5/15/gardenscapes-one-big-pivot-to-success",
+      "https://playrix.helpshift.com/hc/en/5-gardenscapes/faq/16021-how-to-get-lives/?l=en",
+      "https://playrix.helpshift.com/hc/en/5-gardenscapes/faq/16471-completing-the-day/?l=en",
+      "https://playrix.helpshift.com/hc/en/5-gardenscapes/section/216-gameplay-guide/?l=en",
+      "https://playrix.helpshift.com/hc/en/4-gardenscapes/",
+      "https://www.levelwinner.com/gardenscapes-guide-2020-update-tips-tricks-strategies-to-beat-every-level-and-restore-the-garden-to-its-former-glory/",
+      "https://techraptor.net/gaming/news/uk-asa-upholds-misleading-pin-pulling-puzzle-ad-claims-against-playrix",
+      "https://www.littlelaw.co.uk/2020/11/17/gardenscams-advertising-standards-authority-bans-adverts-for-homescapes-and-gardenscapes-games/",
+      "https://www.reddit.com/r/Gardenscapes/comments/1u8bssl/rant_makeover_tasks_have_turned_the_garden_into_a/",
+      "https://www.reddit.com/r/Gardenscapes/comments/1tusjja/anyone_else_exhausted_by_how_the_game_keeps/",
+      "https://www.reddit.com/r/Gardenscapes/comments/1ufkc54/does_the_game_hate_meus_it_feels_rigged/",
+      "https://www.reddit.com/r/Gardenscapes/comments/168y96w/cozy_attic_renovation_completed/",
+      "https://www.reddit.com/r/Gardenscapes/comments/1rvlwnu/looking_for_active_team/",
+      "https://www.gamezebo.com/reviews/gardenscapes-new-acres-review/"
+    ]
+  },
+  {
+    "name": "Grow a Garden",
+    "app_store_id": "roblox",
+    "developer": "The Garden Game (Roblox group 35789249); created by BMWLux/DevNamedDavid, co-owned with Splitting Point Studios (Janzen 'Jandel' Madsen) and a minority stake held by Do Big Studios",
+    "launch_year": "2025",
+    "business_model": "Free to play inside Roblox, monetised with Robux microtransactions: 79 Robux per instant Seed Shop restock, gear from 19-279 Robux, pet/egg/cosmetic slot purchases, Limited Time Shop packs and the Forever Pass, and 37 Robux to take a crop from another player's garden. Certain Limited Time Shop offers are hidden in the UK, Australia, Belgium and the Netherlands due to gambling laws. No paid entry, no subscription.",
+    "unit_of_play": "One square garden plot. Buy seeds from a timed-stock shop with Sheckles, plant them on the dirt rows, wait, harvest and sell for more Sheckles to buy rarer seeds. Single-harvest crops are pulled whole and must be replanted; multi-harvest crops stay planted and regrow produce indefinitely. A parallel unit is the pet roster: eggs placed in the garden hatch pets whose passive abilities scale with the pet's weight and age and stack when duplicated.",
+    "session_shape": "The 5-minute shop restock is the metronome. A ten-second visit is: open the Seed/Gear Shop, see what rolled in, buy, plant, harvest what finished, sell at the stand. Daily Deals rotate every 24 hours and three daily quests reset every 24 hours. The long sit-down session is scheduled by the developers: Saturday major updates with 'Admin Abuse' giveaways (the wiki advises being online at least 30 minutes beforehand), Watering Wednesday, live weather events, event quests and trading.",
+    "absence": "Crops keep growing offline and nothing withers, dies, weeds over or spoils. The game's own description says 'your garden literally grows while you are offline', and no decay mechanic is documented anywhere on the wiki: the two states that sound like decay, Wilted (x10) and Rot (x8), are value-increasing mutations applied by a crop and a pet respectively. What absence costs is everything timed: a day away forfeits ~288 seed-shop and gear-shop restock rolls, one Daily Deals rotation, three daily quests, and every weather event, because only the growth-based Gold and Rainbow variants occur offline while weather and event mutations do not apply unless you are online. A week away forfeits the Saturday update and its Admin Abuse giveaway, Watering Wednesday, and part of the running three-week event cycle. A month away permanently forfeits a full event cycle's exclusive crops, mutations and pets, and returns the player to a nerfed and re-balanced meta. In every case the garden itself is intact and has been producing the whole time.",
+    "streak_protection": "No streak system, streak freeze or repair mechanic is documented; daily quests simply reset every 24 hours with no counter. Not confirmed that any login streak exists.",
+    "currency": [
+      {
+        "name": "Sheckles (¢)",
+        "earned_by": "Selling crops and pets at the Sell Stuff stand and the Pet Shop; pet abilities such as the Mole; the Sheckle Rain weather; a 100-Sheckle consolation when a paid steal fails; +10% per friend in the server up to +40%",
+        "spent_on": "Seed Shop seeds, Gear Shop tools, Pet Eggs, event shop restocks and reward tracks, Pet Pouch crafting, Garden Ascension",
+        "feeds_back": true
+      },
+      {
+        "name": "Robux",
+        "earned_by": "Bought with real money on Roblox (also obtainable by watching ads for a shop restock)",
+        "spent_on": "Instant shop restocks (79), gear (19-279), extra pet/egg/cosmetic slots, Limited Time Shop packs, Forever Pack, Seed Rains, taking another player's fruit (37)",
+        "feeds_back": true
+      },
+      {
+        "name": "Garden Coins",
+        "earned_by": "Performing a Garden Ascension: 10 coins per ascension, costing 1T Sheckles and rising by 2T each time, once every 4 hours",
+        "spent_on": "Permanent capacity upgrades (plot save slots, egg slots, pet/plant/cosmetic inventory) and decorative fences",
+        "feeds_back": true
+      },
+      {
+        "name": "Event currencies and reward tracks",
+        "earned_by": "Event-specific activities such as cauldron contributions and trick-or-treat houses during limited-time events",
+        "spent_on": "Event shops for exclusive crops, mutations and pets",
+        "feeds_back": true
+      }
+    ],
+    "stakes_risk_chance": "Chance is the engine. Seed and gear stock is a global per-5-minute lottery with published restock odds, and Mythical-or-higher seeds can only ever hold one unit of stock naturally. Weather is a global random event synchronised across every server, each type rolling mutation chances on planted crops (Frost gives Chilled/Frozen plus +50% grow speed, Meteor Shower gives Celestial, Cyclone gives Windstruck, and so on across dozens of standard, event and admin weathers). Mutations stack multiplicatively on base fruit value, from x2 up past x10, and community guides put Shocked near 100x and Celestial near 120x. Eggs and cosmetic crates are loot boxes. The only real loss is paid and PvP: a 37-Robux steal takes a crop out of another player's garden, occasionally fails outright (keeping the Robux and refunding 100 Sheckles), apparently fails more often on more valuable crops, and announces every success to the whole server.",
+    "progression": "No player XP or levels. Progression is seed rarity tiers gated behind restock odds, plot and inventory capacity (60 pets by default rising to roughly 285-300 via gamepasses, crafted Pet Pouches and Ascension upgrades), and pet weight: a pet's abilities get stronger as it ages and gains weight, making the roster a passive time-based track. The milestone marker is Garden Ascension, a prestige reset costing 1T Sheckles with each ascension 2T dearer, paid back in Garden Coins and permanent upgrades. Seasonally, progression is the event reward track on a roughly three-week cycle driven by Saturday patches.",
+    "social": "Opt-in but strongly incentivised. Every friend in the same server gives +10% Sheckles, capped at +40%, and Roblox credited 'friends driving play' for the game's retention. Trading (update 1.17.0) moves pets and harvested crops via a Trading Ticket from the Gear Shop, up to 13 items a cycle, with both sides' Sheckle totals displayed, a 5-second countdown that resets whenever an item is removed, a double confirmation and a block on accounts under 10 days old, all explicitly to stop scamming. Despite that, a scam and dupe-claim culture persists and an off-platform market sells rare items for real money on eBay and Discord in breach of Roblox terms. There is a Sheckle leaderboard top-right, and paid steals are broadcast server-wide.",
+    "freedom_identity": "Garden decoration and layout: placeable cosmetics from a Cosmetics Shop and from event crates (including trophies that mark which events you attended), fence styles bought with Garden Coins, and multiple save slots for different plot layouts. Pet naming is not confirmed.",
+    "signature_interaction": "A paired gesture. One: planting a seed and deliberately logging out, trusting the plot to work without you. Two: standing in your own garden during a live global weather event with the right gear pre-placed (Lightning Rod before a Thunderstorm, Star Caller before a Meteor Shower) and harvesting a fruit the sky has multiplied dozens or hundreds of times over its base value.",
+    "ui_type": "isometric world",
+    "art_style": "Deliberately crude blocky Roblox: studded textures evocative of old-school Roblox, oversized saturated cartoon vegetables on brown soil rows, with animated mutation skins; press called the menus and visuals 'very basic', 'more like a prototype'. The screen is dense with HUD.",
+    "home_screen": "There is no menu front end — you spawn directly onto your own square dirt plot, with shop stands and NPCs around the map, a Sheckle counter bottom-left, a Sheckle leaderboard top-right, shop buttons down the left edge, restock timers and server-wide weather banners across the top.",
+    "sound_feel": "An incongruously classical soundtrack including Mozart's Rondo Alla Turca. Feedback is mostly visual: each mutation has its own appearance, many of them animated, plus server-wide text banners when weather starts and when a player steals from another. Specific harvest sound effects and haptics not confirmed.",
+    "ios_gb_rating": 0,
+    "ios_gb_rating_count": 0,
+    "play_installs": "35.99 billion Roblox visits (35,993,633,235) and 11,458,482 favourites as of 27 October 2026; fastest Roblox game ever to 1 billion visits, in 33 days",
+    "complaints": [
+      {
+        "text": "\"Most people picture Jandel as some game developer who cares about his fanbase, but they don't realize he cares mostly about the money… He even did a poll to nerf honeysuckle… and people said to not nerf it. And he still nerfed it… They don't even think stuff through.\" The same player spent his last Sheckles on a Tranquil Radar expecting it to gather all tranquil fruit and \"got bothing because it only scans like a 50 stud radius around the player.\"",
+        "url": "https://www.reddit.com/r/growagarden/comments/1m4uoz2/im_probably_gonna_quit_grow_a_garden_and_heres_why/"
+      },
+      {
+        "text": "Event fatigue, titled \"I miss enjoying Grow a Garden.. Are we getting a third week of this event? .. I hope not..\": \"I'm bored!!!. I'm not even putting stuff in the cauldron.. It takes forever to get to 100 percent and nobody puts stuff in there… And don't get me on that stupid trick or treat house lol. I'm over it devs lol\"",
+        "url": "https://www.reddit.com/r/growagarden/comments/1xgfm0d/i_miss_enjoying_grow_a_garden_are_we_getting_a/"
+      },
+      {
+        "text": "Burnout from the weekly update treadmill, from a Reddit player quoted in press: \"I TRULY hope this change happens. The weekly updates are making me feel burned out… events need to happen less frequently or last longer.\" The developer agreed: \"Weekly events were just a bit too hard to keep fresh and new… We were neglecting other content we could add to the game, like bug fixes and features.\"",
+        "url": "https://www.shanethegamer.com/esports-news/no-more-weekly-updates-grow-a-garden-dev-teases-a-new-era/"
+      },
+      {
+        "text": "Press criticism of shallowness and monetisation: the menus, visuals and gameplay are \"very basic and look more like a prototype of something that will be finished later\" (Kotaku), and the acquiring studios were criticised for \"introducing excessive monetization\".",
+        "url": "https://kotaku.com/grow-a-garden-roblox-5-million-active-users-record-pc-1851781824"
+      }
+    ],
+    "praise": [
+      {
+        "text": "\"Relaxing gameplay\" and \"one of Roblox's most laid-back experiences\" that \"appeals to a broad audience, including both adults and younger players\", with offline growth singled out as the reason players come back to fully grown plants.",
+        "url": "https://gamerant.com/grow-a-garden-roblox-fortnite-concurrent-player-count-record/"
+      },
+      {
+        "text": "A Roblox spokesperson attributed the game's success to \"exceptional user retention, vibrant social interactions — with friends driving play — and strong Robux engagement\".",
+        "url": "https://www.dexerto.com/roblox/surprise-roblox-game-reportedly-sets-biggest-player-count-record-in-history-3215598/"
+      },
+      {
+        "text": "Players rate it 9,440,910 likes against 1,055,643 dislikes — an 89.9% positive ratio — with 11.46 million favourites.",
+        "url": "https://games.roblox.com/v1/games/votes?universeIds=7436755782"
+      },
+      {
+        "text": "Game File's Nicole Carpenter called it \"the new generation's FarmVille\", and PCGamesN listed it among the best Roblox games of 2025.",
+        "url": "https://en.wikipedia.org/wiki/Grow_a_Garden"
+      }
+    ],
+    "lesson": "Copy the asymmetry, not the content: the garden grows while you are away and nothing ever withers, so returning is always a reward and never a repair job — which is exactly what a client on trainer-prescribed rest days needs, and it is the one mechanic this 36-billion-visit game puts in its own one-line store description. Put the multiplier on presence rather than the penalty on absence: growth-based rewards should accrue offline while the big multipliers land only when the client shows up for the week's trainer-set challenge. Avoid the two things visibly burning its players out — a 5-minute restock timer that punishes you for living your life, and a relentless weekly event treadmill the developer himself admitted was 'too hard to keep fresh' — and avoid paid restocks and paid steals entirely, because a free app cannot make a timed lottery fair.",
+    "sources": [
+      "https://www.roblox.com/games/126884695634066/Grow-a-Garden",
+      "https://games.roblox.com/v1/games?universeIds=7436755782",
+      "https://games.roblox.com/v1/games/votes?universeIds=7436755782",
+      "https://apis.roblox.com/universes/v1/places/126884695634066/universe",
+      "https://en.wikipedia.org/wiki/Grow_a_Garden",
+      "https://growagarden.fandom.com/wiki/Tips",
+      "https://growagarden.fandom.com/wiki/Crops",
+      "https://growagarden.fandom.com/wiki/Crop_Mutations",
+      "https://growagarden.fandom.com/wiki/Weather",
+      "https://growagarden.fandom.com/wiki/Pets",
+      "https://growagarden.fandom.com/wiki/Sheckles",
+      "https://growagarden.fandom.com/wiki/Seed_Shop",
+      "https://growagarden.fandom.com/wiki/Gear_Shop",
+      "https://growagarden.fandom.com/wiki/Limited_Time_Shop",
+      "https://growagarden.fandom.com/wiki/Trade_System",
+      "https://growagarden.fandom.com/wiki/Garden_Ascension",
+      "https://growagarden.fandom.com/wiki/Admin_Abuse",
+      "https://growagarden.fandom.com/wiki/Daily_Quests",
+      "https://growagarden.fandom.com/wiki/Cosmetics",
+      "https://growagarden.fandom.com/wiki/Take_Player%E2%80%99s_Fruit",
+      "https://www.droidgamers.com/guides/can-crops-get-mutations-when-youre-offline-in-grow-a-garden/",
+      "https://www.droidgamers.com/guides/grow-a-garden-weather-events-guide/",
+      "https://beebom.com/grow-a-garden-weather-events/",
+      "https://www.dexerto.com/roblox/surprise-roblox-game-reportedly-sets-biggest-player-count-record-in-history-3215598/",
+      "https://gamerant.com/grow-a-garden-roblox-fortnite-concurrent-player-count-record/",
+      "https://kotaku.com/grow-a-garden-roblox-5-million-active-users-record-pc-1851781824",
+      "https://sherwood.news/markets/roblox-hits-a-52-week-high-as-a-wildly-simple-gardening-game-created-by-a-16/",
+      "https://x.com/Roblox_RTC/status/1933887539322245275",
+      "https://www.shanethegamer.com/esports-news/no-more-weekly-updates-grow-a-garden-dev-teases-a-new-era/",
+      "https://progameguides.com/roblox/grow-a-garden-garden-games-event-guide/",
+      "https://www.thegamer.com/roblox-grow-a-garden-seed-stages-event-evo-seeds-jungle-egg-pets-guide/",
+      "https://www.gagdata.com/blog/trading-guide",
+      "https://www.gagdata.com/blog/scam-prevention"
+    ]
+  },
+  {
+    "name": "Animal Crossing: Pocket Camp Complete",
+    "app_store_id": "6547834967",
+    "developer": "Nintendo Co., Ltd.",
+    "launch_year": "2024 (Complete, released 2 December 2024; original Pocket Camp launched 2017)",
+    "business_model": "One-off paid purchase, GBP 17.99 (USD 19.99), no in-app purchases; launched at a half-price USD 9.99 until 31 January 2025. Replaced a free-to-play live-service app that had taken over USD 250m in lifetime player spending by November 2021.",
+    "unit_of_play": "A campsite you decorate, plus a camper/RV and a cabin, with up to eight villagers staying at once, and a 20-plot flower garden. One real-world action maps to one gather-and-trade: pick fruit, fish, catch a bug or collect a shell, hand it to the villager who asked for it, receive crafting materials and friendship, and have Cyrus craft furniture over real time.",
+    "session_shape": "Designed as 'a few minutes at a time, a couple times a day'. Glance layer: a map screen into one self-contained area, where in ten seconds you can shake a tree, cast a line or swing a net. Sit-down layer: crafting orders (10 minutes to 72 hours; amenities take multiple real days) and decorating.",
+    "absence": "Nothing decays, withers or dies. Absence only forgoes resources sitting on timers: fruit respawns on a strict 3-hour timer, shells respawn at random intervals sometimes under an hour, and villager requests refresh every 3 hours from 06:00 UTC (max 3 per hour unless a Request Ticket is used). The garden is the only decay-shaped system and it is explicitly recoverable: soil dries after about an hour and, after 3 total hours unwatered, the flower wilts and the growth timer PAUSES until watered; a fully bloomed flower keeps its soil wet and can be left indefinitely. Limited-time events were the old cost of absence; Complete now repeats seven years of events on a four-year cycle, so a missed event comes round again. Whether crafting timers advance while the app is closed is not confirmed.",
+    "streak_protection": "No streak, freeze or repair mechanic found (not confirmed that any exists). The structural protection is the 3-hour refresh plus the four-year event cycle: missing a day costs one batch of small gains, never the campsite.",
+    "currency": [
+      {
+        "name": "Bells",
+        "earned_by": "Selling gathered items and gameplay rewards",
+        "spent_on": "Crafting costs, shop items, exchange for Leaf Tokens",
+        "feeds_back": true
+      },
+      {
+        "name": "Leaf Tokens (replaced the purchasable Leaf Tickets)",
+        "earned_by": "Events, achievements and Bell exchange; cannot be bought with real money",
+        "spent_on": "Fortune cookies (5 Leaf Tokens, down from 50 Leaf Tickets), permanently reducing crafting times, substituting missing materials",
+        "feeds_back": true
+      },
+      {
+        "name": "Complete Tickets",
+        "earned_by": "Gameplay in Pocket Camp Complete",
+        "spent_on": "Trading for any item in the Complete Item Catalog (a deterministic alternative to the gacha)",
+        "feeds_back": true
+      }
+    ],
+    "stakes_risk_chance": "No betting and nothing can be lost. Chance is the fortune cookie gacha with randomised rewards including rare 5-star items, now 5 Leaf Tokens a pull and backed by deterministic Complete Tickets. Other randomness: shell respawn timing and flower cross-pollination colour outcomes. Opt-in challenges are the monthly Garden Events and Fishing Tourneys.",
+    "progression": "Camp Manager level gates features (the garden needs Level 3); per-villager friendship levels unlock villager outfit changes; multi-day amenity builds are the visible milestones; the long arc is completing the Complete Item Catalog across a four-year event cycle. Player level cap not confirmed.",
+    "social": "Almost entirely removed with the move offline. The friend list, Market Boxes, gifts, help and camp visits are gone; instead you scan Camper Pass QR codes and those players' characters appear at Whistle Pass, a location unique to Complete, alongside K.K. Slider. No leaderboards found. This loss is the most-cited criticism.",
+    "freedom_identity": "Decorate the campsite, the camper/RV and the cabin; choose which eight villagers stay; dress your avatar and, at high friendship, the villagers; plan a 20-plot garden and breed flower colours; share a Camper Pass QR code as your identity card.",
+    "signature_interaction": "Handing a villager the exact item they just asked for and getting materials and friendship back — the three-hourly request loop, fed by shaking a fruit tree.",
+    "ui_type": "isometric world",
+    "art_style": "Bright, crisp, 3D-stylised chibi Animal Crossing in an isometric/top-down world; moderately dense, with a persistent icon bar over the scene.",
+    "home_screen": "Your campsite, seen in quarter view with its villagers milling about, a bottom icon bar, and a map screen to travel between self-contained islands.",
+    "sound_feel": "Not confirmed — the reviews read do not discuss audio, animation feedback or haptics.",
+    "ios_gb_rating": 4.73986,
+    "ios_gb_rating_count": 1134,
+    "play_installs": "500k+ (Google Play GB, 27 October 2026; 4.1 stars from 11.1k reviews, package com.nintendo.zasa)",
+    "complaints": [
+      {
+        "text": "\"I would recommend looking at some gameplay first before buying. i regretted buying it, even at a reduced price.\" (user tweeetiee, on the rise from $9.99 to $19.99)",
+        "url": "https://screenrant.com/animal-crossing-pocket-camp-complete-price-increase-reactions/"
+      },
+      {
+        "text": "Going offline killed the social layer: \"people can no longer visit each other's camps\", which the writer calls a possible \"deal-breaker for those already on the fence about purchasing\".",
+        "url": "https://gamerant.com/is-animal-crossing-pocket-camp-complete-worth-it-good/"
+      },
+      {
+        "text": "Content support was time-boxed from launch: new events and items only \"until Sept. 2025\", after which nothing new is added.",
+        "url": "https://gonintendo.com/contents/43424-animal-crossing-pocket-camp-complete-to-receive-new-items-until-sept-2025"
+      }
+    ],
+    "praise": [
+      {
+        "text": "\"PC: Complete is COMPLETELY better than the original.\" — 1,283 upvotes, 121 comments",
+        "url": "https://www.reddit.com/r/ACPocketCamp/comments/1h5svs6/pc_complete_is_completely_better_than_the_original/"
+      },
+      {
+        "text": "\"Anyone else shocked at how cheap Complete is??\" — 423 upvotes, 158 comments",
+        "url": "https://www.reddit.com/r/ACPocketCamp/comments/1ge23j9/anyone_else_shocked_at_how_cheap_complete_is/"
+      },
+      {
+        "text": "\"Making a one-time purchase, offline-only version is actually brilliant. Wished they did that with other apps\" (reader comment on the end-of-service announcement)",
+        "url": "https://www.nintendolife.com/news/2024/08/animal-crossing-pocket-camp-to-end-online-service-in-november"
+      },
+      {
+        "text": "A reviewer explains the paid app solved absence anxiety: \"I struggle to keep up with mobile games, especially when forgoing a month or two means falling behind or missing out on content\" — and \"I wouldn't have gotten to experience the joys of Animal Crossing: Pocket Camp if it had never switched to a paid app\".",
+        "url": "https://screenrant.com/animal-crossing-pocket-camp-still-worth-it/"
+      }
+    ],
+    "lesson": "Copy the wilt, not the death: a neglected plot should PAUSE and recover on one watering, exactly as Pocket Camp's wilted flower pauses its growth timer, and a finished vegetable should sit safe forever — so a client back from two weeks away finds work waiting, not work destroyed. Copy the three-hour refresh: trainer-derived tasks that reset on a clock make a missed day cost one batch of small gains and never the garden, which is why Pocket Camp needs no streak freeze. Avoid live-service FOMO and avoid an uncapped mess: recur limited challenges on a cycle rather than expiring them forever (the exact fix Nintendo applied when it stopped running the game as a live service), and if any 'untidy' state is ever shown, cap it, make it convertible into something useful, and let one gesture clear it with a small victory flourish. Sub-note from New Horizons: one weed a day, capped at 150, pulled weeds becoming craftable 'clump of weeds', cockroaches after about a week away killed by walking over them with a victory cheer, villagers who never leave without asking first, and a 2.0 Beautiful Island ordinance that halves weed spread and removes cockroaches permanently — absence makes a mess you can tidy, never a loss you cannot undo.",
+    "sources": [
+      "https://apps.apple.com/gb/app/animal-crossing-pocket-camp-c/id6547834967",
+      "https://play.google.com/store/apps/details?id=com.nintendo.zasa",
+      "https://nookipedia.com/wiki/Animal_Crossing:_Pocket_Camp_Complete",
+      "https://nookipedia.com/wiki/Animal_Crossing:_Pocket_Camp",
+      "https://animalcrossingpocketcamp.wiki.gg/wiki/End_of_Service",
+      "https://animalcrossingpocketcamp.wiki.gg/wiki/Villager",
+      "https://animalcrossingpocketcamp.wiki.gg/wiki/Garden",
+      "https://animalcrossingpocketcamp.wiki.gg/wiki/Crafting",
+      "https://animalcrossingworld.com/2024/12/whats-new-changed-in-animal-crossing-pocket-camp-complete-out-now/",
+      "https://www.levelwinner.com/animal-crossing-pocket-camp-hints-tips-strategies-complete-look-resources-inventory-management/",
+      "https://www.gamezebo.com/reviews/animal-crossing-pocket-camp-review-home-again/",
+      "https://www.macworld.com/article/230748/animal-crossing-pocket-camp-review.html",
+      "https://www.gameuidatabase.com/gameData.php?id=443",
+      "https://en.wikipedia.org/wiki/Animal_Crossing:_Pocket_Camp",
+      "https://en.wikipedia.org/wiki/Animal_Crossing:_New_Horizons",
+      "https://www.nintendolife.com/news/2024/08/animal-crossing-pocket-camp-to-end-online-service-in-november",
+      "https://screenrant.com/animal-crossing-pocket-camp-complete-price-increase-reactions/",
+      "https://screenrant.com/animal-crossing-pocket-camp-still-worth-it/",
+      "https://gamerant.com/is-animal-crossing-pocket-camp-complete-worth-it-good/",
+      "https://gonintendo.com/contents/43424-animal-crossing-pocket-camp-complete-to-receive-new-items-until-sept-2025",
+      "https://nookipedia.com/wiki/Weed",
+      "https://nookipedia.com/wiki/Cockroach",
+      "https://nookipedia.com/wiki/Ordinance",
+      "https://www.gamerevolution.com/guides/646011-can-villagers-leave-without-asking-in-animal-crossing-new-horizons",
+      "https://www.reddit.com/r/CozyGamers/comments/1ouqxco/anyone_else_come_back_to_your_animal_crossing/",
+      "https://www.reddit.com/r/ACPocketCamp/comments/1h5svs6/pc_complete_is_completely_better_than_the_original/",
+      "https://www.reddit.com/r/ACPocketCamp/comments/1ge23j9/anyone_else_shocked_at_how_cheap_complete_is/"
+    ]
+  },
+  {
+    "name": "Neko Atsume: Kitty Collector",
+    "app_store_id": "923917775",
+    "developer": "Hit-Point Co., Ltd.",
+    "launch_year": "2014 (Japan, 20 October 2014; English release 30 October 2015)",
+    "business_model": "Free to play with optional gold-fish in-app purchases (70 for GBP 0.99, 170 for GBP 1.99, 270 for GBP 2.99, 400 for GBP 3.99) and video advertising. Widely described as fully playable without spending, and critics argue paying actively spoils the game.",
+    "unit_of_play": "Not a creature you own but a collection of visitors. You place food and goodies in a yard (and, after a 180-gold-fish expansion, an indoor area) and cats arrive on their own. What accumulates is the Catbook plus mementos. Counts vary by version: Wikipedia says 86 collectible cats including 26 rare; a guide counts 66 across 17 Catbook pages; the older store text says 'over 40 cat varieties'.",
+    "session_shape": "Seconds at a time, many times a day. A Kotaku writer: 'At least 20 times a day, I check in on my virtual cats', and 'A few quick bursts of attention throughout the day is sufficient enough to keep things going'. Ten-second loop: open the yard, see who is there, tap the camera, collect the fish, refill the bowl. The sit-down layer is the shop and the Catbook, behind a paw icon in the top corner.",
+    "absence": "The purest come-back-later design in the set: nothing decays, nothing dies, there is no streak and there is no fail state. Polygon: 'There's no conflict... There are no real achievements, nor any sense of danger. There's neither a failstate nor an ending... You can't let down your cats in Neko Atsume; you can only make them happier.' Kotaku: 'It feels a bit like Tamagotchi, without so many responsibilities and inevitable deaths from neglecting those responsibilities.' The only thing that runs down is the food bowl, on a published clock (Thrifty Bitz 8 hours, Frisky Bitz 6 hours, the gold-fish foods 3 hours). When it empties cats stop arriving, so absence forgoes fish but never loses any. Absence is recorded kindly: cats who visited unphotographed appear in the Catbook as a lighter silhouette with their name and the date of visit, a near-miss you can still complete.",
+    "streak_protection": "None needed — there is no streak, no daily requirement, no decay and no punishment. The structural protection is that the whole reward is for returning rather than for not-missing.",
+    "currency": [
+      {
+        "name": "Fish (silver)",
+        "earned_by": "Cats leave fish as thanks when they leave; more when the food and goodies match their taste, and less if you evict one by placing an item on it",
+        "spent_on": "Food, cheaper goodies, wallpapers, and 500 silver converts to 10 gold at the Gold Fish Exchange",
+        "feeds_back": true
+      },
+      {
+        "name": "Gold Fish",
+        "earned_by": "Gifts from rare cats, the 500-silver exchange, or real-money purchase (GBP 0.99 to GBP 3.99)",
+        "spent_on": "Premium food tiers, premium goodies, extra Catbook album pages (10 each), the 180-gold yard expansion, and 280-gold remodels",
+        "feeds_back": true
+      }
+    ],
+    "stakes_risk_chance": "No bet, no loss, no opt-in challenge. Chance is the entire engine: which cats arrive is probabilistic and weighted by food tier and goodie, and rare cats spawn far more often with expensive food and goodies. The nearest risk decision is Tubbs, who eats the whole bowl: rather than shooing him you should let him leave under his own power for a large fish payout, so patience pays and impatience costs. You cannot summon a cat; the one exception is Hermeowne's memento, usable 4 times and taking 10 days to fully replenish.",
+    "progression": "Photograph a cat to collect it into the Cat Book. Milestones are Catbook entries, per-cat albums (18 photos over 3 pages, extra pages at 10 gold fish), mementos left by rare cats that meet their preferred goodie, the 180-gold yard expansion that doubles item and food slots, and the remodel styles. Mementos are deliberately slow — dozens of visits over many weeks.",
+    "social": "None in the app: no friends, visiting, leaderboards or co-op found (not confirmed that any exists). Sharing happens outside it by screenshot — the Kotaku writer photographs new cats and new purchases and posts them to Twitter alongside colleagues.",
+    "freedom_identity": "Choose the food, the goodies and their placement in the yellow placement circles (bigger toys hold more cats); buy wallpapers; and pick one of seven remodel styles (Original, Zen, Rustic, Modern, Western, Sugary, Cafe) at 280 gold fish each, freely switchable once owned, each with slightly different goodie placements. Identity shows up as ritual rather than avatar — players put warm goodies out when it is cold in real life and cooling mats when it is warm.",
+    "signature_interaction": "Opening the app to find cats you did not choose already in your yard, and tapping the camera to keep one. The counter-gesture matters as much: NOT touching them, because moving a cat reduces the fish it leaves.",
+    "ui_type": "side-on single scene",
+    "art_style": "Flat, hand-drawn cute cartoon, 'drawn in a cute cartoon style', with cats differentiated mainly by markings; a reviewer praises the 'elegant simplicity of UI' and says 'Every element oozes charm and cuteness'. Sparse rather than dense.",
+    "home_screen": "The yard itself with whichever cats are currently visiting — five item spots at first, ten after the expansion, plus a separate indoor area — and a single paw menu in the top corner.",
+    "sound_feel": "Music by Ryo Shintani, described as 'very much reminiscent of games like Animal Crossing', giving 'the same relaxed and playful feel'; sound design is 'simple and functional'. The near-absence of completion fanfare is itself the feel: the reward is the photograph. Haptics not confirmed.",
+    "ios_gb_rating": 4.74199,
+    "ios_gb_rating_count": 2965,
+    "play_installs": "10m+ (Google Play GB, 27 October 2026; 4.8 stars from 351k reviews, package jp.co.hit_point.nekoatsume)",
+    "complaints": [
+      {
+        "text": "Tubbs, the cat who eats the whole bowl, is the most-resented mechanic: \"Petition for there to be an item that is a Tubbs deterrent so he stops eating all the food and forcing other cats away... I'm seriously getting tired of this!\"",
+        "url": "https://www.reddit.com/r/nekoatsume/comments/ic7por/petition_for_there_to_be_an_item_that_is_a_tubbs/"
+      },
+      {
+        "text": "The no-stakes design loses some players outright: \"Am I the only one who isn't really having fun?\" — 175 upvotes, 60 comments",
+        "url": "https://www.reddit.com/r/nekoatsume/comments/1gb3fjt/am_i_the_only_one_who_isnt_really_having_fun/"
+      },
+      {
+        "text": "A reviewer says it \"skirts the line of what I'd deem to be a game\" with \"no kind of appreciable strategy or challenge\" (gameplay and innovation both 3/5)",
+        "url": "https://www.sigtrent.com/neko-atsume-game-review/"
+      },
+      {
+        "text": "Paying breaks the game: buying gold fish lets you \"skip the act of waiting, and the act of waiting is what makes the game\", and \"Neko Atsume is boring when there's nothing to save up fish for\"",
+        "url": "https://notes.highlysuspect.agency/blog/nekos/"
+      }
+    ],
+    "praise": [
+      {
+        "text": "Polygon's Allegra Frank: \"There's no conflict... There are no real achievements, nor any sense of danger. There's neither a failstate nor an ending... You can't let down your cats in Neko Atsume; you can only make them happier.\"",
+        "url": "https://www.cbsnews.com/news/fans-are-obsessed-with-neko-atsume-virtual-cat-collecting-game/"
+      },
+      {
+        "text": "Kotaku: \"It speaks to my soul, and I can't stop playing it\", and \"A few quick bursts of attention throughout the day is sufficient enough to keep things going\"",
+        "url": "https://kotaku.com/the-japanese-cat-game-we-can-t-stop-playing-1701250319"
+      },
+      {
+        "text": "\"best thing to wake up to\" — 200 upvotes, on finding cats waiting in the morning",
+        "url": "https://www.reddit.com/r/nekoatsume/comments/fau4ax/best_thing_to_wake_up_to/"
+      },
+      {
+        "text": "\"Every element oozes charm and cuteness\" — craftsmanship and cuteness both 5/5, \"a real pleasure to play\"",
+        "url": "https://www.sigtrent.com/neko-atsume-game-review/"
+      }
+    ],
+    "lesson": "Neko Atsume proves retention without stakes: it pays you for coming back rather than for not-missing, and the reward is 'who showed up while you were out' — the exact shape of a trainer's comment on a filmed set or an unexpected vegetable in the plot, and the one mechanic that works identically on a two-session week and a five-session week. Steal the near-miss record: a greyed-out silhouette with a date ('a vegetable ripened on Tuesday while you were away') invites a return without accusing anyone, and steal the rule that leaving things alone pays more than fiddling with them. Avoid two things: do not let the collection become the only goal in an app whose real goal is training, because 'no appreciable strategy or challenge' measurably loses players; and never ship a Tubbs — a mechanic that silently eats what a client worked for, with no counter and no explanation, is the one piece of this design people genuinely resent.",
+    "sources": [
+      "https://apps.apple.com/gb/app/neko-atsume-kitty-collector/id923917775",
+      "https://play.google.com/store/apps/details?id=jp.co.hit_point.nekoatsume",
+      "https://en.wikipedia.org/wiki/Neko_Atsume",
+      "https://www.cbsnews.com/news/fans-are-obsessed-with-neko-atsume-virtual-cat-collecting-game/",
+      "https://kotaku.com/the-japanese-cat-game-we-can-t-stop-playing-1701250319",
+      "https://www.levelwinner.com/neko-atsume-kitty-collector-ultimate-guide-get-rare-cats/",
+      "https://www.gamezebo.com/walkthroughs/neko-atsume-kitty-collector-tips-cheats-and-strategies/",
+      "https://www.imore.com/neko-atsume-game-guide-how-collect-all-cats",
+      "http://nekoatsumeguide.weebly.com/the-basics.html",
+      "https://lovenekoatsume.wordpress.com/2015/08/18/remodeling/",
+      "https://notes.highlysuspect.agency/blog/nekos/",
+      "https://www.sigtrent.com/neko-atsume-game-review/",
+      "http://naysgamereviews.blogspot.com/2016/01/mobile-game-review-neko-atsume.html",
+      "https://www.reddit.com/r/nekoatsume/comments/ic7por/petition_for_there_to_be_an_item_that_is_a_tubbs/",
+      "https://www.reddit.com/r/nekoatsume/comments/1gb3fjt/am_i_the_only_one_who_isnt_really_having_fun/",
+      "https://www.reddit.com/r/nekoatsume/comments/fau4ax/best_thing_to_wake_up_to/",
+      "https://www.reddit.com/r/nekoatsume/comments/ki2j8x/i_always_place_warm_things_outside_when_the/",
+      "https://www.reddit.com/r/nekoatsume/comments/yyj7te/new_player_here_how_can_l_stop_tubbs_from_eating/"
+    ]
+  },
+  {
+    "name": "My Tamagotchi Forever",
+    "app_store_id": "1267861706",
+    "developer": "BANDAI NAMCO Entertainment Europe",
+    "launch_year": "2018",
+    "business_model": "Free, ad-funded, with in-app purchases up to $99.99 and a 'Tama Club' monthly subscription (players report about £5/month) that removes ads; the developer confirms any real-money purchase deactivates mandatory ads.",
+    "unit_of_play": "One creature in a room that evolves from one type to another depending on how you care for it. Four meters drive play: sleep, hunger, entertainment and bathroom. Each care action is a single tap: feed, wash, clean up after it, turn the lights out, tickle it.",
+    "session_shape": "Many tiny visits through the day — a reviewer names the intent as 'enough to wanna come back throughout the day, but not an overload of a silly amount of tasks'. Ten-second action is tapping food, toilet or mood. Longer sit-down is Tamatown and three minigames (match-3, an astronaut platformer, a rhythm tapper). Hard-gated by sleep: about two hours asleep for roughly thirty minutes awake, with a hidden timer.",
+    "absence": "It cannot die and it cannot run away. A player ignored theirs completely for a week and a half and returned to a 'healthy adult character'; another reports they 'never die. just poop all over and cry but they will never leave you'. A long absence returns a creature that 'hadn't left at all and was waiting patiently'. Neglect costs only appearance and mood. ESSENTIAL HISTORY: the 1996/1997 keychain really could die — in under half a day without adequate care — permanently, with a ghost and headstone in Japan and an angel in English versions; this caused documented school bans and children burying them in graveyards. Modern hardware kept death but cushioned it: the Tamagotchi Pix has a sleep mode acting as a gentle pause where hunger and happiness deplete much slower, while the Uni has no pause button. A paid 100-Gotchi-Point Sitter on the Uni that averts the 'Grim Reaper' appeared only in a search summary — NOT CONFIRMED.",
+    "streak_protection": "No streak and no decay penalty exists, so no protection is needed — forgiveness is total and permanent. The only thing standing in for it is the opaque sleep/energy timer, which can be skipped by watching an ad or paying 3 gems.",
+    "currency": [
+      {
+        "name": "Coins",
+        "earned_by": "Minigames, jobs, daily care, watching ads",
+        "spent_on": "Food, toys, costumes, Tamatown decorations, house customisation",
+        "feeds_back": true
+      },
+      {
+        "name": "Gems",
+        "earned_by": "Real-money purchase, occasional rewards and ads",
+        "spent_on": "Skipping the sleep/energy timer (3 gems), premium shop items",
+        "feeds_back": false
+      }
+    ],
+    "stakes_risk_chance": "Essentially none, by design: no bet, no loss, no permadeath. The only genuine uncertainty is which character you evolve into — 'You never know who they might become next!' — and when that randomness misfires it frustrates: one reviewer reported going through eight chickens without ever getting another character.",
+    "progression": "Life stages are the milestone — baby, toddler, teenager, adult — alongside levels, jobs and unlocks (new minigames, new characters, a customisable house). Memories of moments shared with the Tamagotchi are also collected and shareable.",
+    "social": "Light, opt-in and asynchronous: explore Tamatown and make friends with other Tamagotchi characters, compare progression and raising skills with friends, and share favourite moments. No co-op obligation and no team that can drop you.",
+    "freedom_identity": "Care choices steer which character you get; you dress it in costumes, decorate Tamatown, customise a house, and can keep more than one pet at a time.",
+    "signature_interaction": "Tapping the toilet button to clean up the steaming poop sitting on the floor beside your creature — the store gameplay screenshot shows exactly this. Secondary: tickling the Tamagotchi, which the official page calls out ('they love it!').",
+    "ui_type": "creature in a room",
+    "art_style": "Soft, rounded, pastel 3D — a chubby vinyl-toy creature with huge eyes on a purple rug, orange patterned wallpaper, a window onto the town, a houseplant; everything matte, friendly and low-contrast.",
+    "home_screen": "Sparse: seven interactive elements total, counted from the App Store gameplay screenshot. Circular level badge showing '2' with a green progress ring (top-left), a character-select button with a Tamagotchi icon (top-right), and a five-button bottom bar — mood/face, food (knife and fork), toilet, sleep (moon and stars) and house/town. The creature owns the centre with nothing overlapping it; the only in-world state marker is the poop with smell lines. A reviewer names the sparseness as the reason they stayed.",
+    "sound_feel": "Voiced, animated characters, and divisive: one reviewer played with the volume off, finding the voices 'too often, too sexualised sounding and over all just not fitting'. A photo/AR moment exists — you can snap photos while the Tamagotchi plays with toys. Haptics not confirmed.",
+    "ios_gb_rating": 4.43585,
+    "ios_gb_rating_count": 3336,
+    "play_installs": "10,000,000+",
+    "complaints": [
+      {
+        "text": "'Seriously overloaded with ads, several of the mini-games have hacked scores too.'",
+        "url": "https://www.metacritic.com/game/my-tamagotchi-forever/"
+      },
+      {
+        "text": "'when you put them to bed it takes TWO HOURS for them to wake up (on 100% energy) and it only lasts about 30 minutes before you have to put them back to bed. And to speed up their sleep you have to watch an ad but then the ad choice will run out and you'll have to pay 3 gems'",
+        "url": "https://play.google.com/store/apps/details?id=eu.bandainamcoent.mytamagotchiforever"
+      },
+      {
+        "text": "'The ads are oppressive. I feel like I get one no matter what I do. Not only that, but for an app geared towards children, the ad choices are terrible.'",
+        "url": "https://play.google.com/store/apps/details?id=eu.bandainamcoent.mytamagotchiforever"
+      },
+      {
+        "text": "On the sleep gate: 'the amount you must wait is never once revealed to you' and 'you can't perform any other actions in the game while your pet is sleeping'.",
+        "url": "https://www.androidpolice.com/2018/01/04/hands-tamagotchi-forever-everything-love-original-digital-pet-toy-mixed-many-free-play-mechanics/"
+      },
+      {
+        "text": "'it's a bit cyclical and there isn't really much to do'",
+        "url": "https://apps.apple.com/gb/app/my-tamagotchi-forever/id1267861706?see-all=reviews"
+      }
+    ],
+    "praise": [
+      {
+        "text": "'Its super cute and simple. Simple was what I was after. Enough to wanna come back throughout the day, but not an overload of a silly amount of tasks or options of stuff.'",
+        "url": "https://play.google.com/store/apps/details?id=eu.bandainamcoent.mytamagotchiforever"
+      },
+      {
+        "text": "'It's a beautiful re-imagining and modernisation of a beloved part of many people's child hood.'",
+        "url": "https://apps.apple.com/gb/app/my-tamagotchi-forever/id1267861706?see-all=reviews"
+      },
+      {
+        "text": "'The game has so much more to offer now. New mini games, new characters to unlock and even a customisable house! Really cute and sweet little time waster.'",
+        "url": "https://play.google.com/store/apps/details?id=eu.bandainamcoent.mytamagotchiforever"
+      },
+      {
+        "text": "'they never die. just poop all over and cry but they will never leave you' — the forgiveness read as affection, not as a flaw.",
+        "url": "https://www.tamatalk.com/threads/can-tamas-die-run-away-in-my-tamagotchi-forever.195113/"
+      }
+    ],
+    "lesson": "Bandai ran the experiment for us: the 1996 keychain's permadeath produced school bans and children burying toys in graveyards, and the 2018 app removed death entirely, so ignoring it for a week and a half returns a healthy adult — proof a care loop still works when the creature can only look sad, never be lost. Copy the sparse screen: seven elements, one creature centred, a five-button care bar, which is a true between-sets glance where Township is not. Avoid what replaced death — a hidden sleep/energy timer you pay or watch an ad to skip, the single most-repeated complaint in both stores, which would punish exactly the client whose rest day the trainer prescribed.",
+    "sources": [
+      "https://itunes.apple.com/lookup?id=1267861706&country=gb",
+      "https://apps.apple.com/gb/app/my-tamagotchi-forever/id1267861706",
+      "https://apps.apple.com/gb/app/my-tamagotchi-forever/id1267861706?see-all=reviews",
+      "https://play.google.com/store/apps/details?id=eu.bandainamcoent.mytamagotchiforever",
+      "https://en.bandainamcoent.eu/tamagotchi/my-tamagotchi-forever",
+      "https://www.tamatalk.com/threads/can-tamas-die-run-away-in-my-tamagotchi-forever.195113/",
+      "https://www.androidpolice.com/2018/01/04/hands-tamagotchi-forever-everything-love-original-digital-pet-toy-mixed-many-free-play-mechanics/",
+      "https://www.metacritic.com/game/my-tamagotchi-forever/",
+      "https://en.wikipedia.org/wiki/Tamagotchi",
+      "https://uptechnet.com/how-do-you-pause-a-tamagotchi/",
+      "https://www.tamatalk.com/threads/can-i-pause-the-tamagotchi-uni.201610/"
+    ]
+  }
+]

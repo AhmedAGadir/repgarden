@@ -1,0 +1,41 @@
+Finch is a self care pet app that helps you feel prepared and positive, one day at a time. Take care of your pet by taking care of yourself! 
+
+*Set your '''[[goals]]''' and track them with the app. Write your own personal goals, and/or choose from a wide variety of suggested self care [[activities]] and [[Self-care Areas|tailored]] goals. 
+*Use in-game rewards to customize your birb with [[clothing]] and [[colors]], decorate its [[birbhouse]], and go on [[Adventuring|adventures]] to [[locations]] around the world.
+
+'''''Wiki Note: Free play includes everything you *need* to use the app.'''''  
+
+The Home page of the app has a three-line icon at the top left.<ref name=SettingsMenuIcon>Top left three-line Settings menu {{Clear}}</ref> It leads to self-focused [[Activities]], your chosen [[Goals]], [[Self-care Areas]] to organize your goals, [[Insights]], [[Newsletters]], and History. It also has links to [[Official Finch Communities|official Finch communities]], the [[Guardians|Guardian]] project Raffle to try for a free month of [[Finch Plus|membership]], as well as dozens of App Settings (preferences, notifications, etc.)
+
+The game has a series of tabs across the bottom:{{Clear}}{{Clear}}
+*Home - The page shows your birb, either at the [[Locations|location]] or in its' [[Birbhouse]]. Below it is a checklist of the goals you have created. You can mark them off as you finish, displaying only what's left to do. 
+*[[Quests]] - this tab has extra ways to earn [[Rainbow Stones]], and is also where you pick up your [[Seasonal Events|event]] rewards.
+*[[Shops|Shop]] - [[Mr. Prickles' Shop|clothes]], [[Finkea Furnishings|furniture]], [[The Color Studio|birb color dyes]], and [[Travel with Sass|travel]].
+*[[Tree Towns|Friends]] - Your Tree Town shows all of your friends. You can see their birb in their [[Birbhouse|birbhouse]], check your [[Friendship]] level, send them [[Good Vibes]] or gifts, [[Goal Buddies|buddy up]] on a goal, see their last four discoveries, and more.
+*Bag - Your birb's [[Clothing]], [[Furniture]], [[Colors]] and [[Micropets]] are here (as well as your [[Mailbox]] where you receive your [[Newsletters]] and other summaries about your achievements.) Dress your [[Birb]], decorate the [[Birbhouse]], change your birb's [[Colors|colors]], and equip and hatch [[Micropets|micropets]] to accompany your birb. Micropet egs to hatch are obtained here through [[Professor Oat's Lab]].
+*''(Your Birb's face and name)'' - This tab keeps track of your birb's personal characteristics, [[Micropets]] collection, [[Discoveries|special discoveries]], and [[Locations]] progress. 
+
+The [[Activities]] option under Settings leads to many things (also covered on our [[Activities]] page):
+*[[Goals|Goal Ideas]] - This is the main purpose of the app. Choose from a wide variety of suggestions or create your own. (''Wiki note: We recommend using the [[Self-care Areas]] option to find goal ideas rather than this menu.'')
+*[[Reflections]] - write in a private journal
+*[[Breathe|Breathing exercises]] - animated breathing exercises that guide you breath by breath, with different types to help you relax, focus, sleep, etc.
+*[[Soundscapes]] - choose from a wide variety of soundscapes to play
+*[[Movements]] - optional video-guided mild physical exercises to follow in the app. Choose from suggestions, or write your own and add to a list  
+*[[Quizzes]] can help you reflect on your personal challenges. Many of these are designed with the help of experts.
+*[[Timers]] - set a Timer to help you work on a particular goal 
+*[[Act of Kindness]] - choose from suggestions that help you feel better about yourself by uplifting others
+*[[First Aid]] - a list you can use to help you through your worst moments
+
+==Finch Plus== 
+[[Finch Plus]] is an optional premium option in Finch. Again, the free version includes everything you *need* to use the app. Supporting the app developers with real world money via Finch Plus gives members multiple added '''options''' but there are no members-only items. Each paying member helps keep the app free (and ad-free!) for the rest of us.
+
+==Devices== 
+The Finch app is available for iOS and Android on your device's app store. You *cannot* play a single Finch character on multiple devices, even if they use the same OS - the software is not set up to sync that way. If you decide to permanently move your birb to a different device, you can do that by creating a [[Backups|Backup]] and then accessing the backup from the new device. Note that [[Finch Plus]] membership is paid through the app store, so if you move to a device that uses the same app store, your membership, if you have one, will also transfer to the new device. However, if you change from iOS to Android or reverse, [[Finch Plus]] membership cannot transfer to the opposite app store.
+
+==Notes==
+<references />
+
+
+
+You can post comments about this article on our [https://finch.fandom.com/f Discussions page].
+[[Category:Finch: Self Care Pet App]]

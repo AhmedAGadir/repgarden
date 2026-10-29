@@ -1,6 +1,6 @@
 # RepGarden
 
-A web and mobile app for personal trainers and their clients, built for Ahmed's friend Benji and documented as it develops.
+A web and mobile app for personal trainers and their clients, built for Benji, a personal trainer, and documented as it develops.
 
 Follow [Building RepGarden](https://gadirlabs.io/learn/building-repgarden) for the designs, decisions, AI-assisted implementation, testing and release work. Website changes may appear in the local preview before publication.
 

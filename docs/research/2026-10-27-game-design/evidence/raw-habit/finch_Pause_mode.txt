@@ -1,0 +1,13 @@
+Pause mode is a setting that allows you to:
+* Preserve your [[Streaks]].
+* Hide the [[widgets]] and stop notifications.
+* Not allow people to give you [[Good Vibes]] or make you a Goal Buddy.
+
+Go to the top left icon and scroll down to Account to find Pause mode. You can choose to be back in any number between 1 to 7 days (default is 3 days.) You can turn on a Reminder to check in. 
+
+<gallery>File:SettingsAccount.png 
+File:Pause mode.png|alt=Pause mode warning
+File:SettingsPauseModeOn.png
+File:PauseModeEffectonWidget.png</gallery>
+[[Category:Finch: Self Care Pet App]]
+[[Category:Stubs]]

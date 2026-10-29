@@ -1,0 +1,754 @@
+, the Micropet for October 2026, corresponding to the [[Seasonal Events|Seasonal Event]] [[Birbs & Broomsticks|Birbs & Broomsticks]]]]
+'''Micropets''' are companions your Finch can own to accompany them on their adventures. Each micropet has interesting walking and standing movements, as well as a sleep pose. And each has their own unique "voice!" 
+
+As of October 2026, there are 66 micropets available. 
+
+==Micropet Checklist==
+<table-progress-tracking table-id="1" unique-column-index="1">{| class="sortable mw-collapsible mw-collapsed fandom-table"  
+|+Micropedia&nbsp;(Index)
+!#
+!Micropet
+|-
+|01
+|[[Boopty the Spoopty]] 
+|-
+|02
+|[[Misty the Flamingo]] 
+|-
+|03
+|[[Bean the Blobcat]] 
+|-
+|04
+|[[Oatmeal the Llama]] 
+|-
+|05
+|[[Subwoofer the Corgi]] 
+|-
+|06
+|[[Jelly the Melonberry]] 
+|-
+|07
+|[[Poof the Pompom]] 
+|-
+|08
+|[[Blizzard the Wizard]]  
+|-
+|09
+|[[Starry the Twinkle]] 
+|-
+|10
+|[[Sunny the Seedling]] 
+|-
+|11
+|[[Monsieur the Mouse]] 
+|-
+|12
+|[[Gumdrop the Plop]] 
+|-
+|13
+|[[Adrian the Tata]] 
+|-
+|14
+|[[Kimmi the Droplet]] 
+|-
+|15
+|[[Pinecone the Hedgie]] 
+|-
+|16
+|[[Beau the Duck]] 
+|-
+|17
+|[[Flutter the Flying Heart]] 
+|-
+|18
+|[[Cotton the Cuddle Cloud]] 
+|-
+|19
+|[[Wiggles the Squiggle]] 
+|-
+|20
+|[[Sprocket the Owl]] 
+|-
+|21
+|[[Beepo the Beepbot]] 
+|-
+|22
+|[[Sophie the Seal]] 
+|-
+|23
+|[[Cookie the Cow]] 
+|-
+|24
+|[[Disco the Dachshund]] 
+|-
+|25
+|[[Pumpkin the Piglet]] 
+|-
+|26
+|[[Talon the Gryphon]]  
+|-
+|27
+|[[Parley the Parrot]] 
+|-
+|28
+|[[Aurora the Arctic Fox]] 
+|-
+| 29
+|[[Mimi the Mushy]] 
+|-
+|30
+|[[Bongo the Gorilla]] 
+|-
+|31
+|[[Scout the Bear Cub]] 
+|-
+|32
+|[[Stomper the Brontosaurus]] 
+|-
+|33
+|[[Flash the Superfroggo]] 
+|-
+|34
+|[[Batrick the Squeaker]] 
+|-
+|35
+|[[Butterscotch the Calico]] 
+|-
+|36
+|[[Wally the Waddle]] 
+|-
+|37
+|[[Beaky the Cheep]] 
+|-
+|38
+|[[Bob the Blob]] 
+|-
+|39
+|[[Shy the Squirm]] 
+|-
+|40
+|[[Lovely the Tumtum]] 
+|-
+|41
+|[[Stacks the Pebbles]] 
+|-
+|42
+|[[Bounce the Beary]] 
+|-
+|43
+|[[Oakley the Kernel]] 
+|-
+|44
+|[[Phantom the Mysterious]] 
+|-
+|45
+|[[Caramel the Caribou]] 
+|-
+|46
+|[[Flora the Flutterfly]] 
+|-
+|47
+|[[Cheeky the Hamster]] 
+|-
+|48
+|[[Martin the Monkey]] 
+|-
+|49
+|[[Steve the Koala]] 
+|-
+|50
+|[[Carrot the Bunny]] 
+|-
+|51
+|[[Zephyrus the Pegasus]] 
+|-
+|52
+|[[Lumi the Jelly]]
+|-
+|53
+|[[Sketch the Pawrtist]] 
+|-
+|54
+|[[Raven the Cat]]
+|-
+|55
+|[[Crumbs the Raccoon]] 
+|-
+|56
+|[[Clara the Chipmunk]] 
+|-
+|57
+|[[Agnes the Sheep]]  
+|-
+|58
+|[[Cheshire Cat]] 
+|-
+|59
+|[[Haru the Koi]] 
+|-
+|60
+|[[Toto the Dog]] 
+|-
+|61
+|[[Sage the Skunk]] 
+|-
+|62
+|[[Krypto (micropet)]] 
+|-
+|63
+|[[Flicker the Fireflies]] 
+|-
+|64
+|[[Pixel the Gamer Cat]] 
+|-
+|65
+|[[King Truffle Wuffle the Duwende]] 
+|-
+|66
+|[[Hocus the Toadus]] *
+|} 
+</table-progress-tracking>
+<br />{{Small font|(An asterisk * indicates that not all color variant pictures have been collected.)}}
+
+==Obtaining Micropets==
+There are five ways to get new micropets; the main one is through [[Micropets#Hatching Micropets from Eggs|hatching]] random eggs from [[Professor Oat's Lab]]. Each [[Seasonal Events|seasonal event]] also gives a theme-specific pet. If you [[Invite|invite]] three friends into Finch, you will receive a micropet named [[Cookie the Cow]] (but you may still receive Cookie as a random egg.) If you initially join Finch through an invite from a friend, a selected micropet egg will be included, but that can only be done once. A another way is through gifting. 
+
+=== Seasonal Events===
+Users can collect a themed micropet on Day 25 of a seasonal event, or alternatively Day 20 for [[Finch Plus]] Members. After the event, the pet may be received in a random egg from Professor Oat, in any of its three color variants. Some pets like [[Raven the Cat]], [[Cheshire Cat]] and [[Toto the Dog]] are only available in one default color as they are characters. [[Krypto (micropet)]] is the first micropet to be limited and is not be available to hatch in eggs as the [[Supergirl]] event ended. However he is still obtainable through gifting. Similarly [[King Truffle Wuffle the Duwende]] wont be available to hatch from eggs and was only obtainable during the [[Forgotten Island]] event. Afterwards, you can still receive them through gifting.
+
+===Hatching Micropets from Eggs===
+:''Main article: [[Professor Oat's Lab]]'' 
+A micropet egg must be be linked to a [[Goals|goal]] through [[Professor Oat]] in order to grow enough to hatch into a new micropet. After the goal is completed 7 times, a random micropet will hatch from the egg. Only one goal can be linked at a time. If you decide to change the linked goal, the growth will be reset to zero. After the egg is hatched, you can [[Professor Oat's Lab|receive a new random egg]], and choose a goal to link to it. Duplicate eggs may later be received. There is no limit to duplicates, but the developers are looking into changing the duplicate algorithm.
+
+==Settings== 
+Each individual micropet has its own settings. Go to the "Micropets" interface in your bag, and click on the pet. The gear symbol in the top right opens the settings. The default name and pronouns can be edited here, and if it can grow in age. While the micropet is still a baby, there is a toggle for "growable to adult." There is also an option to release the micropet. However even if you release the micropet, you will be able to hatch it again in the future.
+
+==Stages of Growth==
+Micropets hatch from an egg as a baby. After the micropet has gone on 7 adventures, it will grow into an adult. Micropets can remain "forever babies" by clicking the micropet, opening its settings, and toggling off the "growable to adult" option. This option goes away when the micropet is an adult.
+
+==Appearance==
+Micropets usually come in three color variations: their original color, plus two extra colors. A micropet egg earned from a seasonal event will be the "original" color. When eggs are obtained through Professor Oat, they will hatch a random micropet in one of its three color variants. Adult micropets are larger in size and have some changes in appearance compared to their baby counterparts. Pictures of the adult and baby micropets, in their three variant colors, are included on each micropet page. (See links in collapsed tables on this page.)
+
+==Nature==
+Micropets may also have a Nature. Known Natures include but are not limited to: Cheerful, Gentle, Quiet, Loyal, Playful, and Brave. They do not have any other known individuality. A micropet's nature is random and is not related to its color. Natures make each micropet unique and special.  
+
+==Micropets by Original Release==
+===Seasonal Events=== 
+<table-progress-tracking table-id="2" unique-column-index="1"> 
+{| class="sortable mw-collapsible fandom-table" style="text-align:center; width:100%"
+!#
+!Micropet
+!Variations
+!Seasonal Event
+!data-sort-type="Date" | Released
+!Image
+|-
+|01
+|[[Boopty the Spoopty]]
+|Black, Green, Red
+|[[Finchie Frights]]
+|data-sort-value="1 October 2022" | October 2022
+|
+|-
+|15
+|[[Pinecone the Hedgie]]
+| Brown, Green, Red
+|[[Cozy Critters]]
+|data-sort-value="1 November 2022" | November 2022
+|
+|-
+|22
+|[[Sophie the Seal]]
+|Blue, Cream, White
+|[[Winter Wonders]]
+|data-sort-value="1 December 2022" | December 2022
+|
+|-
+|08
+|[[Blizzard the Wizard]]
+| White, Brown, Gray 
+|[[Starlight Magic]]
+|data-sort-value="1 January 2023" | January 2023
+|
+|-
+|17
+|[[Flutter the Flying Heart]]
+|Red, Orange, Blue
+|[[Sweet Surprises]]
+|data-sort-value="1 February 2023" | February 2023
+|
+|-
+|05
+|[[Subwoofer the Corgi]]
+|Black/Purple, Green, Red
+|[[Birb Beats]]
+|data-sort-value="1 March 2023" | March 2023
+|
+|-
+|10
+|[[Sunny the Seedling]]
+|Yellow, Pink, Red
+|[[Showers & Flowers]]
+|data-sort-value="1 April 2023" | April 2023
+|
+|-
+|21
+|[[Beepo the Beepbot]]
+|Gray, Red, Blue
+|[[Cosmic Odyssey]]
+|data-sort-value="1 May 2023" | May 2023
+|
+|-
+|13
+|[[Adrian the Tata]]
+|Green, Yellow, Brown
+|[[Breezy Beaches]]
+|data-sort-value="1 June 2023" | June 2023
+|
+|-
+|04
+|[[Oatmeal the Llama]]
+|White, Brown, Black 
+|data-sort-value="2 March 2023" | March 2023 (reward)
+|data-sort-value="2 June 2023" |June 2023 (egg)
+|
+|-
+|26
+|[[Talon the Gryphon]]
+|Brown, Gray, Gold
+|[[Medieval Marvels]]
+|data-sort-value="1 July 2023" | July 2023
+|
+|-
+|16
+|[[Beau the Duck]]
+|Red, Green, Blue 
+|[[Sports Superstars]]
+|data-sort-value="1 August 2023" | August 2023
+|
+|-
+|20
+|[[Sprocket the Owl]]
+|Brown, Black, Gray 
+|[[Gears and Goggles]]
+|data-sort-value="1 September 2023" | September 2023
+|
+|-
+|25
+|[[Pumpkin the Piglet]]
+| Orange, Yellow, Green
+|[[Pumpkin Palooza]]
+|data-sort-value="1 October 2023" | October 2023
+|
+|-
+|30
+|[[Bongo the Gorilla]]
+|Blue, Yellow, Gray
+|[[Jungle Jamboree]]
+|data-sort-value="1 November 2023" | November 2023
+|
+|-
+|28
+|[[Aurora the Arctic Fox]]
+|White, Brown, Gray 
+|[[Frosty Fantasy]]
+|data-sort-value="1 December 2023" | December 2023
+|
+|-
+|27
+|[[Parley the Parrot]]
+| Red, Blue, Green 
+|[[Buccaneer’s Bounty|Buccaneer's Bounty]]
+|data-sort-value="1 January 2024" | January 2024
+|
+|-
+|24
+|[[Disco the Dachshund]]
+|Brown/Yellow, Black/Green, Tan/Red
+|[[Retro Romance]]
+|data-sort-value="1 February 2024" | February 2024
+|
+|-
+|29
+|[[Mimi the Mushy]]
+|Red, Teal, Pink
+|[[Woodland Whimsy]]
+|data-sort-value="1 March 2024" | March 2024
+|
+|-
+|11
+|[[Monsieur the Mouse]]
+|Gray, Black, Brown
+|[[Timeless Treasures]]
+|data-sort-value="1 April 2024" | April 2024
+|
+|-
+|23
+|[[Cookie the Cow]]
+|Black, Brown, Grey 
+|[[Barnyard Bash]]
+|data-sort-value="1 May 2024" | May 2024
+|
+|-
+|02
+|[[Misty the Flamingo]]
+|Pink, Beige, Purple
+|[[Sand & Sunbeams]]
+|data-sort-value="1 June 2024" | June 2024
+|
+|-
+|31
+|[[Scout the Bear Cub]]
+|Brown, Black, White
+|[[Campfire Chronicles]]
+|data-sort-value="1 July 2024" | July 2024
+|
+|-
+|33
+|[[Flash the Superfroggo]]
+|Green, Yellow, Pink
+|[[Superbirb Showdown]]
+|data-sort-value="1 August 2024" | August 2024
+|
+|-
+|32
+|[[Stomper the Brontosaurus]]
+|Green, Pink, Orange
+|[[Dino Dash]]
+|data-sort-value="1 September 2024" | September 2024
+|
+|-
+|34
+|[[Batrick the Squeaker]]
+|Dark Brown, Light Brown, Black
+|[[Strange Science]]
+|data-sort-value="1 October 2024" | October 2024
+|
+|-
+|35
+|[[Butterscotch the Calico]]
+| Calico, Tuxedo, Tortoiseshell
+|[[Homespun Haven]]
+|data-sort-value="1 November 2024" | November 2024
+|
+|-
+|44
+|[[Phantom the Mysterious]]
+|Grey/Blue, Dark Gray/White, Brown/Green
+|[[Midnight Masquerade]]
+|data-sort-value="1 December 2024" | December 2024
+|
+|-
+|45
+|[[Caramel the Caribou]]
+|Brown, Gray, Reddish-Brown
+|[[Frozen Frontier]]
+|data-sort-value="1 January 2025" | January 2025
+|
+|-
+|46
+|[[Flora the Flutterfly]]
+|Green/Orange, Pink/Blue, Purple/Pink
+|[[Glimmering Gardens]]
+|data-sort-value="1 February 2025" | February 2025
+|
+|-
+|47
+|[[Cheeky the Hamster]]
+|Orange, Brown, Gray
+|[[Playtime Palooza]]
+|data-sort-value="1 March 2025" | March 2025
+|
+|-
+|48
+|[[Martin the Monkey]]
+|Red, Green, Blue
+|[[Hotel Holiday]]
+|data-sort-value="1 April 2025" | April 2025
+|
+|-
+|49
+|[[Steve the Koala]]
+|Gray, White, Brown
+|[[Outback Adventure]]
+|data-sort-value="1 May 2025" | May 2025
+|
+|-
+|50
+|[[Carrot the Bunny]]
+|Beige, Black, Brown
+|[[Veggie Vogue]]
+|data-sort-value="1 June 2025" | June 2025
+|
+|-
+|51
+|[[Zephyrus the Pegasus]]
+|White, Black, Brown
+|[[Olympian Odyssey]]
+|data-sort-value="1 July 2025" | July 2025
+|
+|-
+|52
+|[[Lumi the Jelly]]
+|Purple, Blue, Pink
+|[[Poolside Pals]]
+|data-sort-value="1 August 2025" | August 2025
+|
+|-
+|53
+|[[Sketch the Pawrtist]]
+|Brown, Gray, Yellow 
+|[[Beaks and Brushes]]
+|data-sort-value="1 September 2025" | September 2025
+|
+|-
+|54
+|[[Raven the Cat]]
+|Black only
+|[[Midnight Manor]]
+|data-sort-value="1 October 2025" | October 2025
+|
+|-
+|55
+|[[Crumbs the Raccoon]]
+|Gray, Light Brown, Brown
+|[[Latte Lounge]]
+|data-sort-value="1 November 2025" | November 2025
+|
+|-
+|56
+|[[Clara the Chipmunk]]
+|Light Brown/Pink, Dark Brown/Blue, Gray/Purple
+|[[Frosted Fairytale]]
+|data-sort-value="1 December 2025" | December 2025
+|
+|-
+|57
+|[[Agnes the Sheep]]
+|Cream, Brown, Black
+|[[Spellbound Stories]]
+|data-sort-value="1 January 2026" | January 2026
+|
+|-
+|58
+|[[Cheshire Cat|Cheshire Cat]]
+|Purple only
+|[[Queen of Hearts]]
+|data-sort-value="1 February 2026" | February 2026
+|
+|-
+|59
+|[[Haru the Koi]]
+|Orange, White, Yellow
+|[[Blossoming Birbs]]
+|data-sort-value="1 March 2026" | March 2026
+|
+|-
+|60
+|[[Toto the Dog]]
+|Brown only
+|[[Journey to Oz]]
+|data-sort-value="1 April 2026" |April 2026
+|
+|-
+|61
+|[[Sage the Skunk]]
+|Orange, Blue, Green
+|[[Boho Birbs]]
+|data-sort-value="1 May 2026" |May 2026
+|
+|-
+|62
+|[[Krypto (micropet)|Krypto]]
+|White only
+|[[Supergirl]]
+|data-sort-value="1 June 2026" |June 2026
+|
+|-
+|63
+|[[Flicker the Fireflies]] 
+|Yellow, Pink, Orange
+|[[Drive-In Dreams]]
+|data-sort-value="1 July 2026" |July 2026
+|
+|-
+|64
+|[[Pixel the Gamer Cat]]
+|Gray, Dark Gray, Orange
+|[[Game On!]]
+|data-sort-value="1 August 2026" |August 2026
+|
+|-
+|65
+|[[King Truffle Wuffle the Duwende]]
+|Default only
+|[[Forgotten Island]]
+|data-sort-value="1 September 2026" |September 2026
+|
+|-
+|66
+|[[Hocus the Toadus]]
+|Green, unknow, unknown
+|[[Birbs & Broomsticks]]
+|data-sort-value="1 October 2026" |October 2026
+|
+|}
+</table-progress-tracking>
+
+===Common Micropets Released June 2023=== 
+ 
+
+
+
+*Top: Starry, Jelly, Kimmi
+*Middle: Cotton, Bean, Gumdrop
+*Bottom: Poof, Wiggles {{Clear}} 
+<table-progress-tracking table-id="3" unique-column-index="1">
+{| class="sortable mw-collapsible fandom-table" style="text-align:center; width:50%"
+!#
+!Micropet
+!Variations
+!Event
+!data-sort-type="Date" | Released
+!Image
+|-
+|03
+|[[Bean the Blobcat]]
+|Blue, Yellow, Black
+|[[#Common Micropets Released June 2023|Common Micropets Release 1]]
+|June 2023
+|[[#Common Micropets Released June 2023|see group picture]]
+|-
+|18
+|[[Cotton the Cuddle Cloud]]
+|Blue, Gray, White 
+|[[#Common Micropets Released June 2023|Common Micropets Release 1]]
+|June 2023
+|[[#Common Micropets Released June 2023|see group picture]]
+|-
+|12
+|[[Gumdrop the Plop]]
+|Pink, Blue, Yellow
+|[[#Common Micropets Released June 2023|Common Micropets Release 1]]
+|June 2023
+|[[#Common Micropets Released June 2023|see group picture]]
+|-
+|06
+|[[Jelly the Melonberry]]
+|Green, Yellow, Pink
+|[[#Common Micropets Released June 2023|Common Micropets Release 1]]
+|June 2023
+|[[#Common Micropets Released June 2023|see group picture]]
+|-
+|14
+|[[Kimmi the Droplet]]
+|Blue, Orange, Green
+|[[#Common Micropets Released June 2023|Common Micropets Release 1]]
+|June 2023
+|[[#Common Micropets Released June 2023|see group picture]]
+|-
+|07
+|[[Poof the Pompom]]
+| Yellow, Blue, Red
+|[[#Common Micropets Released June 2023|Common Micropets Release 1]]
+|June 2023
+|[[#Common Micropets Released June 2023|see group picture]]
+|-
+|09
+|[[Starry the Twinkle]]
+|Yellow, Red, Blue
+|[[#Common Micropets Released June 2023|Common Micropets Release 1]]
+|June 2023
+|[[#Common Micropets Released June 2023|see group picture]]
+|-
+|19
+|[[Wiggles the Squiggle]]
+|Purple, Green, Blue 
+|[[#Common Micropets Released June 2023|Common Micropets Release 1]]
+|June 2023
+|[[#Common Micropets Released June 2023|see group picture]]
+|}</table-progress-tracking> 
+
+
+
+===Common Micropets Released December 2024=== 
+
+
+
+* &nbsp;&nbsp; Top row: Wally, Beaky, Bob 
+
+*&nbsp;&nbsp;Middle row: Shy, Lovely, Stacks 
+
+*&nbsp;&nbsp;Bottom row: Bounce, Oakley
+<table-progress-tracking table-id="4" unique-column-index="1">
+{| class="sortable mw-collapsible fandom-table" style="text-align:center; width:50%"
+!#
+!Micropet
+!Variations
+!Event
+!data-sort-type="Date" | Released
+!Image
+|-
+|37
+|[[Beaky the Cheep]]
+|Orange, Blue, Brown 
+|[[#Common Micropets Released December 2024 |Common Micropets Release 2]]
+|December 2024
+|[[#Common Micropets Released December 2024 |see group picture]]
+|-
+|38
+|[[Bob the Blob]]
+|Teal, Gray, Brown
+|[[#Common Micropets Released December 2024 |Common Micropets Release 2]]
+|December 2024
+|[[#Common Micropets Released December 2024 |see group picture]]
+|-
+|42
+|[[Bounce the Beary]]
+|Blue, Purple, Gray
+|[[#Common Micropets Released December 2024 |Common Micropets Release 2]]
+|December 2024
+|[[#Common Micropets Released December 2024 |see group picture]]
+|-
+|40
+|[[Lovely the Tumtum]]
+| Purple, Blue, Pink
+|[[#Common Micropets Released December 2024 |Common Micropets Release 2]]
+|December 2024
+|[[#Common Micropets Released December 2024 |see group picture]]
+|-
+|43
+|[[Oakley the Kernel]]
+| Brown, Green, Yellow
+|[[#Common Micropets Released December 2024 |Common Micropets Release 2]]
+|December 2024
+|[[#Common Micropets Released December 2024 |see group picture]]
+|-
+|39
+|[[Shy the Squirm]]
+| Orange, Blue, Green 
+|[[#Common Micropets Released December 2024 |Common Micropets Release 2]]
+|December 2024
+|[[#Common Micropets Released December 2024 |see group picture]]
+|-
+|41
+|[[Stacks the Pebbles]]
+|Green, Pink, Gray
+|[[#Common Micropets Released December 2024 |Common Micropets Release 2]]
+|December 2024
+|[[#Common Micropets Released December 2024 |see group picture]]
+|-
+|36
+|[[Wally the Waddle]]
+| Pink, Blue, Gray
+|[[#Common Micropets Released December 2024 |Common Micropets Release 2]]
+|December 2024
+|[[#Common Micropets Released December 2024 |see group picture]]
+|}</table-progress-tracking> 
+
+
+[[Category:2022]]
+[[Category:2023]]
+[[Category:2024]]
+[[Category:Micropets]]
+[[Category:Finch: Self Care Pet App]]

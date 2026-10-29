@@ -1,0 +1,54 @@
+
+Finch Plus members support app development with real world money. Each paying member helps keep the app '''free''' (and '''ad-free''') for the rest of us.
+
+'''''NOTE:''''' ''The free version of Finch has'' '''''everything''''' ''you need to use the app!''
+
+However, Finch Plus members get multiple benefits: 
+
+* '''Extra Seasonal Event Rewards''' 🎁: get an additional award each day you energize your birb during the [[Seasonal Events|seasonal event]] and can choose the color you want and not only have to choose beween the  four free colors each month. And also unlock the event [[Micropets|micropet]] earlier!
+* '''Additional Item Slots in Shops''' 🛍️: get additional rare items slots in the [[:Category:Shops|shops]] and access to a daily discount item (there are no members-only items. except that [[Guardians]] have special sparkles.)
+* '''Added Customization''' 🎨: change your [[Goals|goal]] emojis, [[Self-care Areas]] colors, and update your friends' tag emojis
+* '''More Exercise Options''' ⚡️:  browse extra [[Reflections|reflection]]/ goal suggestions, and unlock all time durations on activities (timers, [[Soundscapes|soundscapes]], [[Movements|movements]], [[Breathe|breathing exercises]])
+* '''All Good Vibes 🌳 :''' send plus-exclusive [[Good Vibes|good vibes]] to friends in your [[Tree Towns|tree town]]
+* '''Bonus Weekly Mail 💌:''' get more self-care insights from additional mail updates 
+*''' More Location Travel Options:''' Nine Travel options will appear daily instead of the free three! 
+*'''Unlimited Gifting:''' You can gift unlimited items to a friend everyday day. Free users can send one gift a day to every friend in their treetown instead
+
+NOTE: Finch Plus members can also store an ''unlimited'' number of [[Clothing|outfit]] combinations, [[Birbhouse|birbhouse]] decor combinations, and birb [[Colors|color]] combinations! 
+
+To sign up for Finch Plus, click any of the various banners in the game. Users will be taken to their device's App Store. 
+
+If you can't afford the full price for Finch Plus, there are alternatives. As you play longer, a discount is introduced for you based on a certain number of [[Adventuring|Adventures]]. At 25, 50, and 75 days of Adventures, greater discounts are offered. At 100 days, the price will have been cumulatively reduced to the special one-time price offered to new users. 
+{| class="fandom-table"
+|+'''Subscription Discount'''
+!'''Day'''
+!'''Discount'''
+!'''Price'''
+|-
+|25
+|19%
+|$78.99 USD
+|-
+|50
+|32%
+|$65.99 USD
+|-
+|75
+|39%
+|$58.99 USD
+|-
+|100
+|45%
+|$52.99 USD
+|}  
+
+If you can't afford the offered plans, you can also enter the monthly [[Guardians]] raffle where a number of users get sponsored by Guardian donors. If you get lucky you will get Finch Plus sponsored for one month for free. After the month expires, you may be offered a lower price due to financial hardship.  
+
+=="Cancel anytime"== 
+This official statement is a bit misleading. If you sign up for a monthly subscription in your device store, of course you can cancel at any time. If you accidentally sign up for a year through your device store, contact them immediately. If it has only been a day or two they will likely issue a refund.  
+
+However, if you purchase a one-year subscription, and after a month you want a refund, it probably won't happen. Your device store will refer you to Finch, and Finch will refer you back to your device store. 
+
+==Member-exclusive items== 
+Finch has no member-exclusive items! Any [[Exclusive Items|special-event items]] are offered to members and free players alike. Finch Plus benefits make it somewhat *easier* for members to get items because they get additional opportunities. 
+[[Category:Finch: Self Care Pet App]]

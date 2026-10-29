@@ -2,29 +2,24 @@
 
 ## Product and people
 
-RepGarden is a personal-training product for multiple trainers and their clients. Benji, Ahmed's friend and a personal trainer, is the first participating trainer. This is not a public marketplace. Trainers invite their clients.
+RepGarden is a personal-training product for multiple trainers and their clients. Benji, a personal trainer, is the first participating trainer. This is not a public marketplace. Trainers invite their clients.
 
-Clients use an iOS and Android app. Trainers use a web app. A shared backend will connect them. The app is named RepGarden; the tech stack is not yet selected.
+Clients use an iOS and Android app. Trainers use a web app. A shared backend connects them. The app is named RepGarden; the stack is Expo, Next.js and Supabase, chosen on 26 October 2026 (see the MVP scope).
 
 ## Agreed build scope
 
-- Trainer workspace: invite/onboard clients, create and assign workouts, review individual workout records and progress, manage session availability and bookings.
-- Client app: view assigned workouts and exercise demonstrations, log sets/repetitions/weights and notes, see progress, book sessions and pay trainers for them.
-- Shared exercise library: reviewed instructions and demonstration media. An AI content pipeline generates drafts, checks them and moves approved content into the library. Small starter video set; no in-app video-generation feature.
-- Gamification: vegetable gym mascots with visual progression and customisations. Exact progression rules, including rest days and corrected logs, need agreement.
-- Supporting services: accounts and recovery, permission boundaries, email invitations/confirmations, mobile reminders and preferences, payment processing and trainer onboarding/payouts.
-- Launch: a presentable public/support/privacy/deletion website, hosting, appropriate tests and operational tools, and approval on both iOS and Android app stores. Submission alone is not the finish line.
+[The MVP scope](mvp-scope.md) owns the feature list: what the first version does, what it leaves out and why, the stack and the repository layout. Agreed on 26 October 2026 after the first discovery call with Benji. In short: a trainer web app for inviting clients and assigning programmes; a client phone app with a calendar, workout logging, video of a working set with a reply from the trainer, progress and reminders; accessibility built in. Gamification (the vegetable mascots) is the next phase, designed on top of a working core.
 
 ## Later, outside this build
 
-Standalone analytics dashboards; elaborate animated landing pages; marketing automation; calorie counting; public trainer discovery; messaging; wearables; offline sync; external calendar sync; memberships/session packages; subscriptions charged to trainers for using the platform; automated AI workout prescriptions.
+Payments and bookings (removed from the MVP on 26 October 2026; clients pay Benji and arrange sessions off the app); messaging; AI video analysis; meals and calorie counting; localisation; an AI content pipeline for the exercise library; standalone analytics dashboards; elaborate animated landing pages; marketing automation; public trainer discovery; wearables; offline sync; external calendar sync; memberships and session packages; subscriptions charged to trainers for using the platform; automated AI workout prescriptions.
 
-Individual client progress is in scope. A separate analytics/reporting product is not. Clients paying trainers for sessions is different from trainers paying a SaaS subscription.
+Individual client progress is in scope. A separate analytics/reporting product is not.
 
 ## Still to decide
 
-Brand direction, tech stack, detailed booking/cancellation rules, payment/provider details, mascot rules and the final exercise set. Record a decision when we make it, not when an agent suggests it.
+Brand direction, mascot rules, the video retention rule, the final exercise set, and whatever the market and compliance research (26 October 2026) changes. The stack is decided and recorded in the MVP scope. Record a decision when we make it, not when an agent suggests it.
 
 ## Current task
 
-Develop the visual identity and main user flows with Ahmed, then prototype them for discussion with Benji. Document actual decisions and results. Do not scaffold the application until requested.
+Scoping and research: the market and store-compliance reports, then the feature list confirmed against them, the user journeys for the main flows, and the proposal for Benji. Then branding and prototypes. Do not scaffold the application until requested.

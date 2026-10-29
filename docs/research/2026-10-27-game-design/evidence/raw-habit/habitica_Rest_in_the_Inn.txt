@@ -1,0 +1,95 @@
+{{Might need guild shutdown edits|guilds=y|tavern=y}}
+{{Wiki Wednesday}}
+
+<div style="border:3px solid indigo; padding: 8px; text-align:center; font-size:110%">On August 8, 2023, Habitica staff removed all guilds and the Tavern from Habitica. ([[Tavern and Guild Shutdown FAQ|For information and frequently asked questions, read here.]])
+
+Due to the removal of the Tavern, several portions of this page are currently outdated because the Inn used to be in the Tavern. The current instructions to pause damage are as follows:
+
+'''Habitica Website:''' Go to your settings by clicking the user icon on the top right of the webpage and selecting "Settings," then, under the "General" tab (which should be open by default), scroll to the "Site" subsection and find "Pause damage." Select "Learn more," then click the purple "Pause Damage" button.'
+
+'''Android App:''' Go to your settings by clicking the 3 lines on the top left of the app and tap the gear icon that apears near the top right. There under the <small>ACCOUNT</small> subsection you should see the 'Pause Damage' -option which you need to tap to open the option to pause damage.
+
+'''iOS App:''' Select the three lines on the bottom right of the app and tap the gear icon that appears at the top right to access your settings. From there, tap "Pause Damage" under the <small>USER</small> subsection to open the option to pause damage.
+
+<span style="font-size:80%">If you edit this page to better integrate this information within the existing page content (i.e. updating images, describing current behavior and/or its differences with historical behavior), please remove this entire note. Thank you!</span></div>{{clr}}
+
+A player may '''rest in the Inn '''when they are ill, on vacation, or unable to complete their [[Dailies]] due to other circumstances. This prevents health loss from incomplete Dailies. If they are on a [[boss]] [[Quests|quest]], resting in the Inn also stops their Dailies from damaging the other quest participants, but damage from other party members' missed Dailies will still occur. Party members who are resting do not contribute boss damage or collection items until their next Cron occurs after they check out of the Inn.
+
+
+To rest in the Inn on the website: go to the [https://habitica.com/groups/tavern Tavern] Chat menu option under Guilds on the website or Tavern menu item on the apps. There, players will find Daniel, the Tavern keeper. Click the yellow '''Pause Damage''' button at the bottom of his dialogue box. Daniel will then show players this helpful message that explains how resting in the Inn works:
+
+:Need a break? Check into Daniel's Inn to pause some of Habitica's more difficult game mechanics:
+*Missed Dailies won't damage you
+*Bosses won't do damage for your missed Dailies
+*Your boss damage or collection Quest items will stay pending until checkout
+
+==Avatar Changes==
+ While resting in the Inn, a player's Habitica [[avatar]] is altered to indicate the status. Their avatar's eyes will display as closed and "Zzz" will be displayed. The [[Data Display Tool]] will show "Zzz" as well.
+
+{{Clr}}
+
+==Dailies==
+While a player is resting in the Inn, on the web client, a reminder will appear at the top of the page as a reminder of the status, with an option to resume damage.
+
+Players will not lose any [[Health Points|health]] or [[streaks]] for Dailies that they do not complete. If they are on a boss quest, players will not cause damage to their party for Dailies that are not completed.
+
+However, players still have the option to check off Dailies if wanted, either during the day or on the [[Dailies#Record Yesterday's Activities|Record Yesterday's Activities]] modal, which still appears even if the player is in the Inn. Any Dailies completed will still earn immediate gold, experience, and mana, as well as a chance of a [[Drop]]. Dailies will be reset every day as usual.
+
+In other words, while resting, players get credit for completing Dailies, but do not get penalized if not. This helps players keep track of some of their Dailies while on vacation or recuperating from illness.
+
+==Habits and To Do's==
+Players can click on Habits and To Do's while resting in the Inn. To Do's and positive Habits will still earn immediate gold, XP, and mana, as well as a chance of a Drop.
+
+While Resting, Habits that are positive "+" or negative "-" only will slowly become yellow (neutral). For more information, see the page on [[task value]].
+
+{{Clr}}
+
+==Cron==
+Resting in the Inn prevents three processes that normally happen during [[Cron]] from occurring. All other processes occur as normal.
+* Players do not suffer damage from incomplete [[Dailies|Daily Tasks]] and if players are participating in a [[boss]] quest, incomplete Dailies will not trigger boss damage to the player or party.
+* Quest damage or collection activity will be saved rather than delivered, and if the quest is still ongoing, will be delivered at the first non-resting Cron.
+* Players resting in the Inn during a Cron will not recover [[Mana Points#Daily Regeneration|mana]].
+
+==Checking Out of the Inn==
+ When players wish to return to their active life, on the website, click the "Unpause Damage" button that they will find in the Tavern. On the [[Mobile App for Android: Habitica|Android app]], go to the Tavern and tap the "REACTIVATE YOUR DAILIES" button. On the [[Mobile App for iOS: Habitica|iOS app]], the button will read "Unpause Dailies."
+
+Habitica will awaken the player's avatar by removing the "Zzz" and open their avatar's eyes.
+
+'''Note that with the addition of the new [[Dailies#Record Yesterday's Activities|Record Yesterday's Activities (RYA)]] feature [[Cron]] will run immediately AFTER players have clicked "Start My New Day".''' To prevent players taking damage from incomplete Dailies, they need to be resting in the inn when Cron runs. If they stop resting in the inn ''after'' clicking the "Start My New Day" button, they will be safe. In contrast, if players stop resting in the inn as soon as they start using Habitica, but ''before'' seeing the RYA screen, then the incomplete Dailies will damage them after they click the "Start My New Day" button.
+
+If, while checked in, players complete some Dailies after their most recently elapsed Cron (i.e. after clicking "Start My New Day"), those Dailies will still be checked off after they check out. Dailies will reset at the next Cron, as normal.
+
+==Resting in the Inn while on a Quest==
+<div style="float:right; text-align:center;">[[Art Credits|''Art by'']] Draayder</div>'''Warning''': If players are resting in the Inn when participating in a [[Boss|boss quest]], the Inn will shield the player and the rest of their party from damage from '''their own''' missed [[Dailies]], but the player will still receive damage from the boss if other quest participants do not complete all of '''their''' [[Dailies]].
+
+When resting in the Inn while on a quest, it is important that players examine their health regularly to ensure they don't die!
+
+While resting in the Inn, players will still accumulate progress on their quest as normal; however, that progress will not be applied to the quest until [[Cron]] runs on the day after players check out of the Inn.
+
+Players may continue to send, accept, or reject quest invitations while resting. If a quest finishes while they are resting, they will still obtain the rewards.
+
+If a player wishes to avoid damage from a quest boss (while resting or not), they may choose to leave the quest and decline future quest invitations. However, if they are the quest owner (the party member who started the quest), they will be unable to leave the quest; they can abort the quest but that will remove it for the entire party. For more information about aborting a quest, please see [[Quests]].
+
+==Alternatives to Resting in the Inn==
+If players wish to pause some but not all dailies, one alternative to resting in the Inn is setting the [[Dailies#Start Date|Start Date]] on some Dailies to the day the Player wishes to resume those Dailies. For example, this would let someone continue their health related Dailies but pause academic Dailies during a school break.
+
+{{InfoForDevs Start}}
+A player who is Resting in the Inn has <code>preferences.sleep</code> set to true in their data. When not resting, it is set to false.
+
+Regardless of the player's sleep status, code at the start of the cron routine runs. If the player is Resting, the cron code is halted by a <code>return</code> wrapped inside an <code>if</code> statement that tests for the value of <code>preferences.sleep</code>.
+
+{{InfoForDevs End}}
+
+[[es:Descanso en la Posada]]
+[[fr:Se reposer à l'Auberge]]
+[[de:Im Gasthaus erholen]]
+[[ru:Отдых в гостинице]]
+[[pt-br:Descansando na Taverna]]
+[[ja:ロッジで休む]]
+[[zh:在客栈中休息]]
+[[Category:Newbies]]
+[[Category:Boss Quests]]
+[[Category:Mechanics]]
+[[Category:Avatar]]
+[[Category:References Source Code]]
+[[Category:Pages with files missing alt tags]]

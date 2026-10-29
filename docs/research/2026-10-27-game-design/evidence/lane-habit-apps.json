@@ -1,0 +1,576 @@
+[
+  {
+    "name": "Finch: Self-Care Pet",
+    "app_store_id": "1528595748",
+    "developer": "Finch Care Public Benefit Corporation",
+    "launch_year": "2021",
+    "business_model": "Free, no ads; optional Finch Plus subscription ($9.99/month, $69.99/year; GB reviewers report £39.99-£60) which buys extra options only - no member-exclusive items. Loyalty discount ladder to 45% off at 100 adventures; a monthly Guardians raffle sponsors free months.",
+    "unit_of_play": "One bird ('birb') hatched from a chosen egg, living in a birbhouse or at a travel location. Completing one goal on your own list pays Energy (fills a bar, ~5 per goal) and Rainbow Stones at the same time; a full energy bar sends the bird on an Adventure.",
+    "session_shape": "Two deliberate shapes. Morning glance: mood check, tick a goal or two, the bar fills and the bird leaves automatically. Evening sit-down: the bird returns from a 6-8h adventure with a Discovery, you pick one of two replies that shapes its personality, optionally write a Reflection. Ten seconds buys a goal tick, a Good Vibe (3 energy, 2 stones), a pet-the-bird, or a 25-stone daily quest claim. Energy resets to zero each day, so progress is per-day not cumulative.",
+    "absence": "No decay, no wither, no death - nothing in the game state degrades. The only absence-sensitive system is an opt-in daily check-in streak, which can be switched off entirely in Preferences. Returning after a long gap, you pick a restart commitment level (Baby steps 2 days / Normal / Intermediate / On fire). The day boundary is adjustable (day starts 2h before your wake time), so late check-ins still count. Third-party reviewers describe a stated 'no-punishment philosophy: if you don't meet your goals or you step away from the app for an extended amount of time, it sends only encouragement'. Despite all of that, lost streaks are the community's loudest pain and drive quitting posts.",
+    "streak_protection": "Streak Repair Hammer: one free Streak Repair Saver every 3 adventures, maximum 2 held; or buy a repair for 1,000 Rainbow Stones; plus a Support Tools 'Repair last broken streak' button. Pause Mode (1-7 days) freezes the streak outright and also hides widgets, stops notifications and blocks incoming Good Vibes. Streaks can also simply be turned off.",
+    "currency": [
+      {
+        "name": "Energy",
+        "earned_by": "Completing goals and activities (~5 per goal); sending the first Good Vibe of the day to each friend (3)",
+        "spent_on": "Automatically sends the bird on an Adventure at full bar; afterwards shortens the adventure's duration (2 minutes per energy)",
+        "feeds_back": true
+      },
+      {
+        "name": "Rainbow Stones",
+        "earned_by": "Goals, full energy, daily quests (25), weekly milestones (20/50/100), special quests (100), seasonal chests, selling items, Good Vibes, reflections, inviting friends, 65-80 free a day from Mr. Prickles. Cannot be bought with cash.",
+        "spent_on": "Clothing, birbhouse furniture, colour dyes, travel to new locations (300 out / 200 home), streak repair (1,000), shop refreshes, 200-stone gifting fee",
+        "feeds_back": true
+      }
+    ],
+    "stakes_risk_chance": "No betting and no risk of loss anywhere. Randomness is all upside: Discoveries on each adventure return, daily rotating shop stock and travel destinations, a randomly boosted Goal of the Day stone payout, 66 collectable micropets hatched from eggs, monthly seasonal events with 14-day story locations, and opt-in monthly Goal Challenges. One notable inversion: logging the lowest mood value pays MORE stones per click, so a bad day is rewarded.",
+    "progression": "Five growth stages gated on adventures completed, not days: Baby (1-7), Toddler (8-22), Child (23-42), Teen (43-67), Adult (68+). Each stage raises energy needed (15/20/25/30/35), shortens adventures (8h to 6h), unlocks a new body part for colour customisation, and at Child unlocks travel. Plus six long Special Quest ladders (clothing and decorations to 10,000; micropets to 2,000; 27 locations), 10 Friendship levels with your own bird ('Pals' to 'Uber Soulmates'), and a monthly seasonal event cycle.",
+    "social": "Opt-in, non-competitive, no leaderboard at all. Tree Town holds friends added by code or link, eight per page. Send Good Vibes (14 sentiments, 18 with Plus); ask for a hug; invite a friend's bird over for about an hour; pet other people's birds; send gifts (one per friend per day free, 200-stone fee); become Goal Buddies on a specific goal and see each other's daily progress and per-goal streaks with a praise action. See a friend's last four milestones. Friends never see your writing; Vibes, push and friend requests are each separately switchable off.",
+    "freedom_identity": "Egg colour, then the bird's name, pronouns and a trait. Colour customisation unlocks body part by body part as it grows. Dress the bird, decorate the birbhouse (wallpaper, floor, bed, window, door, two carpets, decor), save favourite room layouts (2 free, unlimited with Plus), equip and name micropets. Discovery replies shape its personality. Goals are fully user-written, with suggestions grouped into ten self-care areas.",
+    "signature_interaction": "The bird leaving on an adventure by itself because your day's ticks filled the energy bar, then coming home at night with a story and a two-option conversation that changes who it is. Secondary: petting the bird by dragging a finger across it until red hearts come off.",
+    "ui_type": "creature in a room",
+    "art_style": "Soft, rounded, pastel 2D cartoon; the bird is a simple blob with separately dyeable colour zones; one full-width scene, sparse in the middle but surrounded by six bottom tabs and a hamburger menu.",
+    "home_screen": "The bird in its birbhouse or at its current travel location, with the energy bar directly above a tick-off checklist of your own goals that hides completed items. Six bottom tabs (Home, Quests, Shop, Friends/Tree Town, Bag, the bird's notebook) and a top-left settings hamburger. A home-screen widget keeps the bird visible outside the app.",
+    "sound_feel": "Each of the 66 micropets has its own 'voice'. Petting throws off small red heart particles. Quest claims play a short animation. Soundscapes and animated guided breathing exist as in-app activities rather than as feedback. Haptics not confirmed.",
+    "ios_gb_rating": 4.93,
+    "ios_gb_rating_count": 78559,
+    "play_installs": "10m+",
+    "complaints": [
+      {
+        "text": "The subscription price. 'This is a great app but it's incredibly expensive... At £60 it wasn't cheap and to find out you have to pay that yearly came as a shock... You can do NONE OF THIS IN THE FREE APP.' Also: 'The free trial is not free! They charged me £39.99 on day 2 of a 7 day trial.'",
+        "url": "https://itunes.apple.com/gb/rss/customerreviews/page=1/id=1528595748/sortby=mostrecent/json"
+      },
+      {
+        "text": "Losing a long streak makes people quit outright. 'I took a break for a day, just one day. I still had a streak repair on me, so I would be fine, right? well, I was wrong. I lost my 145 day streak... I had never thought of Finch to be so stressful, as it is a self care app. So I think I'm going to quit' (219 upvotes, 69 comments).",
+        "url": "https://www.reddit.com/r/finch/comments/1u58y0h/i_lost_my_streak_while_i_still_had_a_streak/"
+      },
+      {
+        "text": "The reward loop crowds out the point. The Slate reviewer hit 'Finch burnout' in six weeks and felt she was 'performing wellness rather than actually feeling well', with the bird 'telling me it missed me'. The fan wiki warns the same thing: 'Some people find that they become too focused on getting more stones and buying outfits, and stop paying attention to their Goals. This is a real problem.'",
+        "url": "https://slate.com/technology/2026/09/finch-app-self-care-wellness-review.html"
+      }
+    ],
+    "praise": [
+      {
+        "text": "It works on people who bounce off habit trackers. 'Seems daft that looking after a little birb keeps me motivated at 45yo, but at this point I'll take whatever works. I'm remembering to take meds, do my physio exercises, and complete chores that are less frequent than daily or weekly. I am Autistic-ADHD, and so far the novelty hasn't worn off.'",
+        "url": "https://itunes.apple.com/gb/rss/customerreviews/page=1/id=1528595748/sortby=mostrecent/json"
+      },
+      {
+        "text": "The caretaking frame itself. 'This really helped me have better sleep and mental health, just knowing I would come back to a little Birb every day.'",
+        "url": "https://itunes.apple.com/gb/rss/customerreviews/page=1/id=1528595748/sortby=mostrecent/json"
+      },
+      {
+        "text": "The cost of entry is one honest tap. 'I enjoy this one because the virtual pet is really cute and it takes just a moment to be honest about how I really feel.'",
+        "url": "https://apps.apple.com/gb/app/finch-self-care-pet/id1528595748"
+      }
+    ],
+    "lesson": "Copy the whole absence architecture: no decay, a reward meter that resets daily so a rest day is a zero rather than a loss, progression counted in sessions completed rather than days elapsed, and a pause mode the client switches on themselves. Copy the two-shape session (a tick between sets, a sit-down afterwards where the vegetable has something to tell you) and the inversion where a bad day pays more. Avoid the daily check-in streak entirely - it is the one punishing system Finch bolted on and the one its community quits over, and it would be worse against trainer-prescribed rest days. Avoid the six-tab menu sprawl.",
+    "sources": [
+      "https://itunes.apple.com/lookup?id=1528595748&country=gb",
+      "https://apps.apple.com/gb/app/finch-self-care-pet/id1528595748",
+      "https://finchcare.com/about-finch",
+      "https://help.finchcare.com/hc/en-us/articles/37780736136205-Understanding-Streaks",
+      "https://finch.fandom.com/wiki/Finch_App",
+      "https://finch.fandom.com/wiki/Energy",
+      "https://finch.fandom.com/wiki/Streaks",
+      "https://finch.fandom.com/wiki/Adventuring",
+      "https://finch.fandom.com/wiki/Rainbow_Stones",
+      "https://finch.fandom.com/wiki/Stages_of_Growth",
+      "https://finch.fandom.com/wiki/Good_Vibes",
+      "https://finch.fandom.com/wiki/Tree_Towns",
+      "https://finch.fandom.com/wiki/Pause_mode",
+      "https://finch.fandom.com/wiki/Finch_Plus",
+      "https://finch.fandom.com/wiki/Quests",
+      "https://finch.fandom.com/wiki/Goals",
+      "https://finch.fandom.com/wiki/Birbhouse",
+      "https://finch.fandom.com/wiki/Micropets",
+      "https://play.google.com/store/apps/details?id=com.finch.finch",
+      "https://slate.com/technology/2026/09/finch-app-self-care-wellness-review.html",
+      "https://makeheadway.com/blog/finch-app-review/",
+      "https://www.reddit.com/r/finch/comments/1u58y0h/i_lost_my_streak_while_i_still_had_a_streak/",
+      "https://www.reddit.com/r/finch/comments/1q7ejwn/anyone_else_feel_completely_unmotivated_once_they/",
+      "https://www.reddit.com/r/finch/comments/1k197sl/i_wish_there_was_a_third_option_besides_skipping/",
+      "https://itunes.apple.com/gb/rss/customerreviews/page=1/id=1528595748/sortby=mostrecent/json"
+    ]
+  },
+  {
+    "name": "Forest: Focus for Productivity",
+    "app_store_id": "866450515",
+    "developer": "SEEKRTECH CO., LTD.",
+    "launch_year": "2014",
+    "business_model": "Paid app from 2014; moved to free download with a Forest Plus subscription in December 2025 (GB: £5.99/month, £35.00/year Early Bird), plus a purchasable hard currency called Crystal (£0.99-£21.99) and Sunshine Elixir (£0.99-£1.99). Legacy one-time Pro is closed to new users and existing Pro owners are grandfathered but say features moved into Plus.",
+    "unit_of_play": "One tree per focus session, planted permanently into a forest grid organised by day, week and month. The real action is not touching your phone for a self-chosen length of time: 'Stay off your phone and a tree grows. Leave early and it withers.' The tree grows in real time as the timer runs.",
+    "session_shape": "A single committed block, default 25 minutes on the Pomodoro model (25-55 minutes grows a small tree). Ten seconds is enough to pick a length and species and press Plant; the rest is waiting. The sit-down screen is the forest grid, stats and tags afterwards. The current release broke this and users are furious about it: 'Just make the app actually work as a study timer instead of doing too much: one click to plant, one to stop, total time spent on the Home Screen.'",
+    "absence": "No between-session decay - the forest does not rot while you are away, and there is no required streak to keep it. The penalty is inside the session and it is immediate and permanent: leave the app before the timer ends and the tree withers and dies, and 'dead trees remain visible in the forest as records of interrupted focus sessions'. Deep Focus removes the escape hatch: 'The only way out is to give up - and let the tree die.' An Allow List (iOS 16+) lets you nominate apps that do not kill the tree. The December 2025 rebuild added daily login events, which long-term users read as a betrayal of the premise.",
+    "streak_protection": "None needed - there is no daily streak. The in-session loss is not recoverable: the withered tree is a permanent entry in the grid.",
+    "currency": [
+      {
+        "name": "Coins",
+        "earned_by": "Each successfully completed focus session (third-party figure: 30 minutes = 10 coins; Forest Plus gives a 3x coin boost)",
+        "spent_on": "New tree species, bushes, decorations and soundscapes; and redemption for real trees",
+        "feeds_back": true
+      },
+      {
+        "name": "Real trees",
+        "earned_by": "Redeeming coins (third-party guides: 2,500 coins per tree; capped at 5 real trees per account)",
+        "spent_on": "A real tree planted by Trees for the Future, with Forest covering the cost from app revenue; over 2 million planted to date",
+        "feeds_back": false
+      },
+      {
+        "name": "Crystal / Sunshine Elixir",
+        "earned_by": "Bought with cash only (GB £0.99-£21.99)",
+        "spent_on": "Premium shop items and boosts",
+        "feeds_back": false
+      }
+    ],
+    "stakes_risk_chance": "The lane's clearest chosen-stakes design: the player sets the length before the session and may switch on Deep Focus to remove their own escape hatch, wagering a permanent mark on their own grid against their own attention. No randomness worth naming - no drops, no weather, no visitors. Plant Together raises the stake socially: everyone plants the same tree in a synchronised session and if anyone abandons focus 'the whole forest falls'.",
+    "progression": "Tree species and soundscapes unlocked 'as you reach focus milestones', achievements with extra rewards, and the cumulative forest reviewable by day, week and month. Real trees are the top-end milestone, capped at five. No levels, seasons or evolutions - the record is the progression.",
+    "social": "Opt-in and both co-operative and competitive. Plant Together rooms with friends and family for synchronised sessions, where one person's failure kills the shared forest. A global leaderboard: 'Compete with users around the world and share your forest.' Tags label sessions by subject or project.",
+    "freedom_identity": "Thin and purely decorative: species choice per session, bushes and decorations, custom tags, a note on the session. No avatar, no named creature, no home to furnish.",
+    "signature_interaction": "Pressing Plant and putting the phone face down - the instant the sapling appears, the stakes are live. Its mirror is coming back to a dead tree you will have to look at from now on.",
+    "ui_type": "side-on single scene",
+    "art_style": "Flat, soft illustration in muted greens; a patch of ground, a tree and a ring timer, historically with almost no chrome. The forest view is a top-down grid of trees and stumps. The current release is the subject of a design revolt for being 'flashy, impractical and distracting'.",
+    "home_screen": "An empty patch of ground where the forest will grow, a timer, a selection of trees, and one big Plant button front and centre. Current version adds store promos and extra feature entries that reviewers call distractions.",
+    "sound_feel": "The tree growing in real time is the main animation; soundscapes play during sessions; Mindful Space adds breathing exercises and gentle animations. The post-session coin-claim animation is the specific thing users are asking to have removed. Haptics not confirmed.",
+    "ios_gb_rating": 4.79,
+    "ios_gb_rating_count": 20504,
+    "play_installs": "10m+",
+    "complaints": [
+      {
+        "text": "The gamification has become the distraction. 'Was a loyal user of Forest for 5 years... The team introduced more trees along with daily login events and timed events. This completely defeats the point of getting off your phone and focusing. When your focus app needs you to log in daily and rewards you with cosmetics, it is no longer a focus app, it's part of the problem.' And: 'Originally brilliant focus app turning into its own distraction land.'",
+        "url": "https://itunes.apple.com/gb/rss/customerreviews/page=1/id=866450515/sortby=mostrecent/json"
+      },
+      {
+        "text": "Friction added to the core loop. 'why does it now take several clicks and animations to collect rewards and move onto the next tree??? that's poor. ive used this app since 2018 and the recent update has made it so user unfriendly.' And: 'New update makes me click and watch an animation to claim coins after I finish a session. Adds so much time. I don't want this extra gamification - please make it optional.'",
+        "url": "https://itunes.apple.com/gb/rss/customerreviews/page=1/id=866450515/sortby=mostrecent/json"
+      },
+      {
+        "text": "The move to subscription and what paid users lost. 'I paid for the old one-time premium version, but now they are pushing a paid subscription aggressively... They also changed the UI from everyone's beloved minimalist design to a very flashy, impractical and distracting one.' There is a petition: 'Forest: Respect Pro Users and Restore the Features We Already Paid For.'",
+        "url": "https://www.change.org/p/forest-respect-pro-users-and-restore-the-features-we-already-paid-for"
+      }
+    ],
+    "praise": [
+      {
+        "text": "The dead tree works. 'Forest works well, and if your goal is to be more in the moment, ignore your phone and actually talk to your friends when you are with them, this is the app for you' - The New York Times, quoted on the store listing.",
+        "url": "https://apps.apple.com/gb/app/forest-focus-for-productivity/id866450515"
+      },
+      {
+        "text": "The forest as a record of your own attention: 'a visible record of every minute you chose depth over distraction'. Users keep the same forest for years and cite it as the reason they stay.",
+        "url": "https://www.forestapp.cc/"
+      },
+      {
+        "text": "Real trees make the earned currency mean something outside the app: over 2 million planted with Trees for the Future.",
+        "url": "https://www.forestapp.cc/"
+      }
+    ],
+    "lesson": "A chosen, pre-committed stake beats an imposed penalty: the client sets the terms, so the loss is theirs and it reads as fair. The gym analogue is opt-in - 'I'm committing to three sessions this week' - with the vegetable's outcome decided by a promise the client made rather than by the app's calendar. A permanent grid showing both the sessions done and the ones abandoned is more honest than a streak. The warning is louder than the lesson: Forest's long-term users are leaving because the game layer grew into the app's way (daily logins, claim animations, extra taps, cosmetics). Between sets in a gym, every added tap is a cost, and 'one click to plant, one to stop' is the standard.",
+    "sources": [
+      "https://itunes.apple.com/lookup?id=866450515&country=gb",
+      "https://apps.apple.com/gb/app/forest-focus-for-productivity/id866450515",
+      "https://www.forestapp.cc/",
+      "https://en.wikipedia.org/wiki/Forest_(application)",
+      "https://play.google.com/store/apps/details?id=cc.forestapp",
+      "https://www.change.org/p/forest-respect-pro-users-and-restore-the-features-we-already-paid-for",
+      "https://www.theory7.net/support/en-us/tips-tricks/forest-app-focus-by-planting-trees",
+      "https://makeheadway.com/blog/forest-app-review/",
+      "https://itunes.apple.com/gb/rss/customerreviews/page=1/id=866450515/sortby=mostrecent/json",
+      "https://itunes.apple.com/gb/rss/customerreviews/page=1/id=866450515/sortby=mosthelpful/json"
+    ]
+  },
+  {
+    "name": "Flora - Green Focus",
+    "app_store_id": "1225155794",
+    "developer": "AppFinca Inc.",
+    "launch_year": "2018",
+    "business_model": "'Is there a paid version of Flora? No. There is only one, free version.' Revenue comes from one-off tour packs (GB: Amazon Rainforest Tour £0.99-£1.99, Drylands' Marvels Tour £1.99) plus two opt-in services: Flora Price, a self-reported cash stake you set on yourself, and Flora Care, a subscription that plants real trees when you succeed (third-party: $9.99 for a tree per 24h of focus, $1.99 per 120h - not confirmed on Flora's own pages).",
+    "unit_of_play": "One plant per focus session, placed into a Garden that is a single left-to-right row in planting-date order, newest on the right. Stay off the phone and the seed grows; 'if you cannot resist the temptation of using your phone and leave the app while growing a tree, the tree will be killed!' Trees can also be tagged to a to-do item, so the session's minutes feed a goal progress bar on that objective.",
+    "session_shape": "Pick a duration, press Start. Two refinements: Pause lets you leave the app without killing the tree, with the paused time subtracted from the final duration (disabled whenever a Price is attached); and Overtime means the session does not end when the tree matures - the duration counts up until you press 'See Tree'. The sit-down screens are the Garden, My Stories (a photo-and-note feed per session), To-Dos and Stats.",
+    "absence": "No decay between sessions and nothing dies from absence. Instead, 'the trees in your Garden naturally shift towards the left over time. To keep your garden vibrant and full of life, it's important to plant new trees (and stay focused on tasks) regularly, just as you would care for a real-world garden.' The FAQ even has an entry for 'Why is there a gap (empty space) to the right of the plants in my Garden?' - the gap is the record of absence. Streaks exist only per to-do and only if you enable the habit tracker on it. The in-session kill is recoverable: False Detection reporting revives wrongly killed trees, and that path exists because the detection is unreliable, which is Flora's biggest review problem.",
+    "streak_protection": "Per-to-do streaks only, opt-in via the habit tracker. For the session itself: Pause (subtracts time instead of killing), a whitelist of allowed apps, Offline Planting mode, and False Detection reporting to have a wrongly killed tree revived.",
+    "currency": [
+      {
+        "name": "Flora Bits / credits",
+        "earned_by": "Accumulated focus time from successful sessions",
+        "spent_on": "Unlocking new plant species at Grand Tour stops; also used to pledge a Price",
+        "feeds_back": true
+      },
+      {
+        "name": "Badges",
+        "earned_by": "Total-hours thresholds",
+        "spent_on": "Nothing - they gate features such as the Big Garden view at 'Expert Planter'",
+        "feeds_back": true
+      },
+      {
+        "name": "Flora Price (real money)",
+        "earned_by": "n/a - a cash stake you set on yourself before a session",
+        "spent_on": "Charged only if you press 'Honor My Price' after killing a tree; the money plants a real tree via Trees for the Future or Eden Reforestation Projects",
+        "feeds_back": false
+      }
+    ],
+    "stakes_risk_chance": "The one real-money stake in the lane, and the safeguards are the design. 'When using the Price feature, you are not charged unless you confirm that you killed a tree by pressing the Honor My Price button on the red focus screen' - the app will not take your money without you pressing a button that says you deserved it. Setting a non-zero Price automatically disables Pause for that session, so the stake buys away your own escape hatch. False Detection reporting and a manual refund path both apply. Reviews receive it with near-total silence: across 8 pages of most-recent and 6 of most-helpful GB reviews, not one mentions the Price, betting or being charged - the complaints are all about false kills, the Bits economy and bugs. Read charitably, the self-report gate worked: nobody is billed by surprise so nobody is angry, and almost nobody uses it. The social stake bites harder: in a group room, if the host leaves, everyone's tree is killed; a guest leaving kills only their own. Succeeding together wins you an extra tree grown by a random peer.",
+    "progression": "A Grand Tour of stops, each unlocking new plant species, driven by accumulated focus time via Bits; total-hours badges; per-to-do goal bars with repeating goals that reset daily, weekly or monthly; the Big Garden view unlocked at Expert Planter. Students track their 'stage' (reviewers mention stage 16).",
+    "social": "The strongest social layer in the lane, and opt-in. Friends by QR code or contacts import. Rooms you host or join by passcode, with a preview of time remaining before you commit, and your own choice of plant as a guest. Chat, a shared story feed, and a friends leaderboard of total hours. Per-story visibility control ('Only Me'), which the FAQ gently discourages. The FAQ cites Festinger (1957), Heider (1946) and Newcomb (1953) as the basis for co-focus.",
+    "freedom_identity": "Plant species per session; deliberate garden composition (the FAQ coaches you on it: intersperse flowers between trees, match colour tones, 'designate certain plants to commemorate special events in your life'); a 'What to focus on next?' note before and an 'Attach a message' note after; session photos; to-do names and tags. No avatar or creature.",
+    "signature_interaction": "Setting a Price on yourself and watching the Pause button disappear - and then, on failure, pressing 'Honor My Price' on the red screen to pay for it voluntarily. Secondary: joining a friend's live room mid-session and growing in parallel.",
+    "ui_type": "side-on single scene",
+    "art_style": "Flat vector plants in bright saturated greens. The focus screen is green and flips to RED when the tree is killed - the clearest colour-state signal in the lane. The Garden is a side-scrolling row. Dense by current standards, and reviewers say it is under-explained.",
+    "home_screen": "A single plant on the ground with the timer, a seed picker, a 'What to focus on next?' field, a people icon for rooms, a key icon for passcodes, a tag icon and a Price menu with a '?' explainer. Tabs below for Garden, To-Dos, Stats, Stories and Friends.",
+    "sound_feel": "A notification when the tree grows up even on a locked phone; the green-to-red screen flip on a kill; the growth animation. Sound and haptics not confirmed.",
+    "ios_gb_rating": 4.76,
+    "ios_gb_rating_count": 84985,
+    "play_installs": "100k+",
+    "complaints": [
+      {
+        "text": "False kills, the dominant complaint. 'Whenever i click the pause button to quickly check something on another app, when i return to flora it says that I killed the tree, despite the fact i clicked the pause button... i may have been focused for 2 hours then all my progress is lost.' And: 'My trees keep getting killed when I'm not going on any restricted apps... they almost always get killed right towards the end of my sessions.'",
+        "url": "https://itunes.apple.com/gb/rss/customerreviews/page=1/id=1225155794/sortby=mosthelpful/json"
+      },
+      {
+        "text": "The Bits economy stretched the reward out of reach. 'I found the fun in studying for little time like half an hour and letting my timer run over and still unlocking a cool surprise plant rather than now having to study for 325 minutes (5.4 hours) just to unlock a plant that was worth 5 minutes before!!!???' And: 'The new bit system is frankly horrendous, with poor tracking and incredibly unrealistic prices.'",
+        "url": "https://itunes.apple.com/gb/rss/customerreviews/page=1/id=1225155794/sortby=mosthelpful/json"
+      },
+      {
+        "text": "An update broke the garden people had built. 'I used to love being able to rearrange my garden however due to the linear nature of the new update my garden looks odd and all the plants i've grown in previous months have grouped so they look very odd.' On Reddit: 'They just destroyed the app. Nice one flora i just lost many hours of my session and now my trees died' (22 upvotes).",
+        "url": "https://www.reddit.com/r/FloraApp/comments/1i7jlbb/they_just_destroyed_the_app_nice_one_flora_i_just/"
+      }
+    ],
+    "praise": [
+      {
+        "text": "The threat of the dying plant, as a threat. 'It warned me that if I open the specific blocked apps then my plant would die which is actually a really nice motivation to keep working and stay off my phone.'",
+        "url": "https://itunes.apple.com/gb/rss/customerreviews/page=1/id=1225155794/sortby=mosthelpful/json"
+      },
+      {
+        "text": "Studying together. 'Loads of my college friends and I love this app and use it as competition to study.' And: 'I like the slightly social element to it where you can revise with friends and plant trees because my garden looks truly beautiful now!!'",
+        "url": "https://itunes.apple.com/gb/rss/customerreviews/page=1/id=1225155794/sortby=mosthelpful/json"
+      },
+      {
+        "text": "The garden as evidence of work done. 'seeing a big number under my total hours for the week makes me feel like i've actually achieved something.'",
+        "url": "https://itunes.apple.com/gb/rss/customerreviews/page=1/id=1225155794/sortby=mosthelpful/json"
+      }
+    ],
+    "lesson": "Two things transfer. The Price pattern: if RepGarden ever wants a stake, the charge is self-reported - the client presses the equivalent of 'Honor My Price' - and taking the stake removes the client's own escape hatch. No automatic penalty, ever. And Flora's absence model is the gentlest honest one in the lane: miss a week and nothing dies, your garden row just slides left and leaves a visible gap, which is a reproach without a punishment and maps straight onto beds you did not plant. The avoid is sharp: never let the app decide the client failed on evidence it cannot trust. Flora's rating is dragged down almost entirely by false kills, because the app asserts a failure the user knows did not happen. RepGarden can only see sessions logged, so it must never infer a miss it cannot prove, and every negative state needs a one-tap 'that wasn't me'. Also never reprice a reward after people have learned it.",
+    "sources": [
+      "https://itunes.apple.com/lookup?id=1225155794&country=gb",
+      "https://apps.apple.com/gb/app/flora-green-focus/id1225155794",
+      "https://flora.appfinca.com/",
+      "https://flora.appfinca.com/faq/",
+      "https://play.google.com/store/apps/details?id=com.appfinca.flora.android",
+      "https://www.makeuseof.com/stay-productive-using-flora-app/",
+      "https://www.reddit.com/r/FloraApp/comments/1i7jlbb/they_just_destroyed_the_app_nice_one_flora_i_just/",
+      "https://www.reddit.com/r/FloraApp/comments/1c2zhzw/my_tree_keeps_dying/",
+      "https://www.reddit.com/r/FloraApp/comments/192iwrt/greyed_out_app_during_dispute/",
+      "https://itunes.apple.com/gb/rss/customerreviews/page=1/id=1225155794/sortby=mostrecent/json",
+      "https://itunes.apple.com/gb/rss/customerreviews/page=1/id=1225155794/sortby=mosthelpful/json"
+    ]
+  },
+  {
+    "name": "Plant Nanny Cute Water Tracker",
+    "app_store_id": "1424178757",
+    "developer": "SPARKFUL INC. (formerly Fourdesire)",
+    "launch_year": "2019 (Plant Nanny 2; the original Plant Nanny was 2013)",
+    "business_model": "Free with in-app ads and pop-ups, a Clovers currency buyable for cash (GB: Pile £1.99, Pack £4.99, plus Watering Can £1.99 and Forest Park Pack £3.99), and the SPARKFUL subscription (GB: Monthly £3.99/£4.99/£7.99 tiers, Biannual £38.99, Annual £69.99) for 50+ exclusive plants, a monthly limited-edition plant, a plant widget with seven reminder options, five daily challenge rewards and custom plant names.",
+    "unit_of_play": "One plant at a time in a pot, plus a greenhouse of finished plants. The real action is drinking a glass of water: 'Each glass of water you drink helps grow the cute plants in your garden so you can both thrive!' You log a glass by pressing and HOLDING the water button on the main screen, which pours water into the pot and raises the plant's level. Plants come in three difficulty levels so you can match the commitment you are willing to make.",
+    "session_shape": "Pure glance, many times a day. Onboarding takes weight and activity level, computes a daily target and breaks it into a number of cups. After that each interaction is a single press-and-hold. A widget shows the plant and hydration without opening the app. The sit-down screens are the greenhouse, monthly comparison charts and the plant's own page (name, personality, dialogue).",
+    "absence": "The plant wilts but cannot die. 'In Plant Nanny 2, the plant will never die - the animation will instead look as though your plant has wilted since the last time you opened your app. Now if that happens, no worries, just drink a glass of water, and your plant perks up and returns to its lively animation.' Recovery costs exactly one glass - the same action that would have prevented it. There is also an over-watering state: log too fast and you can drown the plant, signalled by a blue stressed emoji and a 'slow down' dialog - the only two-sided feedback loop in the lane, and it misfires on anyone using a 400ml glass. No central streak; there are mini-challenges and daily login rewards that pay Clovers.",
+    "streak_protection": "No daily streak to protect. The wilt is self-healing on the next logged glass, with no repair item, currency cost or apology required.",
+    "currency": [
+      {
+        "name": "Clovers",
+        "earned_by": "Achievements, medals, daily login rewards and clicking buddies - and buyable with real money (GB £1.99-£4.99)",
+        "spent_on": "New plants and special pots, plus decor such as flowerpots, rugs and lamps",
+        "feeds_back": true
+      },
+      {
+        "name": "Seeds / nuts (removed)",
+        "earned_by": "Previously collected daily, with bonus yields for growing complementary combinations of three plants in one tree hole",
+        "spent_on": "The next plant or flower pot - removed in an update, and the loss of the strategy is a named complaint",
+        "feeds_back": true
+      },
+      {
+        "name": "Medals",
+        "earned_by": "Achievements",
+        "spent_on": "Nothing directly; they pay Clovers",
+        "feeds_back": false
+      }
+    ],
+    "stakes_risk_chance": "No betting and no risk. Randomness lives in the creatures: 'mysterious new creatures' visit once the tree hole holds three plants and the greenhouse is obtained, with help articles on 'Getting mystery creatures', 'Why same creatures appear' and 'Growing shiny plants'. Plus a monthly limited-edition plant for subscribers and achievement medals.",
+    "progression": "Three nested loops. Within a plant: levels rise with watering until max level. Then a harvest - 'When it reaches max level, move it to a Treehole in your Greenhouse, choose a new plant, and start over.' Then collection: fill a tree hole with three plants to earn the greenhouse and attract creatures; collect across 50+ plants and three difficulty tiers; earn medals. The harvest is the milestone and it is both a completion and a reset. The weakness is content supply: free users report finishing the free plants in about a month.",
+    "social": "Minimal. Clovers can be earned by 'clicking buddies', implying a light friend list, but there are no leaderboards, visiting or co-op documented in the listing or help centre. Not confirmed that any meaningful social layer exists.",
+    "freedom_identity": "Choose each plant by species and by difficulty tier, name it (custom names are a subscriber feature), choose its pot, and edit its personality and dialogues. Decorate the greenhouse. Set glass size and the daily target.",
+    "signature_interaction": "Press and hold the water button and watch the water pour into the pot - a physical, duration-based gesture rather than a tap, which makes logging feel like the act of watering.",
+    "ui_type": "creature in a room",
+    "art_style": "Bright, chunky, big-eyed cartoon with faces on the plants; a single plant in a pot in a framed scene. The original used a changeable window scenery that some users still prefer. The greenhouse is a second, denser scene.",
+    "home_screen": "One plant in its pot, the water button, and the day's cup count against the target. Sparse by layout - but reviewers say pop-up ads fire on opening the app and on logging a drink.",
+    "sound_feel": "Confirmed and loved: 'the art is great, the plants are cute, the sounds and music are endearing'; 'I really like that there is a song playing in the background'. Plants have per-plant dialogue and personalities and animate between lively and wilted states. Haptics not confirmed.",
+    "ios_gb_rating": 4.7,
+    "ios_gb_rating_count": 10392,
+    "play_installs": "5m+",
+    "complaints": [
+      {
+        "text": "Subscription price against a thin free tier. '£70 per year!! That's ridiculous for what it is. They're out pricing themselves. So instead I downloaded Waterllama for £10 lifetime fee.' And: '£7 pounds a month is a little ridiculous.'",
+        "url": "https://itunes.apple.com/gb/rss/customerreviews/page=1/id=1424178757/sortby=mosthelpful/json"
+      },
+      {
+        "text": "Growth too slow to feel like a reward. 'The issue is the low reward, it takes forever to get your plant to grow and there's no sense of reward / accomplishment with that then so it quickly becomes boring and I had to delete it.'",
+        "url": "https://itunes.apple.com/gb/rss/customerreviews/page=1/id=1424178757/sortby=mosthelpful/json"
+      },
+      {
+        "text": "An update removed the one strategic choice. 'You used to be able to collect nuts everyday in order to buy the next plant or flower pot. Also, depending on what 3 plants you'd grown in a single tree hole you could earn more nuts with certain combinations, which made you think strategically about which plants to pick... ALL that is gone now. No more strategising. No more fun. It's pretty aimless.' Also: ads everywhere - 'Every time you open the app or log a drink you get ads popping up.'",
+        "url": "https://itunes.apple.com/gb/rss/customerreviews/page=1/id=1424178757/sortby=mosthelpful/json"
+      }
+    ],
+    "praise": [
+      {
+        "text": "Caring for something else is the motivator. 'if I feel like I have to do something to look after someone/something else (even if it's not a real thing) I'm more likely to do it than if it's just for myself.'",
+        "url": "https://itunes.apple.com/gb/rss/customerreviews/page=1/id=1424178757/sortby=mostrecent/json"
+      },
+      {
+        "text": "It changes behaviour fast. 'This app is perfect because people with adhd are motivated by the entertainment and really this app keep me entertained. I wasn't drinking AT ALL and because of this app I reached 2L per day in only two weeks.'",
+        "url": "https://itunes.apple.com/gb/rss/customerreviews/page=1/id=1424178757/sortby=mosthelpful/json"
+      },
+      {
+        "text": "The craft - art, plants and music. 'the art is great, the plants are cute, the sounds and music are endearing'; 'I really like that there is a song playing in the background.'",
+        "url": "https://itunes.apple.com/gb/rss/customerreviews/page=1/id=1424178757/sortby=mosthelpful/json"
+      }
+    ],
+    "lesson": "The closest model to copy. Take the three-loop progression: grow one vegetable to maturity, harvest it into a permanent collection, start the next - so completion is both a milestone and a reset, and the collection is the long-run display. Take the wilt that cannot kill, where recovery costs exactly one unit of the ordinary action: a vegetable that droops after a missed week and perks up on the next logged set is honest, legible and unpunishing. Take the press-and-hold gesture that makes the log feel like the care. Avoid content starvation (free users empty the plant list in a month), growth too slow to register on the session the client just did, and cutting a mechanic that gave players something to think about.",
+    "sources": [
+      "https://itunes.apple.com/lookup?id=1424178757&country=gb",
+      "https://apps.apple.com/gb/app/plant-nanny-cute-water-tracker/id1424178757",
+      "https://sparkful.app/plant-nanny",
+      "https://en.wikipedia.org/wiki/Plant_Nanny",
+      "https://fourdesire.helpshift.com/hc/en/8-plant-nanny-1687933580/section/89-plants-pots-creatures-and-greenhouse-1706601857/",
+      "https://mobilesyrup.com/2019/03/17/plant-nanny2-water-health-app-review/",
+      "https://play.google.com/store/apps/details?id=com.fourdesire.plantnanny2",
+      "https://itunes.apple.com/gb/rss/customerreviews/page=1/id=1424178757/sortby=mostrecent/json",
+      "https://itunes.apple.com/gb/rss/customerreviews/page=1/id=1424178757/sortby=mosthelpful/json"
+    ]
+  },
+  {
+    "name": "Habitica: Gamified Taskmanager",
+    "app_store_id": "994882113",
+    "developer": "HabitRPG, Inc.",
+    "launch_year": "2015 (iOS; the web app predates it)",
+    "business_model": "Free and open source, funded by Gems (a premium currency bought with cash) and an optional subscription. Users praise the free tier - 'It is surprisingly free' - but also complain: 'recently the bugs and content you must constantly pay for has really irked me... All I ever see in their news is pushing out more content for people to purchase.'",
+    "unit_of_play": "An RPG avatar with HP, XP, level, gold, mana, gear, pets and mounts. The real action is checking off one of three task types: a Daily (scheduled and punishing), a Habit (positive or negative, repeatable, unpunishing) or a To Do. 'When you do something in real life, check it off in the app and receive gold, experience, and items that can be used in-game!' Nothing is tended - the thing that grows is a character sheet.",
+    "session_shape": "A checklist, morning and night. The daily rollover is a named event, Cron, fronted by a 'Record Yesterday's Activities' screen and a 'Start My New Day' button. Ten seconds is enough to tick a Daily. Everything else - party chat, quests, equipment, stat allocation, challenges, the market - is sit-down work, and there is a great deal of it.",
+    "absence": "The only app in the lane that punishes absence, and in detail. Max HP is 50 and cannot be raised. A missed Daily costs 2 HP (easy), 3 (medium) or 4 (hard), reduced by the Constitution stat. Damage ESCALATES with neglect: each miss reddens the task and 'damage is lower when the task is closer to blue, while a redder task will increase damage', so the longer you are away the harder each miss hits. At 0 HP you die, 'losing one level, all of their gold, and one piece of equipment'. Damage also arrives from other people: on a boss quest you take damage whenever you OR any party member misses a Daily, 'at seemingly random times of the day depending on when a party member logs in'. Users describe the retention effect directly: 'Emotionally it lands like real failure... once I'm in that headspace I just stop opening the app entirely for like weeks at a time. I've come back to habitica probably 5 times at this point.'",
+    "streak_protection": "Pause Damage (historically 'Rest in the Inn'): 'Missed Dailies won't damage you; Bosses won't do damage for your missed Dailies... Players will not lose any health or streaks for Dailies that they do not complete', while anything you do complete still earns. Record Yesterday's Activities lets you tick yesterday's Dailies before the day turns. Checklists subdivide the penalty proportionally - 'a checklist that is three-quarters complete will deal only a quarter as much damage'. Health potions (25 gold for 15 HP), full heal on level-up, Healer skills, Rogue Stealth, and a 'Fix Character Values' button for unfair loss. All of it is opt-in and buried.",
+    "currency": [
+      {
+        "name": "Gold",
+        "earned_by": "Completing any Daily, Habit or To Do",
+        "spent_on": "Equipment, health potions (25g), quest scrolls and user-defined real-life rewards",
+        "feeds_back": true
+      },
+      {
+        "name": "Experience (XP)",
+        "earned_by": "Completing tasks",
+        "spent_on": "Levels, which fully restore HP and grant stat points",
+        "feeds_back": true
+      },
+      {
+        "name": "Mana",
+        "earned_by": "Completing tasks and the nightly Cron regeneration (not while resting)",
+        "spent_on": "Class skills, including damage reduction and healing",
+        "feeds_back": true
+      },
+      {
+        "name": "Gems",
+        "earned_by": "Bought with cash, or slowly earned",
+        "spent_on": "Quests, pets, cosmetics, the Fortify Potion (4 gems, full heal plus task reset) and the Orb of Rebirth (6 gems)",
+        "feeds_back": true
+      }
+    ],
+    "stakes_risk_chance": "The highest-stakes design in the lane, and most of it is not chosen. Negative Habits cost HP on each click. Boss quests make your misses damage your friends and theirs damage you. Death costs a level, all gold and a piece of equipment. Randomness: item drops from completing tasks, quest-scroll drops, pet eggs and hatching potions, seasonal events and grand challenges. Note the counter-current - a thread asking 'Does anyone else wish habits had real consequences for skipping?' argues 'The fear of losing progress is way more motivating than the reward of gaining it' (12 upvotes, 20 comments), while another in the same subreddit calls streaks across all apps 'a psychological attack' (43 upvotes, 25 comments).",
+    "progression": "Unbounded levels; classes at level 10 (Warrior, Mage, Healer, Rogue); stat point allocation; gear tiers; pets and mounts collections; quest chains with bosses and collection quests; seasonal events; Challenges with shared task lists. It flattens at the top: 'once i've got to a higher level, getting exp and levelling up doesn't feel as rewarding... And bosses [aren't] that challenging when you complete all dailies.'",
+    "social": "Opt-in but consequential. Parties for accountability and boss quests, where your missed Dailies damage your party-mates. Challenges are shared task lists you adopt into your own list. Guilds and the Tavern were removed on 8 August 2023 and users still ask for them back. Reviewers like the competition: 'I love how you can form a group, and it started some competition between us.'",
+    "freedom_identity": "The most task freedom and the most avatar freedom in the lane. Fully user-written Habits, Dailies and To Dos with per-task difficulty, colour-coded value, tags, checklists and reminders. 'Inclusive avatar customizations: wheelchairs, hair styles, skin tones, and more', collectable gear, pets and mounts, custom colour themes with dark mode, and user-defined real-life rewards bought with gold. Users build their own organisation systems on top (emoji prefixes, tag schemes).",
+    "signature_interaction": "Opening the app the next morning and seeing the red damage notification for what you did not do. The 'Start My New Day' / Record Yesterday's Activities screen at Cron is the daily reckoning.",
+    "ui_type": "minimal stat/figure",
+    "art_style": "Retro 16-bit pixel art for gear, pets and bosses, over a plain list UI. Dense: a task manager with an RPG header, and both halves are busy. Reviewers: 'It's quite difficult to use and navigate'; 'it's a tiny bit complicated with lots of extras in the menu'; and on the avatar, 'Even on a larger phone the avatar size is a stamp.'",
+    "home_screen": "A header with HP, XP and mana bars beside a small pixel-art avatar, above four tabbed lists of tasks (Habits, Dailies, To Dos, Rewards), with filters and tags.",
+    "sound_feel": "Weak, and users say so. 'there could be more satisfying features like animations, and it is generally quite static'; 'i want more gamification in it. also some animation would be great!' Damage and level-up produce corner notifications rather than a scene. Sound and haptics not confirmed.",
+    "ios_gb_rating": 4.04,
+    "ios_gb_rating_count": 378,
+    "play_installs": "5m+",
+    "complaints": [
+      {
+        "text": "The punishment drives churn, not consistency. 'Logically I know my character taking damage is just a game mechanic. Emotionally it lands like real failure for some reason and once I'm in that headspace I just stop opening the app entirely for like weeks at a time. I've come back to habitica probably 5 times at this point... missing 1 day makes me feel so bad about the character that I avoid the app for a month, which obviously makes everything worse.' And on the store: 'Decent but health running out v demotivating... the app zeroed my health... all coins gone, which is stupid I know but it is quite demotivating.'",
+        "url": "https://www.reddit.com/r/habitica/comments/1sl35qk/longtime_habitica_players_how_do_you_handle_the/"
+      },
+      {
+        "text": "Scheduling cannot express a real routine, which is exactly RepGarden's constraint. 'Main issue is you can set a task to be completed once a day, once a week or once a month only - nothing in between. How about if I want to visit the gym twice a week?' And: 'I would also like to be able to differentiate between weekday and weekend tasks as my avatar lost health when I didn't work on work projects on the weekends... At least set what days the task is relevant to for non 9-5ers.' And: 'No truly weekly tasks... You could also set them to be habits but then there's no penalty for missing them. This is a deal breaker for me. Bye.'",
+        "url": "https://itunes.apple.com/gb/rss/customerreviews/page=1/id=994882113/sortby=mostrecent/json"
+      },
+      {
+        "text": "Bugs that cause UNEARNED punishment, which is worse than punishment. 'Buggy as hell... dailies not resetting, health going down despite ticking everything off. Had to uninstall as was actually demotivating.' On Reddit: 'Why do I sometimes get my health lowered when competing tasks?' (22 upvotes).",
+        "url": "https://www.reddit.com/r/habitica/comments/1x1dfze/why_do_i_sometimes_get_my_health_lowered_when/"
+      }
+    ],
+    "praise": [
+      {
+        "text": "It reaches people other trackers do not. 'I'm one of those people who bounced off every regular habit tracker out there but somehow seeing my character get gear and level up actually keeps me coming back. The rpg thing genuinely works for me when nothing else does.' On the store: 'Incredible motivator for ADHDers such as myself.'",
+        "url": "https://www.reddit.com/r/habitica/comments/1sl35qk/longtime_habitica_players_how_do_you_handle_the/"
+      },
+      {
+        "text": "Group accountability. 'I love habitica. Makes being productive addictive. I love how you can form a group, and it started some competition between us.'",
+        "url": "https://itunes.apple.com/gb/rss/customerreviews/page=1/id=994882113/sortby=mostrecent/json"
+      },
+      {
+        "text": "The forgiveness features, when found. 'Sometimes I forget to check in and tick off my Dailies, but it always gives you the chance to tick them off the next day...' And: 'I appreciate the ability to tick off yesterday's tasks as sometimes I forgot or fall asleep and don't get to tick off my progress on the day.'",
+        "url": "https://itunes.apple.com/gb/rss/customerreviews/page=1/id=994882113/sortby=mostrecent/json"
+      }
+    ],
+    "lesson": "Habitica is the design RepGarden must not be. HP loss for missed Dailies, escalating damage for longer absences, and death that wipes gold and a level produce a documented churn pattern: the miss reads as real failure, the client avoids the app for weeks, then returns from zero or not at all. Pair that with a scheduler that cannot express 'the gym twice a week' and you have precisely the failure mode a trainer-prescribed 2-5 sessions a week would hit. Nothing in RepGarden should take anything away for a session not done. Two things worth stealing: Record Yesterday's Activities (a one-tap retrospective log, repeatedly named as a favourite feature) for the client who trains and logs later; and the checklist that subdivides the penalty proportionally, which is the right shape for a part-finished workout - credit what was done rather than scoring the session pass or fail.",
+    "sources": [
+      "https://itunes.apple.com/lookup?id=994882113&country=gb",
+      "https://apps.apple.com/gb/app/habitica-gamified-taskmanager/id994882113",
+      "https://habitica.fandom.com/wiki/Health_Points",
+      "https://habitica.fandom.com/wiki/Damage_to_Player",
+      "https://habitica.fandom.com/wiki/Rest_in_the_Inn",
+      "https://play.google.com/store/apps/details?id=com.habitrpg.android.habitica",
+      "https://www.reddit.com/r/habitica/comments/1sl35qk/longtime_habitica_players_how_do_you_handle_the/",
+      "https://www.reddit.com/r/habitica/comments/1secb6b/does_anyone_else_wish_habits_had_real/",
+      "https://www.reddit.com/r/habitica/comments/1qqcfvw/every_app_is_adding_streaks_and_it_feels_like_a/",
+      "https://www.reddit.com/r/habitica/comments/1x1dfze/why_do_i_sometimes_get_my_health_lowered_when/",
+      "https://www.reddit.com/r/habitica/comments/nfjp3j/heres_my_take_on_organizing_tasks_on_habitica/",
+      "https://itunes.apple.com/gb/rss/customerreviews/page=1/id=994882113/sortby=mostrecent/json"
+    ]
+  },
+  {
+    "name": "Focus Friend, by Hank Green",
+    "app_store_id": "6742278016",
+    "developer": "B-Tech Consulting Group LLC - built by Hank Green with Bria Sullivan, founder of mobile game studio Honey B Games",
+    "launch_year": "2025",
+    "business_model": "Free, no ads, with Focus Friend Pro (GB: £3.99/month, £19.99/year, £39.99 lifetime) and paid bean skins (Blue Jello Bean £2.99, Base Bean Pack £3.99, Kitt-ney Bean £4.99, Orange Kittney Bean £4.99, Jelly Bean Pack £5.99). Scarves - the currency for the best decorations - and app-blocking allow-lists sit behind Pro, which is the main grievance. The absence of ads is reported as a deliberate choice by Green; not confirmed from a directly quotable primary source.",
+    "unit_of_play": "A bean in a room that knits while you focus. 'Set a focus timer, your bean starts knitting socks while you focus on your tasks.' The output is socks - the currency - which buy furniture for the bean's room. The bean is NOT the thing that grows; the room is. The creature is the reason you care, the room is the record.",
+    "session_shape": "A single focus block with Pomodoro breaks, and the breaks are where the game lives: 'Take productive breaks between focus sessions. Decorate your bean's room during break time!' So the glance and the sit-down are separate activities at separate times - focus is passive, decorating is active. A Live Activity shows the bean's progress on the lock screen, so you can check without opening anything. A reviewer describes the loop: 'I like starting a writing session scoping out what furniture I want to buy and then seeing if I can do enough writing to earn it.'",
+    "absence": "No decay, no wither, no streak and no between-session penalty at all - the most restrained absence model in the lane alongside Brainrot. The only consequence is emotional and in-session: 'If you interrupt your Bean by turning off the timer, they'll be really really sad', and 'your bean drops its stitches and becomes really, really sad'. Nothing is deleted, no counter resets, nothing is owed. No GB review complains about the penalty - every complaint is about running out of things to buy.",
+    "streak_protection": "No streak exists, so nothing needs protecting. The only in-session loss is the socks for the abandoned session.",
+    "currency": [
+      {
+        "name": "Socks",
+        "earned_by": "Completing a focus session successfully",
+        "spent_on": "Hundreds of decorations across multiple rooms (bedroom, bathroom, garden, street view) in themes including lo-fi and greenhouse",
+        "feeds_back": false
+      },
+      {
+        "name": "Scarves",
+        "earned_by": "Tied to the Focus Friend Pro plan rather than to play",
+        "spent_on": "The best decorations - users ask for an earnable route: 'every 5-10 socks you earn 1 scarf'",
+        "feeds_back": false
+      }
+    ],
+    "stakes_risk_chance": "Almost none, by design. No bet, no risk of loss, no randomness documented on the site or listing. The only stake is the bean's feelings. Deep Focus Mode is the one opt-in hardening: 'Lock distracting apps during focus sessions', via iOS Screen Time.",
+    "progression": "Decoration catalogue completion, room by room. Extra rooms were added after launch to extend it, and completion is visibly reachable: 'I have finished the whole inside of the houses and I have now started decorating the outside, since I am going to finish everything quite soon, can you pls add some other things for me to get?' No levels, seasons or evolutions. Named Google Play App of the Year 2025.",
+    "social": "None. Neither the site nor the store listing mentions friends, visiting, leaderboards or co-op. The only social-adjacent feature is cosmetic: you can dress the bean as Hank or John Green. A deliberate omission in the lane's most successful launch.",
+    "freedom_identity": "Bean skin (several free, several paid), room decoration across multiple rooms and themes, session tags. The bean has a name (users call it Alby) and reviewers want it to act more: 'I kind of wish that Alby could do some actions like for example they could actually sit on a chair or something.'",
+    "signature_interaction": "Starting a timer and watching a bean knit - passive, ambient, and visible on the lock screen via a Live Activity. The companion works while you work, and the needles stopping is the failure signal. The paired moment is spending socks on furniture during a break.",
+    "ui_type": "creature in a room",
+    "art_style": "Soft, flat, cosy cartoon with a legume as the protagonist; one sparse scene that fills in over weeks. Closer to a cosy game than a productivity app, and widely described that way.",
+    "home_screen": "The bean in its (progressively decorated) room with the timer, and the Pomodoro/break controls. One scene, no tab sprawl.",
+    "sound_feel": "Lo-fi music during sessions - 'The music helps my brain stay focused for as long as it plays' - the knitting animation, the bean's sad animation on interruption, and an animating Live Activity on the lock screen. Haptics not confirmed.",
+    "ios_gb_rating": 4.75,
+    "ios_gb_rating_count": 733,
+    "play_installs": "1m+",
+    "complaints": [
+      {
+        "text": "Content exhaustion, the number one complaint. 'After a few days you have enough to buy whatever you want for your room, and even with the additional paid options, after that point it just becomes any other timer. Which is fine, it's a cute timer, but the actual novelty wears off very quickly when you have nothing left to work towards.' Also: 'Makes me feel sad that bean only has one room... I need an objective to stay focussed on cutting down my screen time but this was short lived'; 'Quickly a little stale.'",
+        "url": "https://itunes.apple.com/gb/rss/customerreviews/page=1/id=6742278016/sortby=mosthelpful/json"
+      },
+      {
+        "text": "The paywall sits on the features that make it work. 'having to pay to select which apps it restricts is a bit counterintuitive. Deleted after an hour or so since it wasn't even blocking TikTok (the whole reason I downloaded it).' And: 'in deep focus mode it blocks virtually every app including Spotify... the ability to allow certain apps is behind a paywall.' And: 'the paywall to unlock the non hidden features (scarfs) is really sucky.'",
+        "url": "https://itunes.apple.com/gb/rss/customerreviews/page=1/id=6742278016/sortby=mosthelpful/json"
+      },
+      {
+        "text": "Crashes losing the session's reward. 'it crashes after every countdown ends and and it does not save whatever bean has knitted'; 'i finish a focus session and get nothing cus it crashes.'",
+        "url": "https://itunes.apple.com/gb/rss/customerreviews/page=1/id=6742278016/sortby=mosthelpful/json"
+      }
+    ],
+    "praise": [
+      {
+        "text": "It gets ADHD users started. 'As an ADHDer this has made it 10x easier to just get started with what I need to do. It's easy to use, has a simple interface & doesn't have ads which is a rarity nowadays.' And: 'I have ADHD and this has helped me so much!... and I get to decorate a super cute house.'",
+        "url": "https://itunes.apple.com/gb/rss/customerreviews/page=1/id=6742278016/sortby=mostrecent/json"
+      },
+      {
+        "text": "Earning the decoration. 'I love being able to earn socks so I can decorate various rooms for my bean. It motivates me to put my phone away on focus mode more frequently.'",
+        "url": "https://itunes.apple.com/gb/rss/customerreviews/page=1/id=6742278016/sortby=mostrecent/json"
+      },
+      {
+        "text": "The companionship. 'The best app for focus work. It's like having a cute work buddy. And it's so fun furnishing the house and getting accessories for Bean.'",
+        "url": "https://itunes.apple.com/gb/rss/customerreviews/page=1/id=6742278016/sortby=mostrecent/json"
+      }
+    ],
+    "lesson": "Focus Friend shows that a sad companion is enough. No streak, no decay, no leaderboard, no social layer, nothing taken away - and it reached number one in five countries and won Google Play's App of the Year. That licenses the gentlest possible absence model for RepGarden: the vegetable does not have to die or wither, it is enough that it is visibly waiting. Steal the split rhythm too - passive while the client trains, active in a decorating moment afterwards - which is exactly the glance-then-sit-down shape a gym demands. Avoid its one real failure: a finite cosmetic catalogue is a retention cliff. Make the spend loop renewable (new vegetables, seasons, plot expansion, variations driven by what the client actually trained) rather than a fixed catalogue they will finish, and never gate anything the training loop needs.",
+    "sources": [
+      "https://itunes.apple.com/lookup?id=6742278016&country=gb",
+      "https://apps.apple.com/gb/app/focus-friend-by-hank-green/id6742278016",
+      "https://focusfriend.me/",
+      "https://www.fastcompany.com/91388304/focus-friend-app-store-hank-green-bria-sullivan",
+      "https://techcrunch.com/2025/11/18/hank-greens-focus-friend-is-google-plays-app-of-the-year",
+      "https://play.google.com/store/apps/details?id=com.underthing.focus.friend",
+      "https://itunes.apple.com/gb/rss/customerreviews/page=1/id=6742278016/sortby=mostrecent/json",
+      "https://itunes.apple.com/gb/rss/customerreviews/page=1/id=6742278016/sortby=mosthelpful/json"
+    ]
+  },
+  {
+    "name": "Brainrot: Screen Time Control",
+    "app_store_id": "6744338972",
+    "developer": "Smolworks Inc",
+    "launch_year": "2025",
+    "business_model": "Subscription-only with a hard paywall. The GB listing states: 'All features described above require a subscription.' Published prices: 'Monthly subscription for $3.99, and yearly subscriptions ranging from $9.99 to $49.99'; GB in-app purchases list Weekly £3.99-£4.99, Monthly £8.99 and Yearly £19.99-£49.99. There is no free tier and no free trial, and this is the single most-criticised thing about any app in the lane.",
+    "unit_of_play": "A brain avatar with a health percentage that decays as you use your phone. 'Pick the apps and sites to block, set schedules, and watch your cute brain avatar decay as you doom scroll. The visual nudge helps you put the phone down.' Brain health is calculated from your screen time against your set goal. The whole design is an inversion: elsewhere in the lane the real action grows something; here it rots something. One object, one number.",
+    "session_shape": "Mostly not a session at all - it runs in the background off Apple's Screen Time API and surfaces as a widget and a brain. The interaction that matters is an interception: before you open a blocked app you 'have a chat with my brain', a reflection prompt rather than a passcode. 'on down time knowing id need to have a chat with my brain means im already reaching for my phone less and less... This really triggers a thought on whether you actually need to use an app or not.' Sit-down screens: a weekly screen-time report, daily Brain Rot bar charts and 'Weekly Offenders'.",
+    "absence": "Inverted and symmetric. Absence from your phone is the win; absence from the app does nothing. No streak, no wither, no penalty for not opening it. 'Your brain avatar in the app visually heals as you reduce usage, providing motivation to continue your digital detox journey', and detox sessions show 'a regenerating brain avatar and a clear countdown timer'. Recovery needs no currency, no repair item and no apology - just better behaviour, immediately reflected. The avatar reacts at a 20% deviation, not at failure: 'it's SO SAD when he even gets to 80%.' The risk is guilt as the only material - one reviewer warns 'be careful not to be mislead to think that you are damaged goods'.",
+    "streak_protection": "No streak exists. Decay and heal are continuous and reversible, with no stored penalty and no repair economy.",
+    "currency": [],
+    "stakes_risk_chance": "No bet, no chance, no drops, no weather, no visitors. The only stake is the brain's visible condition, and it is continuous rather than binary - unlike Forest's tree, there is no moment of death, only a slide.",
+    "progression": "Almost none, deliberately. Brain health is a dial, not a ladder: it can go back down. The only accumulating record is the weekly report and the daily bar chart. Paid themes and app icons are the only unlock track. Nothing marks a milestone.",
+    "social": "None documented. 'No social or sharing capabilities are documented.'",
+    "freedom_identity": "Thin: which apps and sites to block, daily time allowances, whole app categories, schedules for bedtime, mornings and meetings, and the screen-time goal the brain is scored against. Paid themes and app icons. The brain is not named, customised or dressed.",
+    "signature_interaction": "The brain getting visibly sicker on your home-screen widget as the day goes on - and the 'chat with my brain' gate before opening a blocked app, which asks you a question instead of taking a passcode.",
+    "ui_type": "minimal stat/figure",
+    "art_style": "Simple, friendly, expressive 2D character art: one cartoon brain with a health percentage and a bar chart underneath. Arguably the most restrained screen in the lane. App size is 134MB against Forest's 869MB and Flora's 697MB, which is itself a measure of how little is there.",
+    "home_screen": "The brain avatar with its health score, and a breakdown of usage and how it affects that score. A home-screen widget carries the brain outside the app.",
+    "sound_feel": "The brain's facial states are the feedback - it 'cries or gets sick if you try to by pass it'. Version notes list new illustrations and animations. Sound and haptics not confirmed.",
+    "ios_gb_rating": 4.37,
+    "ios_gb_rating_count": 2573,
+    "play_installs": "not confirmed - no Smolworks listing found in a GB Play search; the Brainrot-named Android apps belong to other developers. A third-party aggregator claims 1M+ without naming a store. Appears to be iOS-only.",
+    "complaints": [
+      {
+        "text": "A hard paywall after a guilt-trip onboarding - the overwhelming majority of critical reviews. 'The app asks questions about your day-to-day screen time and guilt trips you with how much time you're wasting on your phone. Then you have to pay to actually even use the app as you can't get past the paywall. So essentially, it's deceiving, not free.' And: 'Everything leads you to feel bad about spending the next 15 years on your phone, and without even giving the app a try it leads you STRAIGHT to the transaction. I feel guilt tripped into paying for my addiction.'",
+        "url": "https://itunes.apple.com/gb/rss/customerreviews/page=1/id=6744338972/sortby=mostrecent/json"
+      },
+      {
+        "text": "The blocking is unreliable, so the brain's number is fiction. 'my brain health always stays at 99 even when i use apps for an hour+.' And: 'The app does not work automatically. Every day I have to open the app and check it manually, only then the limits start working. Otherwise, it lets me open all the blocked apps without any restriction. Now my brain already know this workaround, so I keep scrolling all day.'",
+        "url": "https://itunes.apple.com/gb/rss/customerreviews/page=1/id=6744338972/sortby=mosthelpful/json"
+      },
+      {
+        "text": "Guilt with no credit for good behaviour, plus review prompting before the app has been used. 'This app does not have any accommodation for any positive behavioural inputs... even when I told It I only spend 1 hour a day on a screen... it still only gave me options that say I have bad sleep, doom scrolling implications, procrastination and misfocus... be careful not to be mislead to think that you are damaged goods.' And: 'it then asks for a REVIEW?! You literally haven't used the app yet.'",
+        "url": "https://itunes.apple.com/gb/rss/customerreviews/page=1/id=6744338972/sortby=mosthelpful/json"
+      }
+    ],
+    "praise": [
+      {
+        "text": "The avatar does work a number cannot. 'as a visual person I love the little brain that makes me question the value of what I'm doing on my phone. It delays the automatic doom scrolling tendencies by asking you questions. The little brain cries or gets sick if you try to by pass it.'",
+        "url": "https://itunes.apple.com/gb/rss/customerreviews/page=1/id=6744338972/sortby=mostrecent/json"
+      },
+      {
+        "text": "The reflection gate. 'knowing id need to have a chat with my brain means im already reaching for my phone less and less... This really triggers a thought on whether you actually need to use an app or not. [It is] more than just put in a passcode to enter app.'",
+        "url": "https://itunes.apple.com/gb/rss/customerreviews/page=1/id=6744338972/sortby=mostrecent/json"
+      },
+      {
+        "text": "It is simple and it works. 'It keeps me off my phone so much and it's very cheap it's better than screen time and I like the little brain character.' And: 'It's getting me on the right track so far and making things better.'",
+        "url": "https://itunes.apple.com/gb/rss/customerreviews/page=1/id=6744338972/sortby=mostrecent/json"
+      }
+    ],
+    "lesson": "Brainrot earns its place as the lane's example of restraint: one character, one number, one screen, no currency, no shop, no streak, no social, no progression ladder - and the complaints are all about money and reliability, never about the game. It shows that a continuously-reactive avatar on a symmetric decay-and-heal dial needs no economy at all, and that reacting at a 20% deviation rather than at outright failure is enough to change behaviour. A vegetable whose condition tracks sessions-done-against-sessions-planned, visible on the home screen, needs nothing bolted to it. Two cautions: with no currency and no progression there is nothing to come back for once the habit forms, and RepGarden needs the client for months; and guilt as the only material is dangerous - Brainrot's onboarding tells people they are damaged goods and the reviews turn on it. A trainer's clients already pay someone to tell them what they have not done; the vegetable should show the state of play, not pass judgement.",
+    "sources": [
+      "https://itunes.apple.com/lookup?id=6744338972&country=gb",
+      "https://apps.apple.com/gb/app/brainrot-screen-time-control/id6744338972",
+      "https://thebrainrotapp.com/faq.html",
+      "https://mwm.ai/apps/brainrot-screen-time-control/6744338972",
+      "https://itunes.apple.com/gb/rss/customerreviews/page=1/id=6744338972/sortby=mostrecent/json",
+      "https://itunes.apple.com/gb/rss/customerreviews/page=1/id=6744338972/sortby=mosthelpful/json"
+    ]
+  }
+]

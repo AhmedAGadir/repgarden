@@ -1,0 +1,60 @@
+ Players can take '''Damage''' from several different sources. When a player takes damage, a notification is displayed in the upper right corner of the screen and they lose [[Health Points|health points (HP)]]. Once a player's HP drops to 0, they [[Death Mechanics|die]].
+
+For information on dealing damage to bosses, see the [[Boss]] page.
+
+==Sources of Damage==
+.]]
+Damage can be dealt from various sources, including:
+
+* Succumbing to bad [[Habits]]. Each click of a negative (-) Habit causes damage based on [[Task Value|how red]] the Habit currently is.
+* Failing to complete [[Dailies]] before [[Cron]].
+* Being attacked by a [[boss]], which occurs whenever a player or ''any'' of their [[Party|party members]] fails to complete one or more Dailies when the respective player's Cron updates.
+<br />
+This means that a player may take damage at seemingly random times of the day depending on when a party member logs in, triggering their Cron update.
+Different bosses cause different amounts of damage based on their strength, multiplied by the number of Dailies a player or any of their party members does not complete.
+
+==Calculating Damage==
+The amount of damage dealt to a player depends on several factors, including the [[Dailies#Difficulty|difficulty]] and [[Task Value|value]] of the task involved and the player's [[Constitution]]:
+
+* Tasks of lower value (redder tasks) will deal more damage than tasks with higher value (bluer tasks).
+* Tasks with higher difficulty will deal more damage than tasks with lower difficulty.
+* The higher the player's Constitution, the less damage will be dealt.
+
+Players can use the [[Data Display Tool]] to estimate the amount of damage they will take by missing their remaining uncompleted Dailies for the day.
+
+==Healing Damage==
+{{Main|Death Mechanics}}
+
+{{infobox item|image=Shop potion.png|title=|imagecaption=A Health Potion.<br />[[Art Credits|''Art by'']] BrowserQuest}}
+Damage can be healed in several ways, including:
+*Using or being healed by one of the [[Healer|Healer's]] restorative [[skills]].
+*Buying a [[Health Potions|Health Potion]], which restores 15 health points (and costs 25 gold).
+*[[level|Leveling up]], which restores full health to the player.
+
+There are additional ways to heal damage if the player is willing to pay [[gems]], though these are not recommended if your goal is simply to heal damage due to the side effects involved:
+*Using a [[Fortify Potion]] (for 4 gems, will reset the state of all of the player's goals);
+*Using an [[Orb of Rebirth]] (for 6 gems, will reset most of the player's progress).
+
+==Reducing Damage==
+For all other damage other than damage from a Boss, players can reduce by increasing their [[Constitution]]. Constitution, like all other [[Character Stats|stats]], can be increased in a number of ways:
+*[[level|Leveling up.]]
+*Upgrading certain kinds of [[equipment]].
+*Temporarily via [[buff]]s, such as the perfect day buff.
+*Assigning [[Character Stats|stat points]].
+*Being a particular [[Class System|class]] -- [[Healer]]s and [[Warrior]]s have naturally high Constitution compared to other classes.
+Players can also reduce the amount of damage dealt by [[Habits]] and [[Dailies]] by completing them frequently. If a player is successfully forming a Habit or taking care of a Daily, it will slowly turn blue. Blue tasks deal less damage while red tasks deal more. (See [[Task Value]] for more information.)
+
+[[Dailies]] in a [[checklist]] will also deal damage proportional to the amount of items on the list not yet completed. For example, a checklist that is three-quarters complete will deal only a quarter as much damage as a Daily with no checklist items checked off.
+
+[[de:Schaden]]
+[[es:Daño]]
+[[fr:Dommages]]
+[[ru:Урон]]
+[[pt-br:Dano ao Jogador]]
+[[zh:伤害]]
+[[ja:プレイヤーへのダメージ]]
+[[Category:Mechanics]]
+[[Category:Quests]]
+[[Category:Boss Quests]]
+[[Category:Health]]
+[[Category:Pages with files missing alt tags]]
