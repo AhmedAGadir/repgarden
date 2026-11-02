@@ -57,5 +57,14 @@ Told to Claude on 1 November 2026, before Benji's second call; recorded as said,
 - **Sharing.** A Wordle-style export: a plain coloured grid with no borders, gold for a personal best, vivid orange for a good session, pale orange or brown for a poor one.
 - **A wager on feeling.** At the start of a session the client says how they feel. Feeling great and training great earns the expected reward; feeling bad and training well anyway earns more. Selling the harvest may bring in money or a bonus to growth.
 
+Added on 2 November 2026, from the same conversation:
+
+- **Lifting only, for the MVP.** Vegetables for lifting; cardio and fruit wait.
+- **Body parts match vegetables.** Which vegetable a session grows follows what the session trains, so a leg day and a push day grow different things. The mapping is to be drawn up.
+- **Mr Babushka and his truck.** Her husband drives to the farm, loads the week's vegetables and sells them. That is where the money comes from.
+- **What the money is for.** Open. The earlier proposal's answer is the garden itself: the next vegetable, a second bed, pots and furniture, designs; nothing for sale for real money.
+- **Customising something of ours.** The client makes something theirs. The earlier proposal's answer: choose and name the hero vegetable, choose the pot and the bed design, change them freely.
+- **The look is decided** (flat vector; see Open questions) and the ten vegetables are characters with personalities: the happy carrot, a shy turnip, a powerlifting beetroot, a laid-back potato, a gym-bro broccoli, a cool aubergine, a hot-headed tomato, a cheerful sweetcorn, an emotional onion, a jolly pumpkin.
+
 Where it meets the box: the loop is weekly and rest days are untouched (the box's "never daily"); the growth-per-set and the personal best are what the app records (the box's "only what the app records"); the feeling check is the lookback's "how it felt in one tap" moved to the start of the session, where it is also the readiness note a trainer can use. Where it departs from the proposed answers: a character whose health is a weekly verdict sits close to "nothing is a verdict on the client" (decision 1) and to "stall, droop, never die" (decision 3); feeble vegetables with flies are a visible punishment the research asked to keep recoverable; the isometric week sits against decision 5's "no isometric world and no map", though a seven-square row is far smaller than a world; seeds delivered weekly rather than earned by logging changes the economy in decision 4; cardio as fruit depends on the programme having cardio at all. The share grid and the lookback are compatible as they stand.
 
