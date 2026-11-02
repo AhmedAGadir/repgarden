@@ -45,3 +45,17 @@ From the games' own players, in the research:
 - The vegetable's visual stages and the plot's look: the branding work, after Benji's second call.
 - Whether the lookback's photo is the same upload as the filmed set, or separate.
 - The name of the currency.
+
+## Ahmed's mechanics, 1 November 2026 (ideation, not yet a decision)
+
+Told to Claude on 1 November 2026, before Benji's second call; recorded as said, with where each idea meets the box above. Nothing here changes the proposed answers until Ahmed decides.
+
+- **A character to feed.** Mrs Babushka, a frail old woman in a cottage by the plot, drawn in a cartoon or pixel style (art styles to be chosen from concept sheets). The client is a farmer. Each week's harvest is delivered to her and she gets better; at the start of every week she is unwell again. The weekly reset is the loop.
+- **Seeds and sprouting.** Seeds arrive each week, delivered by someone. They sprout on the training days the coach has set. Kinds of seed map to kinds of training: fruit for cardio, vegetables for lifting, as a first idea.
+- **Growth per set.** A vegetable grows as the client trains, set by set. Regular training makes it strong; a personal best makes it visibly muscular, perhaps golden; missed sessions leave it feeble and weak, possibly with flies on it.
+- **The weekly harvest view.** A Forest-style isometric view of each week's plot showing that week's harvest, kept as a memory.
+- **Sharing.** A Wordle-style export: a plain coloured grid with no borders, gold for a personal best, vivid orange for a good session, pale orange or brown for a poor one.
+- **A wager on feeling.** At the start of a session the client says how they feel. Feeling great and training great earns the expected reward; feeling bad and training well anyway earns more. Selling the harvest may bring in money or a bonus to growth.
+
+Where it meets the box: the loop is weekly and rest days are untouched (the box's "never daily"); the growth-per-set and the personal best are what the app records (the box's "only what the app records"); the feeling check is the lookback's "how it felt in one tap" moved to the start of the session, where it is also the readiness note a trainer can use. Where it departs from the proposed answers: a character whose health is a weekly verdict sits close to "nothing is a verdict on the client" (decision 1) and to "stall, droop, never die" (decision 3); feeble vegetables with flies are a visible punishment the research asked to keep recoverable; the isometric week sits against decision 5's "no isometric world and no map", though a seven-square row is far smaller than a world; seeds delivered weekly rather than earned by logging changes the economy in decision 4; cardio as fruit depends on the programme having cardio at all. The share grid and the lookback are compatible as they stand.
+
