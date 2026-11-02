@@ -60,11 +60,26 @@ Told to Claude on 1 November 2026, before Benji's second call; recorded as said,
 Added on 2 November 2026, from the same conversation:
 
 - **Lifting only, for the MVP.** Vegetables for lifting; cardio and fruit wait.
-- **Body parts match vegetables.** Which vegetable a session grows follows what the session trains, so a leg day and a push day grow different things. The mapping is to be drawn up.
+- **Body parts match vegetables.** Which vegetable a session grows follows what the session trains, so a leg day and a push day grow different things. Glutes are a girl, peach-shaped (Ahmed, 2 November), and quads a strong, brave girl. The proposed mapping, drawn from the art set of 2 November, for Ahmed to change:
+
+  | Muscle group | Vegetable | Why it fits |
+  |---|---|---|
+  | Chest | Beetroot, the powerlifter | bench day |
+  | Back | Broccoli, the gym bro | the floret is the V-taper |
+  | Shoulders | Pumpkin, the jolly one | boulder shoulders |
+  | Biceps | Carrot, the hero | the flex |
+  | Triceps | Aubergine, the cool one | arms folded, all triceps |
+  | Core | Sweetcorn, the cheerful one | the kernels are a six-pack |
+  | Quads | Butternut squash, a brave girl | all thigh, determined |
+  | Glutes | Radish, a girl | peach-shaped, cute, eyelashes |
+  | Hamstrings | Onion, the emotional one | stretching them makes you cry |
+  | Calves | Potato, the laid-back one | the muscle that never grows |
+
+  The turnip (shy, a girl) and the tomato (the hot-head) are spare: forearms and grip, a conditioning day, or later. A session that trains several groups grows several vegetables, one square each.
 - **Mr Babushka and his truck.** Her husband drives to the farm, loads the week's vegetables and sells them. That is where the money comes from.
 - **What the money is for.** Open. The earlier proposal's answer is the garden itself: the next vegetable, a second bed, pots and furniture, designs; nothing for sale for real money.
 - **Customising something of ours.** The client makes something theirs. The earlier proposal's answer: choose and name the hero vegetable, choose the pot and the bed design, change them freely.
-- **The look is decided** (flat vector; see Open questions) and the ten vegetables are characters with personalities: the happy carrot, a shy turnip, a powerlifting beetroot, a laid-back potato, a gym-bro broccoli, a cool aubergine, a hot-headed tomato, a cheerful sweetcorn, an emotional onion, a jolly pumpkin.
+- **The look is decided** (flat vector; see Open questions) and the vegetables are characters with personalities: the happy carrot, a shy turnip, a powerlifting beetroot, a laid-back potato, a gym-bro broccoli, a cool aubergine, a hot-headed tomato, a cheerful sweetcorn, an emotional onion, a jolly pumpkin, a cute radish girl and a brave squash girl. The art set is on Ahmed's Desktop (`GadirLabs - RepGarden art set - 2 Nov 2026`), with Mrs Babushka, Mr Babushka and his truck, the patch and the share card.
 
 Where it meets the box: the loop is weekly and rest days are untouched (the box's "never daily"); the growth-per-set and the personal best are what the app records (the box's "only what the app records"); the feeling check is the lookback's "how it felt in one tap" moved to the start of the session, where it is also the readiness note a trainer can use. Where it departs from the proposed answers: a character whose health is a weekly verdict sits close to "nothing is a verdict on the client" (decision 1) and to "stall, droop, never die" (decision 3); feeble vegetables with flies are a visible punishment the research asked to keep recoverable; the isometric week sits against decision 5's "no isometric world and no map", though a seven-square row is far smaller than a world; seeds delivered weekly rather than earned by logging changes the economy in decision 4; cardio as fruit depends on the programme having cardio at all. The share grid and the lookback are compatible as they stand.
 
