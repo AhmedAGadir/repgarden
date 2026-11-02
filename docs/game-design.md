@@ -76,7 +76,7 @@ Added on 2 November 2026, from the same conversation:
   | Calves | Potato, the laid-back one | the muscle that never grows |
 
   The turnip (shy, a girl) and the tomato (the hot-head) are spare: forearms and grip, a conditioning day, or later. A session that trains several groups grows several vegetables, one square each.
-- **Mr Babushka and his truck.** Her husband drives to the farm, loads the week's vegetables and sells them. That is where the money comes from.
+- **Mr Babushka and his truck.** Her husband drives to the farm at the end of the week and loads the harvest. He makes a stew from it that cures her, sells the rest at the local market, and gives the farm the profits. That is where the money comes from.
 - **What the money is for.** Open. The earlier proposal's answer is the garden itself: the next vegetable, a second bed, pots and furniture, designs; nothing for sale for real money.
 - **Customising something of ours.** The client makes something theirs. The earlier proposal's answer: choose and name the hero vegetable, choose the pot and the bed design, change them freely.
 - **The look is decided** (flat vector; see Open questions) and the vegetables are characters with personalities: the happy carrot, a shy turnip, a powerlifting beetroot, a laid-back potato, a gym-bro broccoli, a cool aubergine, a hot-headed tomato, a cheerful sweetcorn, an emotional onion, a jolly pumpkin, a cute radish girl and a brave squash girl. The art set is on Ahmed's Desktop (`GadirLabs - RepGarden art set - 2 Nov 2026`), with Mrs Babushka, Mr Babushka and his truck, the patch and the share card.
